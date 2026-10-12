@@ -1,0 +1,10 @@
+Window.SetBackgroundTopColor(0.04, 0.02, 0.06);
+Window.SetBackgroundBottomColor(0.09, 0.04, 0.13);
+logo.image = Image("logo.png");
+logo.sprite = Sprite(logo.image);
+fun position_logo() {
+ logo.sprite.SetX(Window.GetWidth() / 2 - logo.image.GetWidth() / 2);
+ logo.sprite.SetY(Window.GetHeight() / 2 - logo.image.GetHeight() / 2);
+}
+Plymouth.SetRefreshFunction(position_logo);
+# Password entry/fallback uses Plymouth details mode when requested (Esc).

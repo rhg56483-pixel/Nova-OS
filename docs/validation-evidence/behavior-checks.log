@@ -1,0 +1,6 @@
+PASS Calamares transformation, module availability, cleanup ordering and account settings
+PASS Linux multipart reassembly and corruption rejection (fixture, not an ISO build)
+PASS build refuses unsupported Ubuntu host before installing dependencies
+PASS ISO verifier rejects missing image
+PASS 93 explicit package names in Debian trixie main/contrib/non-free-firmware indexes
+Original input files: 42

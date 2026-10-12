@@ -1,0 +1,5 @@
+Archive verified via CRC and byte comparison after writing.
+Root: DolphinOS-1.0/
+Required .github/workflows/build-iso.yml preserved.
+Executable hook permissions preserved.
+ISO: not included, not built.

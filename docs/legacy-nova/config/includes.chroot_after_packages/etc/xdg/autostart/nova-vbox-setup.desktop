@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Nova VirtualBox Integration
+Exec=/usr/local/bin/nova-vbox-setup
+NoDisplay=true
+X-KDE-autostart-phase=2

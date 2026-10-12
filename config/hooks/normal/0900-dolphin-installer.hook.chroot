@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+trap 'echo "Dolphin installer hook failed at $LINENO: $BASH_COMMAND" >&2' ERR
+python3 - <<'PYCODE'
+from pathlib import Path
+import yaml
+root=Path('/etc/calamares')
+p=root/'settings.conf';cfg=yaml.safe_load(p.read_text())
+cfg['branding']='dolphin'
+cfg['disable-cancel-during-exec']=True
+cfg['instances']=[{'id':'dolphin-cleanup','module':'shellprocess','config':'shellprocess_dolphin-cleanup.conf'}]
+# Avoid bootloader-config's apt install grub-pc/grub-efi dependency on online/medium packages.
+# Both platform binaries and grub2-common are explicitly preinstalled instead.
+for stage in cfg['sequence']:
+ if 'exec' in stage:
+  jobs=stage['exec']
+  assert 'bootloader-config' in jobs and 'grubcfg' in jobs and 'sources-final' in jobs
+  jobs.remove('bootloader-config')
+  jobs.insert(jobs.index('users'), 'shellprocess@dolphin-cleanup')
+p.write_text(yaml.safe_dump(cfg,sort_keys=False))
+# Keep Debian's partition/mount/unpackfs/fstab/bootloader/package jobs and media sources.
+# For GRUB, kernel/img fields for systemd-boot are irrelevant; do not invent Arch paths.
+mods=root/'modules'
+for filename,overrides in {
+ 'displaymanager.conf': {'displaymanagers':['sddm'],'defaultDesktopEnvironment':{'executable':'startlxqt','desktopFile':'lxqt'},'basicSetup':False},
+ 'users.conf': {'doAutologin':False,'setRootPassword':False,'passwordRequirements':{'nonempty':True,'minLength':8,'maxLength':-1},'allowWeakPasswords':False},
+ 'welcome.conf': {'showSupportUrl':False,'showKnownIssuesUrl':False,'showReleaseNotesUrl':False,'requirements':{'requiredStorage':15,'requiredRam':1.5,'check':['storage','ram','root'],'required':['storage','ram','root']}},
+}.items():
+ p=mods/filename;v=yaml.safe_load(p.read_text());v.update(overrides);p.write_text(yaml.safe_dump(v,sort_keys=False))
+PYCODE
+mkdir -p /etc/calamares/branding/dolphin
+cp /usr/share/dolphin-os/branding/logo.png /etc/calamares/branding/dolphin/logo.png
+# Catch wrong/missing module paths before producing an ISO.
+python3 - <<'PYCODE'
+from pathlib import Path
+import yaml
+s=yaml.safe_load(Path('/etc/calamares/settings.conf').read_text())
+roots=list(Path('/usr/lib').glob('**/calamares/modules'))
+for stage in s['sequence']:
+ for names in stage.values():
+  for name in names:
+   mod=name.split('@')[0]
+   assert any((p/mod/'module.desc').is_file() for p in roots),f'Missing Calamares module: {mod}'
+assert Path('/usr/share/xsessions/lxqt.desktop').is_file()
+assert Path('/usr/lib/grub/i386-pc/modinfo.sh').is_file()
+assert Path('/usr/lib/grub/x86_64-efi/modinfo.sh').is_file()
+PYCODE

@@ -1,0 +1,10 @@
+التطبيقات الاختيارية
+Chromium: sudo apt update && sudo apt install chromium chromium-l10n
+DEB محلي: sudo apt install ./اسم-الملف.deb (الاعتماديات من مستودعات Debian)
+Flatpak: flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+ثم: flatpak install flathub معرف-التطبيق
+Brave: اتبع التعليمات الرسمية https://brave.com/linux/ لإضافة مفتاح ومستودع signed-by ثم تثبيت brave-browser. لا تنفذ سكربت تنزيل غير مفحوص.
+AppImage: chmod +x تطبيق.AppImage ثم ./تطبيق.AppImage
+libfuse2t64 مثبت للتوافق مع AppImage القديمة. الملفات تعتمد على المعمارية والمكتبات وقد لا تعمل جميعها.
+Synaptic مدير APT رسومي خفيف؛ لا يدمج كتالوج Flatpak. لا متجر وهمي.
+المحافظة على النظام: افتح تحديث النظام وحدّث المستودعات ثم علّم كل الترقيات وطبّقها.

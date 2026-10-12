@@ -1,0 +1,7 @@
+[Plymouth Theme]
+Name=Dolphin OS
+Description=Dolphin OS boot splash
+ModuleName=script
+[script]
+ImageDir=/usr/share/dolphin-os/branding
+ScriptFile=/usr/share/plymouth/themes/dolphin/dolphin.script

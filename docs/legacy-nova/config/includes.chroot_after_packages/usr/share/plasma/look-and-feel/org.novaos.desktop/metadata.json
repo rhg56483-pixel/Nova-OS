@@ -1,0 +1,11 @@
+{
+  "KPackageStructure": "Plasma/LookAndFeel",
+  "KPlugin": {
+    "Authors": [{"Name": "Nova OS"}],
+    "Description": "Nova OS default desktop: floating bottom taskbar, centered start menu",
+    "Id": "org.novaos.desktop",
+    "License": "GPL-3.0+",
+    "Name": "Nova OS",
+    "Version": "1.0"
+  }
+}

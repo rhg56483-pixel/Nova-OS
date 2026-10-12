@@ -1,0 +1,22 @@
+#!/bin/bash
+# Nova OS system configuration
+set -e
+# Locales: English + Arabic
+sed -i 's/^# *\(en_US.UTF-8\)/\1/; s/^# *\(ar_SA.UTF-8\)/\1/; s/^# *\(ar_EG.UTF-8\)/\1/' /etc/locale.gen || true
+locale-gen || true
+update-locale LANG=en_US.UTF-8 || true
+# Services
+systemctl enable sddm.service NetworkManager.service bluetooth.service || true
+systemctl set-default graphical.target || true
+# Default SDDM session: Plasma (X11) -> best compatibility with VirtualBox auto-resize
+mkdir -p /var/lib/sddm
+cat > /var/lib/sddm/state.conf <<STATE
+[Last]
+Session=/usr/share/xsessions/plasmax11.desktop
+STATE
+# Flathub for the app manager (Discover)
+flatpak remote-add --system --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo || true
+# Executable bits
+chmod +x /usr/local/bin/nova-* /etc/skel/Desktop/*.desktop 2>/dev/null || true
+# VirtualBox guest services autostart (resize, clipboard, drag&drop, shared folders)
+fc-cache -f || true

@@ -1,0 +1,86 @@
+# --- Desktop: KDE Plasma ---
+kde-plasma-desktop
+plasma-workspace
+plasma-session-x11
+sddm
+sddm-theme-breeze
+kde-config-sddm
+breeze
+breeze-gtk-theme
+breeze-icon-theme
+kwin-x11
+plasma-nm
+plasma-pa
+plasma-systemmonitor
+plasma-discover
+plasma-discover-backend-flatpak
+flatpak
+packagekit
+powerdevil
+bluedevil
+kscreen
+xdg-desktop-portal-kde
+kinfocenter
+# --- Apps ---
+dolphin
+konsole
+kate
+ark
+okular
+gwenview
+spectacle
+kcalc
+partitionmanager
+firefox-esr
+# --- Audio / Network / Input ---
+pipewire
+pipewire-pulse
+pipewire-alsa
+wireplumber
+alsa-utils
+network-manager
+network-manager-gnome
+wpasupplicant
+bluez
+xserver-xorg
+xserver-xorg-input-libinput
+xkb-data
+# --- Languages (Arabic + English) ---
+locales
+locales-all
+task-english-kde-desktop
+task-arabic-kde-desktop
+fonts-noto
+fonts-noto-core
+fonts-noto-ui-core
+fonts-hosny-amiri
+fonts-kacst
+fonts-liberation
+# --- VirtualBox Guest Additions (contrib) ---
+virtualbox-guest-utils
+virtualbox-guest-x11
+# --- Installer: Calamares ---
+calamares
+os-prober
+parted
+gdisk
+dosfstools
+e2fsprogs
+btrfs-progs
+xfsprogs
+ntfs-3g
+cryptsetup
+efibootmgr
+grub-pc-bin
+grub-efi-amd64-bin
+grub2-common
+squashfs-tools
+# --- Misc ---
+sudo
+librsvg2-bin
+imagemagick
+curl
+wget
+ca-certificates
+xdg-user-dirs
+polkit-kde-agent-1

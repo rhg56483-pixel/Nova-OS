@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Dolphin bluetooth
+Name[ar]=بلوتوث
+Exec=blueman-applet
+OnlyShowIn=LXQt;
+NoDisplay=true

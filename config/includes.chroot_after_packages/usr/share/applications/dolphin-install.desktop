@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Dolphin install
+Name[ar]=تثبيت Dolphin OS
+Exec=calamares-install-debian
+Icon=dolphin-os
+Terminal=false
+Categories=System;

@@ -1,0 +1,2359 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  adduser adwaita-icon-theme at-spi2-common base-files base-passwd bluez-obexd
+  bubblewrap busybox bzip2 coreutils cpio cpp cpp-14 cpp-14-x86-64-linux-gnu
+  cpp-x86-64-linux-gnu cryptsetup cryptsetup-bin dbus dbus-bin dbus-daemon
+  dbus-session-bus-common dbus-system-bus-common dbus-user-session
+  dconf-gsettings-backend dconf-service debconf debianutils desktop-base
+  desktop-file-utils dirmngr dmidecode dmsetup dpkg dracut-install
+  evolution-data-server-common fdisk file fontconfig fontconfig-config
+  fonts-cantarell fonts-dejavu-core fonts-dejavu-mono fonts-noto-mono
+  fonts-quicksand fonts-urw-base35 fuse3 gcc-14-base gettext-base
+  gir1.2-atk-1.0 gir1.2-freedesktop gir1.2-gdkpixbuf-2.0
+  gir1.2-girepository-2.0 gir1.2-glib-2.0 gir1.2-gtk-3.0 gir1.2-harfbuzz-0.0
+  gir1.2-nm-1.0 gir1.2-pango-1.0 glib-networking glib-networking-common
+  glib-networking-services gnupg gnupg-l10n gpg gpg-agent gpgconf gpgsm
+  grub-common grub-efi-amd64-unsigned gsettings-desktop-schemas
+  gstreamer1.0-plugins-base gstreamer1.0-plugins-good gtk-update-icon-cache
+  gtk2-engines-pixbuf gvfs-common gvfs-daemons gvfs-libs hicolor-icon-theme
+  init-system-helpers initramfs-tools-bin initramfs-tools-core iso-codes kded6
+  keyboard-configuration kio6 klibc-utils kmod kwallet6 libaa1 libabsl20240722
+  libacl1 libadwaita-1-0 libaom3 libapparmor1 libappstream5 libapt-pkg7.0
+  libarchive13t64 libasound2-data libasound2t64 libass9 libassuan9 libasyncns0
+  libatasmart4 libatk-bridge2.0-0t64 libatk1.0-0t64 libatomic1
+  libatopology2t64 libatspi2.0-0t64 libattr1 libaudit-common libaudit1
+  libavahi-client3 libavahi-common-data libavahi-common3 libavahi-glib1
+  libavc1394-0 libavcodec61 libavdevice61 libavfilter10 libavformat61
+  libavif16 libavutil59 libayatana-appindicator3-1 libayatana-ido3-0.4-0
+  libayatana-indicator3-7 libb2-1 libblas3 libblkid1 libblockdev-crypto3
+  libblockdev-fs3 libblockdev-loop3 libblockdev-mdraid3 libblockdev-nvme3
+  libblockdev-part3 libblockdev-swap3 libblockdev-utils3 libblockdev3
+  libbluetooth3 libbluray2 libbrotli1 libbs2b0 libbsd0 libbytesize-common
+  libbytesize1 libbz2-1.0 libc-bin libc-l10n libc6 libcaca0 libcairo-gobject2
+  libcairo-script-interpreter2 libcairo2 libcamel-1.2-64t64 libcanberra0
+  libcap-ng0 libcap2 libcap2-bin libcdio-cdda2t64 libcdio-paranoia2t64
+  libcdio19t64 libcdparanoia0 libchromaprint1 libcjson1 libclone-perl
+  libcloudproviders0 libcodec2-1.2 libcolord2 libcom-err2 libconfig++11
+  libcrack2 libcrypt1 libcryptsetup12 libcups2t64 libcurl3t64-gnutls
+  libcurl4t64 libdatrie1 libdav1d7 libdb5.3t64 libdbus-1-3 libdbusmenu-glib4
+  libdbusmenu-gtk3-4 libdbusmenu-lxqt0 libdc1394-25 libdconf1 libde265-0
+  libdebconfclient0 libdecor-0-0 libdeflate0 libdevmapper1.02.1
+  libdisplay-info2 libdouble-conversion3 libdrm-amdgpu1 libdrm-common
+  libdrm-intel1 libdrm-nouveau2 libdrm-radeon1 libdrm2 libduktape207 libdv4t64
+  libdvdnav4 libdvdread8t64 libdw1t64 libebackend-1.2-11t64 libebook-1.2-21t64
+  libebook-contacts-1.2-4t64 libebur128-1 libedata-book-1.2-27t64
+  libedataserver-1.2-27t64 libedit2 libefiboot1t64 libefivar1t64 libegl-mesa0
+  libegl1 libelf1t64 libencode-locale-perl libepoxy0 libevdev2
+  libevent-2.1-7t64 libexif12 libexpat1 libext2fs2t64 libfdisk1 libffado2
+  libffi8 libfftw3-double3 libfftw3-single3 libfile-basedir-perl
+  libfile-desktopentry-perl libfile-listing-perl libfile-mimeinfo-perl
+  libflac14 libflite1 libfm-extra4t64 libfm-qt6-15 libfontconfig1 libfontenc1
+  libfreetype6 libfribidi0 libfuse3-4 libgav1-1 libgbm1 libgcc-s1 libgck-2-2
+  libgcr-4-4 libgcrypt20 libgd3 libgdata-common libgdata22 libgdbm-compat4t64
+  libgdbm6t64 libgdk-pixbuf-2.0-0 libgdk-pixbuf2.0-common libgfortran5 libgif7
+  libgirepository-1.0-1 libgl1 libgl1-mesa-dri libgles2 libglib2.0-0t64
+  libglib2.0-bin libglib2.0-data libglibmm-2.4-1t64 libglvnd0 libglx-mesa0
+  libglx0 libgme0 libgmp10 libgnutls30t64 libgoa-1.0-0b libgoa-1.0-common
+  libgomp1 libgpg-error0 libgpgme11t64 libgpgmepp6t64 libgphoto2-6t64
+  libgphoto2-port12t64 libgpm2 libgraphene-1.0-0 libgraphite2-3 libgs-common
+  libgs10 libgs10-common libgsm1 libgssapi-krb5-2
+  libgstreamer-plugins-base1.0-0 libgstreamer1.0-0 libgtk-3-0t64
+  libgtk-3-common libgtk-4-1 libgtk-4-common libgudev-1.0-0
+  libharfbuzz-gobject0 libharfbuzz-subset0 libharfbuzz0b libheif-plugin-dav1d
+  libheif-plugin-libde265 libheif1 libhogweed6t64 libhtml-parser-perl
+  libhtml-tagset-perl libhtml-tree-perl libhttp-cookies-perl libhttp-date-perl
+  libhttp-message-perl libhttp-negotiate-perl libhunspell-1.7-0 libhwy1t64
+  libice6 libicu76 libid3tag0 libidn12 libidn2-0 libiec61883-0 libijs-0.35
+  libimagequant0 libimlib2t64 libimobiledevice-1.0-6
+  libimobiledevice-glue-1.0-0 libinput-bin libinput10 libio-html-perl
+  libio-socket-ssl-perl libipc-system-simple-perl libisl23 libjack-jackd2-0
+  libjansson4 libjbig0 libjbig2dec0 libjpeg62-turbo libjson-c5
+  libjson-glib-1.0-0 libjson-glib-1.0-common libjxl0.11 libk5crypto3
+  libkeyutils1 libkf6archive-data libkf6archive6 libkf6auth-data
+  libkf6authcore6 libkf6breezeicons6 libkf6codecs-data libkf6codecs6
+  libkf6colorscheme-data libkf6colorscheme6 libkf6config-data
+  libkf6configcore6 libkf6configgui6 libkf6configwidgets-data
+  libkf6configwidgets6 libkf6coreaddons-data libkf6coreaddons6 libkf6crash6
+  libkf6dbusaddons-data libkf6dbusaddons6 libkf6doctools6
+  libkf6globalaccel-data libkf6globalaccel6 libkf6guiaddons-data
+  libkf6guiaddons6 libkf6i18n-data libkf6i18n6 libkf6iconthemes-data
+  libkf6iconthemes6 libkf6iconwidgets6 libkf6idletime6 libkf6itemviews-data
+  libkf6itemviews6 libkf6kiocore6 libkf6kiogui6 libkf6notifications-data
+  libkf6notifications6 libkf6parts-data libkf6parts6 libkf6screen8
+  libkf6screendpms8 libkf6service-bin libkf6service-data libkf6service6
+  libkf6solid-data libkf6solid6 libkf6wallet-data libkf6wallet6
+  libkf6walletbackend6 libkf6widgetsaddons-data libkf6widgetsaddons6
+  libkf6windowsystem-data libkf6windowsystem6 libkf6xmlgui-data libkf6xmlgui6
+  libklibc libkmod2 libkpmcore12 libkrb5-3 libkrb5support0 libksba8
+  libkscreen-bin libkscreen-data liblapack3 liblayershellqtinterface6
+  liblcms2-2 libldap2 libldb2 liblerc4 liblilv-0-0 libllvm19 liblmdb0
+  liblocale-gettext-perl liblsof0 libltdl7 liblua5.2-0 liblua5.4-0
+  liblwp-mediatypes-perl liblwp-protocol-https-perl liblxqt-globalkeys-ui2
+  liblxqt-globalkeys2 liblxqt2 liblz4-1 liblzma5 liblzo2-2 libmagic-mgc
+  libmagic1t64 libmalcontent-0-0 libmbedcrypto16 libmd0 libmd4c0
+  libmenu-cache-bin libmenu-cache3 libmm-glib0 libmount1 libmp3lame0 libmpc3
+  libmpfr6 libmpg123-0t64 libmsgraph-1-1 libmtdev1t64 libmtp-common libmtp9t64
+  libmujs3 libmuparser2v5 libmysofa1 libncurses6 libncursesw6 libndp0
+  libnet-http-perl libnet-ssleay-perl libnettle8t64 libnewt0.52 libnfs14
+  libnghttp2-14 libnghttp3-9 libngtcp2-16 libngtcp2-crypto-gnutls8 libnl-3-200
+  libnl-genl-3-200 libnl-route-3-200 libnm0 libnma-common libnma0 libnorm1t64
+  libnpth0t64 libnspr4 libnss3 libntfs-3g89t64 libnuma1 libnvme1t64
+  libobrender32v5 libobt2v5 libogg0 libopenal-data libopenal1
+  libopencore-amrnb0 libopencore-amrwb0 libopenfec1 libopengl0 libopenjp2-7
+  libopenmpt0t64 libopus0 liborc-0.4-0t64 libostree-1-1 libp11-kit0
+  libpam-modules libpam-modules-bin libpam-runtime libpam-systemd libpam0g
+  libpango-1.0-0 libpangocairo-1.0-0 libpangoft2-1.0-0 libpangoxft-1.0-0
+  libpaper2 libparted2t64 libpciaccess0 libpcre2-16-0 libpcre2-8-0
+  libpcsclite1 libperl5.40 libpgm-5.3-0t64 libphonenumber8
+  libpipewire-0.3-0t64 libpipewire-0.3-modules libpixman-1-0 libplacebo349
+  libplist-2.0-4 libplymouth5 libpng16-16t64 libpocketsphinx3
+  libpolkit-agent-1-0 libpolkit-gobject-1-0 libpolkit-qt6-1-1 libpopt0
+  libpostproc58 libproc2-0 libprotobuf32t64 libproxy1v5 libpsl5t64
+  libpulse-mainloop-glib0 libpulse0 libpwquality-common libpwquality1
+  libpython3-stdlib libpython3.13 libpython3.13-minimal libpython3.13-stdlib
+  libqca-qt6-2 libqt5core5t64 libqt5dbus5t64 libqt5gui5t64 libqt5network5t64
+  libqt5qml5 libqt5qmlmodels5 libqt5qmlworkerscript5 libqt5quick5
+  libqt6core5compat6 libqt6core6t64 libqt6dbus6 libqt6gui6 libqt6network6
+  libqt6opengl6 libqt6printsupport6 libqt6qml6 libqt6qmlmeta6 libqt6qmlmodels6
+  libqt6qmlworkerscript6 libqt6quick6 libqt6quickwidgets6 libqt6svg6
+  libqt6svgwidgets6 libqt6waylandclient6 libqt6widgets6 libqt6xdg4
+  libqt6xdgiconloader4 libqt6xml6 libqtermwidget6-2 librabbitmq4 librav1e0.7
+  libraw1394-11 libreadline8t64 librist4 libroc0.4 librsvg2-2 librsvg2-common
+  librtmp1 librubberband2 libsamplerate0 libsasl2-2 libsasl2-modules-db
+  libsdl2-2.0-0 libseccomp2 libsecret-1-0 libsecret-common libselinux1
+  libsemanage-common libsemanage2 libsensors-config libsensors5 libsepol2
+  libserd-0-0 libsharpyuv0 libshine3 libshout3 libsigc++-2.0-0v5 libsixel1
+  libslang2 libsm6 libsmartcols1 libsmbclient0 libsnappy1v5 libsndfile1
+  libsndio7.0 libsodium23 libsord-0-0 libsoup-2.4-1 libsoup-3.0-0
+  libsoup-3.0-common libsoup2.4-common libsoxr0 libspa-0.2-modules libspectre1
+  libspeex1 libspeexdsp1 libsphinxbase3t64 libsqlite3-0 libsratom-0-0
+  libsrt1.5-gnutls libss2 libssh-4 libssh2-1t64 libssl3t64
+  libstartup-notification0 libstatgrab10t64 libstdc++6 libstemmer0d
+  libsvtav1enc2 libswresample5 libswscale8 libsysstat-qt6-1 libsystemd-shared
+  libsystemd0 libtag2 libtalloc2 libtasn1-6 libtdb1 libteamdctl0 libtevent0t64
+  libtext-charwidth-perl libtext-wrapi18n-perl libthai-data libthai0
+  libtheora0 libtheoradec1 libtheoraenc1 libtiff6 libtimedate-perl libtinfo6
+  libtirpc-common libtirpc3t64 libtry-tiny-perl libts0t64 libtwolame0
+  libuchardet0 libudev1 libudfread0 libudisks2-0 libunibreak6 libunistring5
+  libunwind8 libupower-glib3 liburi-perl libusb-1.0-0 libusbmuxd-2.0-7
+  libutf8proc3 libuuid1 libuv1t64 libv4l-0t64 libv4lconvert0t64 libva-drm2
+  libva-wayland2 libva-x11-2 libva2 libvdpau1 libvidstab1.1 libvisual-0.4-0
+  libvolume-key1 libvorbis0a libvorbisenc2 libvorbisfile3 libvpl2 libvpx9
+  libvte-2.91-0 libvte-2.91-common libvulkan1 libwacom-common libwacom9
+  libwavpack1 libwayland-client0 libwayland-cursor0 libwayland-egl1
+  libwayland-server0 libwbclient0 libwebp7 libwebpdemux2 libwebpmux3
+  libwebrtc-audio-processing-1-3 libwireplumber-0.5-0 libwww-perl
+  libwww-robotrules-perl libx11-6 libx11-data libx11-xcb1 libx264-164
+  libx265-215 libxatracker2 libxau6 libxaw7 libxcb-composite0 libxcb-cursor0
+  libxcb-damage0 libxcb-dpms0 libxcb-dri3-0 libxcb-glx0 libxcb-icccm4
+  libxcb-image0 libxcb-keysyms1 libxcb-present0 libxcb-randr0
+  libxcb-render-util0 libxcb-render0 libxcb-res0 libxcb-screensaver0
+  libxcb-shape0 libxcb-shm0 libxcb-sync1 libxcb-util1 libxcb-xfixes0
+  libxcb-xinerama0 libxcb-xinput0 libxcb-xkb1 libxcb1 libxcomposite1
+  libxcursor1 libxcvt0 libxdamage1 libxdmcp6 libxext6 libxfixes3 libxfont2
+  libxft2 libxi6 libxinerama1 libxkbcommon-x11-0 libxkbcommon0 libxkbfile1
+  libxml++2.6-2v5 libxml2 libxmlb2 libxmu6 libxmuu1 libxpm4 libxpresent1
+  libxrandr2 libxrender1 libxshmfence1 libxslt1.1 libxss1 libxt6t64 libxtst6
+  libxv1 libxvidcore4 libxxf86dga1 libxxf86vm1 libxxhash0 libyaml-0-2
+  libyaml-cpp0.8 libyuv0 libz3-4 libzimg2 libzix-0-0 libzmq5 libzstd1
+  libzvbi-common libzvbi0t64 linux-base linux-image-6.12.107+deb13-amd64
+  live-boot-initramfs-tools login.defs logsave lsb-base lsof lxqt-config
+  lxqt-globalkeys lxqt-menu-data lxqt-notificationd lxqt-panel lxqt-policykit
+  lxqt-qtplugin lxqt-runner lxqt-session lxqt-system-theme lxqt-themes mawk
+  media-types mesa-libgallium mesa-utils-bin mount netbase
+  network-manager-applet nm-connection-editor ocl-icd-libopencl1 openssl
+  openssl-provider-legacy passwd pcmanfm-qt perl perl-base perl-modules-5.40
+  perl-openssl-defaults pinentry-curses pipewire-bin plymouth-label polkitd
+  poppler-data psmisc python3 python3-cairo python3-gi python3-gi-cairo
+  python3-minimal python3.13 python3.13-minimal qml-module-qtquick-window2
+  qml-module-qtquick2 qml6-module-qtqml qml6-module-qtqml-models
+  qml6-module-qtqml-workerscript qml6-module-qtquick qterminal
+  qtermwidget-data qtxdg-tools readline-common samba-libs sed sensible-utils
+  sgml-base shared-mime-info sound-theme-freedesktop systemd systemd-sysv
+  sysvinit-utils tar tzdata ucf udev upower x11-common x11-utils x11-xkb-utils
+  xauth xdg-dbus-proxy xdg-desktop-portal xfonts-encodings xfonts-utils
+  xml-core xscreensaver-data xserver-common xserver-xorg-core
+  xserver-xorg-video-amdgpu xserver-xorg-video-ati xserver-xorg-video-fbdev
+  xserver-xorg-video-nouveau xserver-xorg-video-radeon xserver-xorg-video-vesa
+  xserver-xorg-video-vmware xz-utils zenity-common zlib1g
+Suggested packages:
+  7zip-standalone 7zip-rar cron quota adwaita-icon-theme-legacy dialog
+  pulseaudio-module-bluetooth bzip2-doc libarchive-dev cpp-doc gcc-14-locales
+  cpp-14-doc debconf-doc debconf-kde-helper debconf-utils libgtk3-perl
+  libnet-ldap-perl libterm-readline-gnu-perl whiptail | dialog gnome
+  | kde-standard | xfce4 | wmaker pinentry-gnome3 tor apt debsig-verify gpart
+  fuse2fs e2fsck-static fonts-stix | otf-stix fonts-lmodern pulseaudio
+  avahi-daemon malcontent-gui fonts-freefont-otf | fonts-freefont-ttf
+  fonts-texgyre gpg-wks-server parcimonie xloadimage scdaemon tpm2daemon
+  multiboot-doc grub-emu mtools xorriso console-setup samba-common
+  bash-completion isoquery lrzip libasound2-plugins libcuda1 libnvcuvid1
+  libnvidia-encode1 mdadm libbluray-bdj glibc-doc libnss-nis libnss-nisplus
+  libcanberra-pulse colord cups-common libdv-bin oss-compat libdvdcss2
+  libfftw3-bin libfftw3-dev rng-tools libgd-tools gdbm-l10n low-memory-monitor
+  gnutls-bin gphoto2 gpm krb5-doc krb5-user libvisual-0.4-plugins
+  gstreamer1.0-tools libheif-plugin-ffmpegdec libheif-plugin-jpegdec
+  libheif-plugin-jpegenc libheif-plugin-j2kdec libheif-plugin-j2kenc
+  libheif-plugin-kvazaar libheif-plugin-rav1e libheif-plugin-svtenc
+  libdata-dump-perl libusbmuxd-tools jackd2 liblcms2-utils
+  libcrypt-ssleay-perl nvme-cli libportaudio2 opus-tools libtss2-rc0t64
+  libpam-doc libparted-dev libparted-i18n pciutils pcscd qgnomeplatform-qt5
+  qt5-image-formats-plugins qt5-qmltooling-plugins qt6-qmltooling-plugins
+  libraw1394-doc xdg-utils lm-sensors serdi sndiod sordi speex libbpf1
+  libfido2-1 libip4tc2 libqrencode4 libsub-name-perl libbusiness-isbn-perl
+  libmime-base32-perl libregexp-ipv6-perl uuid-runtime libwacom-bin
+  libauthen-ntlm-perl linux-doc-6.12 debian-kernel-handbook grub-pc
+  | grub-efi-amd64 | extlinux curlftpfs httpfs2 debian-installer-launcher
+  eject arj binutils lha lzip lzop ncompress rar rpm2cpio rzip sharutils unace
+  unalz unrar-free | unar | unrar | 7zip-rar zoo adwaita-qt faenza-icon-theme
+  gnome-themes-extra gparted | partitionmanager lxappearance obconf-qt
+  feathernotes lxqt lxqt-openssh-askpass preload nfs-common libteam-utils
+  iptables network-manager-openconnect-gnome network-manager-openvpn-gnome
+  network-manager-vpnc-gnome network-manager-pptp-gnome opencl-icd
+  fonts-dejavu libxml2-dev tint2 openbox-gnome-session openbox-kde-session
+  parted-doc cdtool perl-doc libterm-readline-gnu-perl
+  | libterm-readline-perl-perl make libtap-harness-archive-perl debhelper
+  pinentry-doc libspa-0.2-bluetooth pulseaudio-utils poppler-utils ghostscript
+  fonts-japanese-mincho | fonts-ipafont-mincho fonts-japanese-gothic
+  | fonts-ipafont-gothic fonts-arphic-ukai fonts-arphic-uming fonts-nanum
+  python3-doc python3-tk python3-venv python3.13-venv python3.13-doc
+  binfmt-support readline-doc openssh-client openssh-server
+  python3-braceexpand libpam-kwallet5 sgml-base-doc dwww deborphan
+  apt-xapian-index tasksel software-properties-gtk isag systemd-container
+  systemd-homed systemd-userdbd systemd-boot systemd-resolved systemd-repart
+  libtss2-tcti-device0 tar-scripts tar-doc btrfs-progs f2fs-tools nilfs-tools
+  reiserfsprogs udftools udisks2-btrfs udisks2-lvm2 xfsprogs
+  libspa-0.2-libcamera wireplumber-doc wpagui libengine-pkcs11-openssl nickle
+  cairo-5c xorg-docs-core accountsservice evince xdg-desktop-portal-gnome
+  fortune gdm3 | kdm-gdmcompat qcam | streamer xdaliclock xfishtank
+  xscreensaver-data-extra xscreensaver-gl-extra xfonts-100dpi | xfonts-75dpi
+  xfonts-scalable firmware-amd-graphics xserver-xorg-video-r128
+  xserver-xorg-video-mach64 firmware-misc-nonfree
+Recommended packages:
+  pulseaudio-module-bluetooth | libspa-0.2-bluetooth btrfs-progs console-setup
+  kbd bash-completion apt | apt-utils debconf-i18n e2fsprogs-l10n
+  featherpad-l10n hunspell-ar firmware-carl9170 firmware-ath9k-htc p11-kit
+  fonts-liberation-sans-narrow groff-base gnupg-utils gpg-wks-client gpgv
+  grub-efi-amd64-signed gstreamer1.0-x gnome-keyring | kwalletmanager wsdd
+  zstd switcheroo-control systemsettings apt alsa-ucm-conf alsa-topology-conf
+  at-spi2-core libaacs0 manpages libpam-cap cracklib-runtime
+  default-libdecor-0-plugin-1 | libdecor-0-plugin-1 libio-stringy-perl
+  libfm-qt-l10n libgdk-pixbuf2.0-bin libgpg-error-l10n libgphoto2-l10n
+  fonts-droid-fallback libgtk-3-bin libgtk-4-bin libgtk-4-media-gstreamer
+  libheif-plugin-x265 libheif-plugin-aomenc libhtml-format-perl
+  libio-compress-brotli-perl hunspell-en-us | hunspell-dictionary
+  | myspell-dictionary usbmuxd libkf6config-bin libkf6dbusaddons-bin
+  libkf6guiaddons-bin libkf6iconthemes-bin pnp.ids media-player-info
+  qt6-wayland krb5-locales layer-shell-qt libldap-common
+  liblxqt-backlight-helper liblxqt-l10n modemmanager libmtp-runtime
+  libpaper-utils libpipewire-0.3-common pocketsphinx-en-us publicsuffix
+  libqca-qt6-plugins libqt5svg5 qt5-gtk-platformtheme qtwayland5
+  qt6-gtk-platformtheme qt6-qpa-plugins qt6-svg-plugins fonts-hack
+  libsasl2-modules va-driver-all | va-driver vdpau-driver-all | vdpau-driver
+  mesa-vulkan-drivers | vulkan-icd libdata-dump-perl libhtml-form-perl
+  libhttp-daemon-perl libmailtools-perl apparmor live-boot-doc uuid-runtime
+  iproute2 | iproute live-config-doc user-setup lximage-qt-l10n
+  qt6-image-formats-plugins lxqt-archiver-l10n galternatives lxqt-config-l10n
+  lxqt-qtplugin6 system-config-printer xsettingsd lxqt-about
+  lxqt-branding-debian | lxqt-branding qlipper | clipit | xfce4-clipman
+  lxqt-globalkeys-l10n lxqt-notificationd-l10n lxqt-panel-l10n qlipper
+  lxqt-policykit-l10n lxqt-powermanagement-l10n lxqt-runner-l10n
+  lxqt-session-l10n lxqt-sudo-l10n xdg-utils yt-dlp ppp dnsmasq-base
+  wireless-regdb network-manager-l10n gnome-keyring gnome-icon-theme
+  mobile-broadband-provider-info obconf | obconf-qt scrot pavucontrol-qt-l10n
+  eject ffmpegthumbnailer pcmanfm-qt-l10n rtkit linux-sysctl-defaults
+  qterminal-l10n libgtk3-perl systemd-timesyncd | time-daemon
+  systemd-cryptsetup libnss-systemd luit libjpeg-turbo-progs xscreensaver-gl
+  miscfiles | wordlist xfonts-base xserver-xorg-legacy xcvt
+  xserver-xorg-video-intel xserver-xorg-video-qxl
+The following NEW packages will be installed:
+  7zip adduser adwaita-icon-theme alsa-utils at-spi2-common base-files
+  base-passwd blueman bluez bluez-obexd breeze-gtk-theme bubblewrap busybox
+  bzip2 ca-certificates calamares calamares-settings-debian coreutils cpio cpp
+  cpp-14 cpp-14-x86-64-linux-gnu cpp-x86-64-linux-gnu cryptsetup
+  cryptsetup-bin cryptsetup-initramfs curl dbus dbus-bin dbus-daemon
+  dbus-session-bus-common dbus-system-bus-common dbus-user-session
+  dconf-gsettings-backend dconf-service debconf debianutils desktop-base
+  desktop-file-utils dirmngr dmidecode dmsetup dosfstools dpkg dracut-install
+  e2fsprogs efibootmgr evolution-data-server-common exfatprogs fdisk
+  featherpad file firefox-esr firefox-esr-l10n-ar firmware-atheros
+  firmware-iwlwifi firmware-linux-free firmware-realtek flatpak fontconfig
+  fontconfig-config fonts-cantarell fonts-dejavu-core fonts-dejavu-mono
+  fonts-hosny-amiri fonts-liberation fonts-noto-core fonts-noto-mono
+  fonts-noto-ui-core fonts-quicksand fonts-urw-base35 fuse3 gcc-14-base gdisk
+  gettext-base gir1.2-atk-1.0 gir1.2-freedesktop gir1.2-gdkpixbuf-2.0
+  gir1.2-girepository-2.0 gir1.2-glib-2.0 gir1.2-gtk-3.0 gir1.2-harfbuzz-0.0
+  gir1.2-nm-1.0 gir1.2-pango-1.0 glib-networking glib-networking-common
+  glib-networking-services gnupg gnupg-l10n gpg gpg-agent gpgconf gpgsm
+  grub-common grub-efi-amd64-bin grub-efi-amd64-unsigned grub-pc-bin
+  grub2-common gsettings-desktop-schemas gstreamer1.0-plugins-base
+  gstreamer1.0-plugins-good gtk-update-icon-cache gtk2-engines-pixbuf gvfs
+  gvfs-backends gvfs-common gvfs-daemons gvfs-fuse gvfs-libs
+  hicolor-icon-theme init-system-helpers initramfs-tools initramfs-tools-bin
+  initramfs-tools-core iso-codes kded6 keyboard-configuration keyutils kio6
+  klibc-utils kmod kwallet6 libaa1 libabsl20240722 libacl1 libadwaita-1-0
+  libaom3 libapparmor1 libappstream5 libapt-pkg7.0 libarchive13t64
+  libasound2-data libasound2t64 libass9 libassuan9 libasyncns0 libatasmart4
+  libatk-bridge2.0-0t64 libatk1.0-0t64 libatomic1 libatopology2t64
+  libatspi2.0-0t64 libattr1 libaudit-common libaudit1 libavahi-client3
+  libavahi-common-data libavahi-common3 libavahi-glib1 libavc1394-0
+  libavcodec61 libavdevice61 libavfilter10 libavformat61 libavif16 libavutil59
+  libayatana-appindicator3-1 libayatana-ido3-0.4-0 libayatana-indicator3-7
+  libb2-1 libblas3 libblkid1 libblockdev-crypto3 libblockdev-fs3
+  libblockdev-loop3 libblockdev-mdraid3 libblockdev-nvme3 libblockdev-part3
+  libblockdev-swap3 libblockdev-utils3 libblockdev3 libbluetooth3 libbluray2
+  libbrotli1 libbs2b0 libbsd0 libbytesize-common libbytesize1 libbz2-1.0
+  libc-bin libc-l10n libc6 libcaca0 libcairo-gobject2
+  libcairo-script-interpreter2 libcairo2 libcamel-1.2-64t64 libcanberra0
+  libcap-ng0 libcap2 libcap2-bin libcdio-cdda2t64 libcdio-paranoia2t64
+  libcdio19t64 libcdparanoia0 libchromaprint1 libcjson1 libclone-perl
+  libcloudproviders0 libcodec2-1.2 libcolord2 libcom-err2 libconfig++11
+  libcrack2 libcrypt1 libcryptsetup12 libcups2t64 libcurl3t64-gnutls
+  libcurl4t64 libdatrie1 libdav1d7 libdb5.3t64 libdbus-1-3 libdbusmenu-glib4
+  libdbusmenu-gtk3-4 libdbusmenu-lxqt0 libdc1394-25 libdconf1 libde265-0
+  libdebconfclient0 libdecor-0-0 libdeflate0 libdevmapper1.02.1
+  libdisplay-info2 libdouble-conversion3 libdrm-amdgpu1 libdrm-common
+  libdrm-intel1 libdrm-nouveau2 libdrm-radeon1 libdrm2 libduktape207 libdv4t64
+  libdvdnav4 libdvdread8t64 libdw1t64 libebackend-1.2-11t64 libebook-1.2-21t64
+  libebook-contacts-1.2-4t64 libebur128-1 libedata-book-1.2-27t64
+  libedataserver-1.2-27t64 libedit2 libefiboot1t64 libefivar1t64 libegl-mesa0
+  libegl1 libelf1t64 libencode-locale-perl libepoxy0 libevdev2
+  libevent-2.1-7t64 libexif12 libexpat1 libext2fs2t64 libfdisk1 libffado2
+  libffi8 libfftw3-double3 libfftw3-single3 libfile-basedir-perl
+  libfile-desktopentry-perl libfile-listing-perl libfile-mimeinfo-perl
+  libflac14 libflite1 libfm-extra4t64 libfm-qt6-15 libfontconfig1 libfontenc1
+  libfreetype6 libfribidi0 libfuse2t64 libfuse3-4 libgav1-1 libgbm1 libgcc-s1
+  libgck-2-2 libgcr-4-4 libgcrypt20 libgd3 libgdata-common libgdata22
+  libgdbm-compat4t64 libgdbm6t64 libgdk-pixbuf-2.0-0 libgdk-pixbuf2.0-common
+  libgfortran5 libgif7 libgirepository-1.0-1 libgl1 libgl1-mesa-dri libgles2
+  libglib2.0-0t64 libglib2.0-bin libglib2.0-data libglibmm-2.4-1t64 libglvnd0
+  libglx-mesa0 libglx0 libgme0 libgmp10 libgnutls30t64 libgoa-1.0-0b
+  libgoa-1.0-common libgomp1 libgpg-error0 libgpgme11t64 libgpgmepp6t64
+  libgphoto2-6t64 libgphoto2-port12t64 libgpm2 libgraphene-1.0-0
+  libgraphite2-3 libgs-common libgs10 libgs10-common libgsm1 libgssapi-krb5-2
+  libgstreamer-plugins-base1.0-0 libgstreamer1.0-0 libgtk-3-0t64
+  libgtk-3-common libgtk-4-1 libgtk-4-common libgudev-1.0-0
+  libharfbuzz-gobject0 libharfbuzz-subset0 libharfbuzz0b libheif-plugin-dav1d
+  libheif-plugin-libde265 libheif1 libhogweed6t64 libhtml-parser-perl
+  libhtml-tagset-perl libhtml-tree-perl libhttp-cookies-perl libhttp-date-perl
+  libhttp-message-perl libhttp-negotiate-perl libhunspell-1.7-0 libhwy1t64
+  libice6 libicu76 libid3tag0 libidn12 libidn2-0 libiec61883-0 libijs-0.35
+  libimagequant0 libimlib2t64 libimobiledevice-1.0-6
+  libimobiledevice-glue-1.0-0 libinput-bin libinput10 libio-html-perl
+  libio-socket-ssl-perl libipc-system-simple-perl libisl23 libjack-jackd2-0
+  libjansson4 libjbig0 libjbig2dec0 libjpeg62-turbo libjson-c5
+  libjson-glib-1.0-0 libjson-glib-1.0-common libjxl0.11 libk5crypto3
+  libkeyutils1 libkf6archive-data libkf6archive6 libkf6auth-data
+  libkf6authcore6 libkf6breezeicons6 libkf6codecs-data libkf6codecs6
+  libkf6colorscheme-data libkf6colorscheme6 libkf6config-data
+  libkf6configcore6 libkf6configgui6 libkf6configwidgets-data
+  libkf6configwidgets6 libkf6coreaddons-data libkf6coreaddons6 libkf6crash6
+  libkf6dbusaddons-data libkf6dbusaddons6 libkf6doctools6
+  libkf6globalaccel-data libkf6globalaccel6 libkf6guiaddons-data
+  libkf6guiaddons6 libkf6i18n-data libkf6i18n6 libkf6iconthemes-data
+  libkf6iconthemes6 libkf6iconwidgets6 libkf6idletime6 libkf6itemviews-data
+  libkf6itemviews6 libkf6kiocore6 libkf6kiogui6 libkf6notifications-data
+  libkf6notifications6 libkf6parts-data libkf6parts6 libkf6screen8
+  libkf6screendpms8 libkf6service-bin libkf6service-data libkf6service6
+  libkf6solid-data libkf6solid6 libkf6wallet-data libkf6wallet6
+  libkf6walletbackend6 libkf6widgetsaddons-data libkf6widgetsaddons6
+  libkf6windowsystem-data libkf6windowsystem6 libkf6xmlgui-data libkf6xmlgui6
+  libklibc libkmod2 libkpmcore12 libkrb5-3 libkrb5support0 libksba8
+  libkscreen-bin libkscreen-data liblapack3 liblayershellqtinterface6
+  liblcms2-2 libldap2 libldb2 liblerc4 liblilv-0-0 libllvm19 liblmdb0
+  liblocale-gettext-perl liblsof0 libltdl7 liblua5.2-0 liblua5.4-0
+  liblwp-mediatypes-perl liblwp-protocol-https-perl liblxqt-globalkeys-ui2
+  liblxqt-globalkeys2 liblxqt2 liblz4-1 liblzma5 liblzo2-2 libmagic-mgc
+  libmagic1t64 libmalcontent-0-0 libmbedcrypto16 libmd0 libmd4c0
+  libmenu-cache-bin libmenu-cache3 libmm-glib0 libmount1 libmp3lame0 libmpc3
+  libmpfr6 libmpg123-0t64 libmsgraph-1-1 libmtdev1t64 libmtp-common libmtp9t64
+  libmujs3 libmuparser2v5 libmysofa1 libncurses6 libncursesw6 libndp0
+  libnet-http-perl libnet-ssleay-perl libnettle8t64 libnewt0.52 libnfs14
+  libnghttp2-14 libnghttp3-9 libngtcp2-16 libngtcp2-crypto-gnutls8 libnl-3-200
+  libnl-genl-3-200 libnl-route-3-200 libnm0 libnma-common libnma0 libnorm1t64
+  libnpth0t64 libnspr4 libnss3 libntfs-3g89t64 libnuma1 libnvme1t64
+  libobrender32v5 libobt2v5 libogg0 libopenal-data libopenal1
+  libopencore-amrnb0 libopencore-amrwb0 libopenfec1 libopengl0 libopenjp2-7
+  libopenmpt0t64 libopus0 liborc-0.4-0t64 libostree-1-1 libp11-kit0
+  libpam-modules libpam-modules-bin libpam-runtime libpam-systemd libpam0g
+  libpango-1.0-0 libpangocairo-1.0-0 libpangoft2-1.0-0 libpangoxft-1.0-0
+  libpaper2 libparted2t64 libpciaccess0 libpcre2-16-0 libpcre2-8-0
+  libpcsclite1 libperl5.40 libpgm-5.3-0t64 libphonenumber8
+  libpipewire-0.3-0t64 libpipewire-0.3-modules libpixman-1-0 libplacebo349
+  libplist-2.0-4 libplymouth5 libpng16-16t64 libpocketsphinx3
+  libpolkit-agent-1-0 libpolkit-gobject-1-0 libpolkit-qt6-1-1 libpopt0
+  libpostproc58 libproc2-0 libprotobuf32t64 libproxy1v5 libpsl5t64
+  libpulse-mainloop-glib0 libpulse0 libpwquality-common libpwquality1
+  libpython3-stdlib libpython3.13 libpython3.13-minimal libpython3.13-stdlib
+  libqca-qt6-2 libqt5core5t64 libqt5dbus5t64 libqt5gui5t64 libqt5network5t64
+  libqt5qml5 libqt5qmlmodels5 libqt5qmlworkerscript5 libqt5quick5
+  libqt6core5compat6 libqt6core6t64 libqt6dbus6 libqt6gui6 libqt6network6
+  libqt6opengl6 libqt6printsupport6 libqt6qml6 libqt6qmlmeta6 libqt6qmlmodels6
+  libqt6qmlworkerscript6 libqt6quick6 libqt6quickwidgets6 libqt6svg6
+  libqt6svgwidgets6 libqt6waylandclient6 libqt6widgets6 libqt6xdg4
+  libqt6xdgiconloader4 libqt6xml6 libqtermwidget6-2 librabbitmq4 librav1e0.7
+  libraw1394-11 libreadline8t64 librist4 libroc0.4 librsvg2-2 librsvg2-bin
+  librsvg2-common librtmp1 librubberband2 libsamplerate0 libsasl2-2
+  libsasl2-modules-db libsdl2-2.0-0 libseccomp2 libsecret-1-0 libsecret-common
+  libselinux1 libsemanage-common libsemanage2 libsensors-config libsensors5
+  libsepol2 libserd-0-0 libsharpyuv0 libshine3 libshout3 libsigc++-2.0-0v5
+  libsixel1 libslang2 libsm6 libsmartcols1 libsmbclient0 libsnappy1v5
+  libsndfile1 libsndio7.0 libsodium23 libsord-0-0 libsoup-2.4-1 libsoup-3.0-0
+  libsoup-3.0-common libsoup2.4-common libsoxr0 libspa-0.2-modules libspectre1
+  libspeex1 libspeexdsp1 libsphinxbase3t64 libsqlite3-0 libsratom-0-0
+  libsrt1.5-gnutls libss2 libssh-4 libssh2-1t64 libssl3t64
+  libstartup-notification0 libstatgrab10t64 libstdc++6 libstemmer0d
+  libsvtav1enc2 libswresample5 libswscale8 libsysstat-qt6-1 libsystemd-shared
+  libsystemd0 libtag2 libtalloc2 libtasn1-6 libtdb1 libteamdctl0 libtevent0t64
+  libtext-charwidth-perl libtext-wrapi18n-perl libthai-data libthai0
+  libtheora0 libtheoradec1 libtheoraenc1 libtiff6 libtimedate-perl libtinfo6
+  libtirpc-common libtirpc3t64 libtry-tiny-perl libts0t64 libtwolame0
+  libuchardet0 libudev1 libudfread0 libudisks2-0 libunibreak6 libunistring5
+  libunwind8 libupower-glib3 liburi-perl libusb-1.0-0 libusbmuxd-2.0-7
+  libutf8proc3 libuuid1 libuv1t64 libv4l-0t64 libv4lconvert0t64 libva-drm2
+  libva-wayland2 libva-x11-2 libva2 libvdpau1 libvidstab1.1 libvisual-0.4-0
+  libvolume-key1 libvorbis0a libvorbisenc2 libvorbisfile3 libvpl2 libvpx9
+  libvte-2.91-0 libvte-2.91-common libvulkan1 libwacom-common libwacom9
+  libwavpack1 libwayland-client0 libwayland-cursor0 libwayland-egl1
+  libwayland-server0 libwbclient0 libwebp7 libwebpdemux2 libwebpmux3
+  libwebrtc-audio-processing-1-3 libwireplumber-0.5-0 libwww-perl
+  libwww-robotrules-perl libx11-6 libx11-data libx11-xcb1 libx264-164
+  libx265-215 libxatracker2 libxau6 libxaw7 libxcb-composite0 libxcb-cursor0
+  libxcb-damage0 libxcb-dpms0 libxcb-dri3-0 libxcb-glx0 libxcb-icccm4
+  libxcb-image0 libxcb-keysyms1 libxcb-present0 libxcb-randr0
+  libxcb-render-util0 libxcb-render0 libxcb-res0 libxcb-screensaver0
+  libxcb-shape0 libxcb-shm0 libxcb-sync1 libxcb-util1 libxcb-xfixes0
+  libxcb-xinerama0 libxcb-xinput0 libxcb-xkb1 libxcb1 libxcomposite1
+  libxcursor1 libxcvt0 libxdamage1 libxdmcp6 libxext6 libxfixes3 libxfont2
+  libxft2 libxi6 libxinerama1 libxkbcommon-x11-0 libxkbcommon0 libxkbfile1
+  libxml++2.6-2v5 libxml2 libxmlb2 libxmu6 libxmuu1 libxpm4 libxpresent1
+  libxrandr2 libxrender1 libxshmfence1 libxslt1.1 libxss1 libxt6t64 libxtst6
+  libxv1 libxvidcore4 libxxf86dga1 libxxf86vm1 libxxhash0 libyaml-0-2
+  libyaml-cpp0.8 libyuv0 libz3-4 libzimg2 libzix-0-0 libzmq5 libzstd1
+  libzvbi-common libzvbi0t64 linux-base linux-image-6.12.107+deb13-amd64
+  linux-image-amd64 live-boot live-boot-initramfs-tools live-config
+  live-config-systemd live-tools locales login.defs logsave lsb-base lsof
+  lximage-qt lxqt-archiver lxqt-config lxqt-core lxqt-globalkeys
+  lxqt-menu-data lxqt-notificationd lxqt-panel lxqt-policykit
+  lxqt-powermanagement lxqt-qtplugin lxqt-runner lxqt-session lxqt-sudo
+  lxqt-system-theme lxqt-themes mawk media-types mesa-libgallium mesa-utils
+  mesa-utils-bin mount mpv netbase network-manager network-manager-applet
+  network-manager-gnome nm-connection-editor ntfs-3g ocl-icd-libopencl1
+  openbox openssl openssl-provider-legacy os-prober papirus-icon-theme parted
+  passwd pavucontrol-qt pcmanfm-qt perl perl-base perl-modules-5.40
+  perl-openssl-defaults pinentry-curses pipewire pipewire-alsa pipewire-bin
+  pipewire-pulse pkexec plymouth plymouth-label plymouth-themes polkitd
+  poppler-data procps psmisc python3 python3-cairo python3-gi python3-gi-cairo
+  python3-minimal python3-yaml python3.13 python3.13-minimal
+  qml-module-qtquick-window2 qml-module-qtquick2 qml6-module-qtqml
+  qml6-module-qtqml-models qml6-module-qtqml-workerscript qml6-module-qtquick
+  qps qt6-translations-l10n qterminal qtermwidget-data qttranslations5-l10n
+  qtxdg-tools readline-common rsync samba-libs sddm sddm-theme-debian-elarun
+  sed sensible-utils sgml-base shared-mime-info sound-theme-freedesktop
+  spice-vdagent squashfs-tools sudo synaptic sysstat systemd systemd-sysv
+  sysvinit-utils tar tzdata ucf udev udisks2 unzip upower wget wireplumber
+  wpasupplicant x11-common x11-utils x11-xkb-utils x11-xserver-utils xauth
+  xdg-dbus-proxy xdg-desktop-portal xdg-desktop-portal-gtk
+  xdg-desktop-portal-lxqt xdg-user-dirs xfonts-encodings xfonts-utils xkb-data
+  xml-core xscreensaver xscreensaver-data xserver-common xserver-xorg
+  xserver-xorg-core xserver-xorg-input-libinput xserver-xorg-video-all
+  xserver-xorg-video-amdgpu xserver-xorg-video-ati xserver-xorg-video-fbdev
+  xserver-xorg-video-nouveau xserver-xorg-video-radeon xserver-xorg-video-vesa
+  xserver-xorg-video-vmware xz-utils zenity zenity-common zip zlib1g
+0 upgraded, 947 newly installed, 0 to remove and 0 not upgraded.
+Inst gcc-14-base (14.2.0-19 deb.debian.org [amd64])
+Conf gcc-14-base (14.2.0-19 deb.debian.org [amd64])
+Inst libc6 (2.41-12+deb13u4 deb.debian.org [amd64]) []
+Inst libgcc-s1 (14.2.0-19 deb.debian.org [amd64])
+Conf libgcc-s1 (14.2.0-19 deb.debian.org [amd64])
+Conf libc6 (2.41-12+deb13u4 deb.debian.org [amd64])
+Inst mawk (1.3.4.20250131-1 deb.debian.org [amd64])
+Conf mawk (1.3.4.20250131-1 deb.debian.org [amd64])
+Inst base-files (13.8+deb13u7 deb.debian.org [amd64])
+Conf base-files (13.8+deb13u7 deb.debian.org [amd64])
+Inst libacl1 (2.3.2-2+b1 deb.debian.org [amd64])
+Conf libacl1 (2.3.2-2+b1 deb.debian.org [amd64])
+Inst libattr1 (1:2.5.2-3 deb.debian.org [amd64])
+Conf libattr1 (1:2.5.2-3 deb.debian.org [amd64])
+Inst libcap2 (1:2.75-10+deb13u1+b3 deb.debian.org [amd64])
+Conf libcap2 (1:2.75-10+deb13u1+b3 deb.debian.org [amd64])
+Inst libgmp10 (2:6.3.0+dfsg-3 deb.debian.org [amd64])
+Conf libgmp10 (2:6.3.0+dfsg-3 deb.debian.org [amd64])
+Inst libpcre2-8-0 (10.46-1~deb13u2 deb.debian.org [amd64])
+Conf libpcre2-8-0 (10.46-1~deb13u2 deb.debian.org [amd64])
+Inst libselinux1 (3.8.1-1 deb.debian.org [amd64])
+Conf libselinux1 (3.8.1-1 deb.debian.org [amd64])
+Inst libzstd1 (1.5.7+dfsg-1 deb.debian.org [amd64])
+Conf libzstd1 (1.5.7+dfsg-1 deb.debian.org [amd64])
+Inst zlib1g (1:1.3.dfsg+really1.3.1-1+b1 deb.debian.org [amd64])
+Conf zlib1g (1:1.3.dfsg+really1.3.1-1+b1 deb.debian.org [amd64])
+Inst libssl3t64 (3.5.7-1~deb13u2 deb.debian.org [amd64]) []
+Inst openssl-provider-legacy (3.5.7-1~deb13u2 deb.debian.org [amd64])
+Conf openssl-provider-legacy (3.5.7-1~deb13u2 deb.debian.org [amd64])
+Conf libssl3t64 (3.5.7-1~deb13u2 deb.debian.org [amd64])
+Inst libsystemd0 (257.13-1~deb13u1 deb.debian.org [amd64])
+Conf libsystemd0 (257.13-1~deb13u1 deb.debian.org [amd64])
+Inst coreutils (9.7-3 deb.debian.org [amd64])
+Conf coreutils (9.7-3 deb.debian.org [amd64])
+Inst debianutils (5.23.2 deb.debian.org [amd64])
+Conf debianutils (5.23.2 deb.debian.org [amd64])
+Inst libbz2-1.0 (1.0.8-6 deb.debian.org [amd64])
+Conf libbz2-1.0 (1.0.8-6 deb.debian.org [amd64])
+Inst liblzma5 (5.8.1-1+deb13u1 deb.debian.org [amd64])
+Conf liblzma5 (5.8.1-1+deb13u1 deb.debian.org [amd64])
+Inst libmd0 (1.1.0-2+b1 deb.debian.org [amd64])
+Conf libmd0 (1.1.0-2+b1 deb.debian.org [amd64])
+Inst tar (1.35+dfsg-3.1 deb.debian.org [amd64])
+Conf tar (1.35+dfsg-3.1 deb.debian.org [amd64])
+Inst dpkg (1.22.22 deb.debian.org [amd64])
+Conf dpkg (1.22.22 deb.debian.org [amd64])
+Inst libcrypt1 (1:4.4.38-1 deb.debian.org [amd64])
+Conf libcrypt1 (1:4.4.38-1 deb.debian.org [amd64])
+Inst perl-base (5.40.1-6+deb13u1 deb.debian.org [amd64])
+Conf perl-base (5.40.1-6+deb13u1 deb.debian.org [amd64])
+Inst sed (4.9-2+deb13u1 deb.debian.org [amd64])
+Conf sed (4.9-2+deb13u1 deb.debian.org [amd64])
+Inst libdebconfclient0 (0.280 deb.debian.org [amd64])
+Conf libdebconfclient0 (0.280 deb.debian.org [amd64])
+Inst base-passwd (3.6.7 deb.debian.org [amd64])
+Conf base-passwd (3.6.7 deb.debian.org [amd64])
+Inst init-system-helpers (1.69~deb13u1 deb.debian.org [all])
+Conf init-system-helpers (1.69~deb13u1 deb.debian.org [all])
+Inst libc-bin (2.41-12+deb13u4 deb.debian.org [amd64])
+Conf libc-bin (2.41-12+deb13u4 deb.debian.org [amd64])
+Inst sysvinit-utils (3.14-4 deb.debian.org [amd64])
+Conf sysvinit-utils (3.14-4 deb.debian.org [amd64])
+Inst libaudit-common (1:4.0.2-2+deb13u1 deb.debian.org [all])
+Inst libcap-ng0 (0.8.5-4+b1 deb.debian.org [amd64])
+Inst libaudit1 (1:4.0.2-2+deb13u1 deb.debian.org [amd64])
+Inst libdb5.3t64 (5.3.28+dfsg2-9 deb.debian.org [amd64])
+Inst debconf (1.5.91 deb.debian.org [all])
+Inst libpam0g (1.7.0-5 deb.debian.org [amd64])
+Inst libpam-modules-bin (1.7.0-5 deb.debian.org [amd64])
+Conf libaudit-common (1:4.0.2-2+deb13u1 deb.debian.org [all])
+Conf libcap-ng0 (0.8.5-4+b1 deb.debian.org [amd64])
+Conf libaudit1 (1:4.0.2-2+deb13u1 deb.debian.org [amd64])
+Conf libdb5.3t64 (5.3.28+dfsg2-9 deb.debian.org [amd64])
+Conf debconf (1.5.91 deb.debian.org [all])
+Conf libpam0g (1.7.0-5 deb.debian.org [amd64])
+Conf libpam-modules-bin (1.7.0-5 deb.debian.org [amd64])
+Inst libpam-modules (1.7.0-5 deb.debian.org [amd64])
+Inst libblkid1 (2.41.5-0+deb13u1 deb.debian.org [amd64])
+Inst libmount1 (2.41.5-0+deb13u1 deb.debian.org [amd64])
+Inst libsmartcols1 (2.41.5-0+deb13u1 deb.debian.org [amd64])
+Conf libblkid1 (2.41.5-0+deb13u1 deb.debian.org [amd64])
+Conf libmount1 (2.41.5-0+deb13u1 deb.debian.org [amd64])
+Conf libsmartcols1 (2.41.5-0+deb13u1 deb.debian.org [amd64])
+Inst mount (2.41.5-0+deb13u1 deb.debian.org [amd64])
+Inst libcom-err2 (1.47.2-3+b12 deb.debian.org [amd64])
+Inst libext2fs2t64 (1.47.2-3+b12 deb.debian.org [amd64])
+Inst libss2 (1.47.2-3+b12 deb.debian.org [amd64])
+Inst libuuid1 (2.41.5-0+deb13u1 deb.debian.org [amd64])
+Inst logsave (1.47.2-3+b12 deb.debian.org [amd64])
+Conf libcom-err2 (1.47.2-3+b12 deb.debian.org [amd64])
+Conf libext2fs2t64 (1.47.2-3+b12 deb.debian.org [amd64])
+Conf libss2 (1.47.2-3+b12 deb.debian.org [amd64])
+Conf libuuid1 (2.41.5-0+deb13u1 deb.debian.org [amd64])
+Inst e2fsprogs (1.47.2-3+b12 deb.debian.org [amd64])
+Inst libseccomp2 (2.6.0-2 deb.debian.org [amd64])
+Inst libsystemd-shared (257.13-1~deb13u1 deb.debian.org [amd64])
+Inst libapparmor1 (4.1.0-1 deb.debian.org [amd64])
+Conf libseccomp2 (2.6.0-2 deb.debian.org [amd64])
+Conf libsystemd-shared (257.13-1~deb13u1 deb.debian.org [amd64])
+Inst systemd (257.13-1~deb13u1 deb.debian.org [amd64])
+Conf libapparmor1 (4.1.0-1 deb.debian.org [amd64])
+Conf mount (2.41.5-0+deb13u1 deb.debian.org [amd64])
+Conf systemd (257.13-1~deb13u1 deb.debian.org [amd64])
+Inst systemd-sysv (257.13-1~deb13u1 deb.debian.org [amd64])
+Inst libdbus-1-3 (1.16.2-2 deb.debian.org [amd64])
+Inst dbus-bin (1.16.2-2 deb.debian.org [amd64])
+Inst dbus-session-bus-common (1.16.2-2 deb.debian.org [all])
+Inst libexpat1 (2.8.3-1~deb13u1 deb.debian.org [amd64])
+Inst dbus-daemon (1.16.2-2 deb.debian.org [amd64])
+Inst login.defs (1:4.17.4-2 deb.debian.org [all])
+Inst libbsd0 (0.12.2-2 deb.debian.org [amd64])
+Inst libsemanage-common (3.8.1-1 deb.debian.org [all])
+Inst libsepol2 (3.8.1-1 deb.debian.org [amd64])
+Inst libsemanage2 (3.8.1-1 deb.debian.org [amd64])
+Inst passwd (1:4.17.4-2 deb.debian.org [amd64])
+Inst adduser (3.152 deb.debian.org [all])
+Inst dbus-system-bus-common (1.16.2-2 deb.debian.org [all])
+Inst dbus (1.16.2-2 deb.debian.org [amd64])
+Inst liblocale-gettext-perl (1.07-7+b1 deb.debian.org [amd64])
+Inst xkb-data (2.42-1 deb.debian.org [all])
+Inst keyboard-configuration (1.242~deb13u1 deb.debian.org [all])
+Inst linux-base (4.12.1 deb.debian.org [all])
+Inst libkmod2 (34.2-2 deb.debian.org [amd64])
+Inst kmod (34.2-2 deb.debian.org [amd64])
+Inst cpio (2.15+dfsg-2 deb.debian.org [amd64])
+Inst dracut-install (106-6 deb.debian.org [amd64])
+Inst initramfs-tools-bin (0.148.4 deb.debian.org [amd64])
+Inst libklibc (2.0.14-1 deb.debian.org [amd64])
+Inst klibc-utils (2.0.14-1 deb.debian.org [amd64])
+Inst libudev1 (257.13-1~deb13u1 deb.debian.org [amd64])
+Inst udev (257.13-1~deb13u1 deb.debian.org [amd64])
+Inst initramfs-tools-core (0.148.4 deb.debian.org [all])
+Inst initramfs-tools (0.148.4 deb.debian.org [all])
+Conf linux-base (4.12.1 deb.debian.org [all])
+Inst linux-image-6.12.107+deb13-amd64 (6.12.107-1 deb.debian.org [amd64])
+Inst poppler-data (0.4.12-1 deb.debian.org [all])
+Inst libpython3.13-minimal (3.13.5-2+deb13u5 deb.debian.org [amd64])
+Inst python3.13-minimal (3.13.5-2+deb13u5 deb.debian.org [amd64])
+Conf libpython3.13-minimal (3.13.5-2+deb13u5 deb.debian.org [amd64])
+Conf libexpat1 (2.8.3-1~deb13u1 deb.debian.org [amd64])
+Conf python3.13-minimal (3.13.5-2+deb13u5 deb.debian.org [amd64])
+Inst python3-minimal (3.13.5-1 deb.debian.org [amd64])
+Inst media-types (13.0.0 deb.debian.org [all])
+Inst netbase (6.5 deb.debian.org [all])
+Inst tzdata (2026c-0+deb13u1 deb.debian.org [all])
+Inst libffi8 (3.4.8-2 deb.debian.org [amd64])
+Inst libtinfo6 (6.5+20250216-2 deb.debian.org [amd64])
+Inst libncursesw6 (6.5+20250216-2 deb.debian.org [amd64])
+Inst readline-common (8.2-6 deb.debian.org [all])
+Inst libreadline8t64 (8.2-6 deb.debian.org [amd64])
+Inst libsqlite3-0 (3.46.1-7+deb13u2 deb.debian.org [amd64])
+Inst libpython3.13-stdlib (3.13.5-2+deb13u5 deb.debian.org [amd64])
+Inst python3.13 (3.13.5-2+deb13u5 deb.debian.org [amd64])
+Inst libpython3-stdlib (3.13.5-1 deb.debian.org [amd64])
+Conf python3-minimal (3.13.5-1 deb.debian.org [amd64])
+Inst python3 (3.13.5-1 deb.debian.org [amd64])
+Inst libxxhash0 (0.8.3-2 deb.debian.org [amd64])
+Inst liblz4-1 (1.10.0-4 deb.debian.org [amd64])
+Inst libpopt0 (1.19+dfsg-2 deb.debian.org [amd64])
+Inst rsync (3.4.1+ds1-5+deb13u4 deb.debian.org [amd64])
+Inst libasound2-data (1.2.14-1+deb13u1 deb.debian.org [all])
+Inst libasound2t64 (1.2.14-1+deb13u1 deb.debian.org [amd64])
+Inst libdrm-common (2.4.124-2 deb.debian.org [all])
+Inst libdrm2 (2.4.124-2 deb.debian.org [amd64])
+Inst libatomic1 (14.2.0-19 deb.debian.org [amd64])
+Inst libglib2.0-0t64 (2.84.4-3~deb13u5 deb.debian.org [amd64])
+Inst libgdk-pixbuf2.0-common (2.42.12+dfsg-4+deb13u1 deb.debian.org [all])
+Inst libstdc++6 (14.2.0-19 deb.debian.org [amd64])
+Inst libxml2 (2.12.7+dfsg+really2.9.14-2.1+deb13u3 deb.debian.org [amd64])
+Inst shared-mime-info (2.4-5+b2 deb.debian.org [amd64])
+Inst libjpeg62-turbo (1:2.1.5-4 deb.debian.org [amd64])
+Inst libpng16-16t64 (1.6.48-1+deb13u5 deb.debian.org [amd64])
+Inst libdeflate0 (1.23-2 deb.debian.org [amd64])
+Inst libjbig0 (2.1-6.1+b2 deb.debian.org [amd64])
+Inst liblerc4 (4.0.0+ds-5 deb.debian.org [amd64])
+Inst libsharpyuv0 (1.5.0-0.1 deb.debian.org [amd64])
+Inst libwebp7 (1.5.0-0.1 deb.debian.org [amd64])
+Inst libtiff6 (4.7.0-3+deb13u3 deb.debian.org [amd64])
+Inst libgdk-pixbuf-2.0-0 (2.42.12+dfsg-4+deb13u1 deb.debian.org [amd64])
+Inst gtk-update-icon-cache (4.18.6+ds-2 deb.debian.org [amd64])
+Inst hicolor-icon-theme (0.18-2 deb.debian.org [all])
+Inst adwaita-icon-theme (48.1-1 deb.debian.org [all])
+Inst at-spi2-common (2.56.2-1+deb13u2 deb.debian.org [all])
+Inst libatk1.0-0t64 (2.56.2-1+deb13u2 deb.debian.org [amd64])
+Inst libxau6 (1:1.0.11-1 deb.debian.org [amd64])
+Inst libxdmcp6 (1:1.1.5-1 deb.debian.org [amd64])
+Inst libxcb1 (1.17.0-2+b1 deb.debian.org [amd64])
+Inst libx11-data (2:1.8.12-1 deb.debian.org [all])
+Inst libx11-6 (2:1.8.12-1 deb.debian.org [amd64])
+Inst libxext6 (2:1.3.4-1+b3 deb.debian.org [amd64])
+Inst libxi6 (2:1.8.2-1 deb.debian.org [amd64])
+Inst libatspi2.0-0t64 (2.56.2-1+deb13u2 deb.debian.org [amd64])
+Inst libatk-bridge2.0-0t64 (2.56.2-1+deb13u2 deb.debian.org [amd64])
+Inst libbrotli1 (1.1.0-2+b7 deb.debian.org [amd64])
+Inst libfreetype6 (2.13.3+dfsg-1+deb13u1 deb.debian.org [amd64])
+Inst fonts-dejavu-mono (2.37-8 deb.debian.org [all])
+Inst fonts-dejavu-core (2.37-8 deb.debian.org [all])
+Inst fonts-liberation (1:2.1.5-3 deb.debian.org [all])
+Inst libfontenc1 (1:1.1.8-1+b2 deb.debian.org [amd64])
+Inst lsb-base (11.6 deb.debian.org [all])
+Inst x11-common (1:7.7+24+deb13u1 deb.debian.org [all])
+Inst xfonts-encodings (1:1.0.4-2.2 deb.debian.org [all])
+Inst xfonts-utils (1:7.7+7 deb.debian.org [amd64])
+Inst fonts-urw-base35 (20200910-8 deb.debian.org [all])
+Inst fonts-noto-mono (20201225-2 deb.debian.org [all])
+Inst fonts-noto-core (20201225-2 deb.debian.org [all])
+Inst fontconfig-config (2.15.0-2.3 deb.debian.org [amd64])
+Inst libfontconfig1 (2.15.0-2.3 deb.debian.org [amd64])
+Inst libpixman-1-0 (0.44.0-3 deb.debian.org [amd64])
+Inst libxcb-render0 (1.17.0-2+b1 deb.debian.org [amd64])
+Inst libxcb-shm0 (1.17.0-2+b1 deb.debian.org [amd64])
+Inst libxrender1 (1:0.9.12-1 deb.debian.org [amd64])
+Inst libcairo2 (1.18.4-1+b1 deb.debian.org [amd64])
+Inst libcairo-gobject2 (1.18.4-1+b1 deb.debian.org [amd64])
+Inst libcloudproviders0 (0.3.6-2 deb.debian.org [amd64])
+Inst liblcms2-2 (2.16-2+deb13u2 deb.debian.org [amd64])
+Inst libcolord2 (1.4.7-3 deb.debian.org [amd64])
+Inst libavahi-common-data (0.8-16 deb.debian.org [amd64])
+Inst libavahi-common3 (0.8-16 deb.debian.org [amd64])
+Inst libavahi-client3 (0.8-16 deb.debian.org [amd64])
+Inst libnettle8t64 (3.10.1-1 deb.debian.org [amd64])
+Inst libhogweed6t64 (3.10.1-1 deb.debian.org [amd64])
+Inst libunistring5 (1.3-2 deb.debian.org [amd64])
+Inst libidn2-0 (2.3.8-2 deb.debian.org [amd64])
+Inst libp11-kit0 (0.25.5-3 deb.debian.org [amd64])
+Inst libtasn1-6 (4.20.0-2+deb13u1 deb.debian.org [amd64])
+Inst libgnutls30t64 (3.8.9-3+deb13u4 deb.debian.org [amd64])
+Inst libkrb5support0 (1.21.3-5+deb13u1 deb.debian.org [amd64])
+Inst libk5crypto3 (1.21.3-5+deb13u1 deb.debian.org [amd64])
+Inst libkeyutils1 (1.6.3-6 deb.debian.org [amd64])
+Inst libkrb5-3 (1.21.3-5+deb13u1 deb.debian.org [amd64])
+Inst libgssapi-krb5-2 (1.21.3-5+deb13u1 deb.debian.org [amd64])
+Inst libcups2t64 (2.4.10-3+deb13u2 deb.debian.org [amd64])
+Inst libepoxy0 (1.5.10-2 deb.debian.org [amd64])
+Inst libfribidi0 (1.0.16-1 deb.debian.org [amd64])
+Inst libgraphite2-3 (1.3.14-2+deb13u1 deb.debian.org [amd64])
+Inst libharfbuzz0b (10.2.0-1+deb13u1 deb.debian.org [amd64])
+Inst fontconfig (2.15.0-2.3 deb.debian.org [amd64])
+Inst libthai-data (0.1.29-2 deb.debian.org [all])
+Inst libdatrie1 (0.2.13-3+b1 deb.debian.org [amd64])
+Inst libthai0 (0.1.29-2+b1 deb.debian.org [amd64])
+Inst libpango-1.0-0 (1.56.3-1 deb.debian.org [amd64])
+Inst libpangoft2-1.0-0 (1.56.3-1 deb.debian.org [amd64])
+Inst libpangocairo-1.0-0 (1.56.3-1 deb.debian.org [amd64])
+Inst libwayland-client0 (1.23.1-3 deb.debian.org [amd64])
+Inst libwayland-cursor0 (1.23.1-3 deb.debian.org [amd64])
+Inst libwayland-egl1 (1.23.1-3 deb.debian.org [amd64])
+Inst libxcomposite1 (1:0.4.6-1 deb.debian.org [amd64])
+Inst libxfixes3 (1:6.0.0-2+b4 deb.debian.org [amd64])
+Inst libxcursor1 (1:1.2.3-1 deb.debian.org [amd64])
+Inst libxdamage1 (1:1.1.6-1+b2 deb.debian.org [amd64])
+Inst libxinerama1 (2:1.1.4-3+b4 deb.debian.org [amd64])
+Inst libxkbcommon0 (1.7.0-2 deb.debian.org [amd64])
+Inst libxrandr2 (2:1.5.4-1+b3 deb.debian.org [amd64])
+Inst libpam-runtime (1.7.0-5 deb.debian.org [all])
+Inst libpam-systemd (257.13-1~deb13u1 deb.debian.org [amd64])
+Inst dbus-user-session (1.16.2-2 deb.debian.org [amd64])
+Inst libdconf1 (0.40.0-5 deb.debian.org [amd64])
+Inst libproc2-0 (2:4.0.4-9 deb.debian.org [amd64])
+Inst procps (2:4.0.4-9 deb.debian.org [amd64])
+Inst dconf-service (0.40.0-5 deb.debian.org [amd64])
+Inst dconf-gsettings-backend (0.40.0-5 deb.debian.org [amd64])
+Inst libgtk-3-common (3.24.49-3 deb.debian.org [all])
+Inst libgtk-3-0t64 (3.24.49-3 deb.debian.org [amd64])
+Inst libpciaccess0 (0.17-3+b3 deb.debian.org [amd64])
+Inst spice-vdagent (0.22.1-4.1 deb.debian.org [amd64])
+Inst sudo (1.9.16p2-3+deb13u2 deb.debian.org [amd64])
+Inst dmidecode (3.6-2 deb.debian.org [amd64])
+Inst libfdisk1 (2.41.5-0+deb13u1 deb.debian.org [amd64])
+Inst fdisk (2.41.5-0+deb13u1 deb.debian.org [amd64])
+Inst sensible-utils (0.0.25 deb.debian.org [all])
+Inst bzip2 (1.0.8-6 deb.debian.org [amd64])
+Inst openssl (3.5.7-1~deb13u2 deb.debian.org [amd64])
+Inst ca-certificates (20250419 deb.debian.org [all])
+Inst libmagic-mgc (1:5.46-5 deb.debian.org [amd64])
+Inst libmagic1t64 (1:5.46-5 deb.debian.org [amd64])
+Inst file (1:5.46-5 deb.debian.org [amd64])
+Inst gettext-base (0.23.1-2 deb.debian.org [amd64])
+Inst libc-l10n (2.41-12+deb13u4 deb.debian.org [all])
+Inst locales (2.41-12+deb13u4 deb.debian.org [all])
+Inst liblsof0 (4.99.4+dfsg-2 deb.debian.org [amd64])
+Inst libtirpc-common (1.3.6+ds-1 deb.debian.org [all])
+Inst libtirpc3t64 (1.3.6+ds-1 deb.debian.org [amd64])
+Inst lsof (4.99.4+dfsg-2 deb.debian.org [amd64])
+Inst perl-modules-5.40 (5.40.1-6+deb13u1 deb.debian.org [all])
+Inst libgdbm6t64 (1.24-2 deb.debian.org [amd64])
+Inst libgdbm-compat4t64 (1.24-2 deb.debian.org [amd64])
+Inst libperl5.40 (5.40.1-6+deb13u1 deb.debian.org [amd64])
+Inst perl (5.40.1-6+deb13u1 deb.debian.org [amd64])
+Inst libtext-charwidth-perl (0.04-11+b4 deb.debian.org [amd64])
+Inst libtext-wrapi18n-perl (0.06-10 deb.debian.org [all])
+Inst ucf (3.0052 deb.debian.org [all])
+Inst libpsl5t64 (0.21.2-1.1+b1 deb.debian.org [amd64])
+Inst wget (1.25.0-2 deb.debian.org [amd64])
+Inst xz-utils (5.8.1-1+deb13u1 deb.debian.org [amd64])
+Inst 7zip (25.01+dfsg-1~deb13u2 deb.debian.org [amd64])
+Inst libatopology2t64 (1.2.14-1+deb13u1 deb.debian.org [amd64])
+Inst libgomp1 (14.2.0-19 deb.debian.org [amd64])
+Inst libfftw3-single3 (3.3.10-2+b1 deb.debian.org [amd64])
+Inst libsamplerate0 (0.2.2-4+b2 deb.debian.org [amd64])
+Inst alsa-utils (1.2.14-1 deb.debian.org [amd64])
+Inst libbluetooth3 (5.82-1.1 deb.debian.org [amd64])
+Inst libelf1t64 (0.192-4 deb.debian.org [amd64])
+Inst libdw1t64 (0.192-4 deb.debian.org [amd64])
+Inst bluez (5.82-1.1 deb.debian.org [amd64])
+Inst libicu76 (76.1-4 deb.debian.org [amd64])
+Inst libnspr4 (2:4.36-1 deb.debian.org [amd64])
+Inst libnss3 (2:3.110-1+deb13u4 deb.debian.org [amd64])
+Inst libcamel-1.2-64t64 (3.56.2-0+deb13u1 deb.debian.org [amd64])
+Inst libjson-glib-1.0-common (1.10.6+ds-2 deb.debian.org [all])
+Inst libjson-glib-1.0-0 (1.10.6+ds-2 deb.debian.org [amd64])
+Inst libsecret-common (0.21.7-1 deb.debian.org [all])
+Inst libgpg-error0 (1.51-4 deb.debian.org [amd64])
+Inst libgcrypt20 (1.11.0-7+deb13u1 deb.debian.org [amd64])
+Inst libsecret-1-0 (0.21.7-1 deb.debian.org [amd64])
+Inst libsasl2-modules-db (2.1.28+dfsg1-9 deb.debian.org [amd64])
+Inst libsasl2-2 (2.1.28+dfsg1-9 deb.debian.org [amd64])
+Inst libldap2 (2.6.10+dfsg-1 deb.debian.org [amd64])
+Inst libnghttp2-14 (1.64.0-1.1+deb13u1 deb.debian.org [amd64])
+Inst libnghttp3-9 (1.8.0-1 deb.debian.org [amd64])
+Inst libngtcp2-16 (1.11.0-1+deb13u1 deb.debian.org [amd64])
+Inst libngtcp2-crypto-gnutls8 (1.11.0-1+deb13u1 deb.debian.org [amd64])
+Inst librtmp1 (2.4+20151223.gitfa8646d.1-2+b5 deb.debian.org [amd64])
+Inst libssh2-1t64 (1.11.1-1+deb13u2 deb.debian.org [amd64])
+Inst libcurl3t64-gnutls (8.14.1-2+deb13u5 deb.debian.org [amd64])
+Inst libduktape207 (2.7.0-2+b2 deb.debian.org [amd64])
+Inst libproxy1v5 (0.5.9-1 deb.debian.org [amd64])
+Inst glib-networking-common (2.80.1-1 deb.debian.org [all])
+Inst glib-networking-services (2.80.1-1 deb.debian.org [amd64])
+Inst gsettings-desktop-schemas (48.0-1 deb.debian.org [all])
+Inst glib-networking (2.80.1-1 deb.debian.org [amd64])
+Inst libsoup-3.0-common (3.6.5-3 deb.debian.org [all])
+Inst libsoup-3.0-0 (3.6.5-3 deb.debian.org [amd64])
+Inst evolution-data-server-common (3.56.2-0+deb13u1 deb.debian.org [all])
+Inst libedataserver-1.2-27t64 (3.56.2-0+deb13u1 deb.debian.org [amd64])
+Inst libabsl20240722 (20240722.0-4 deb.debian.org [amd64])
+Inst libprotobuf32t64 (3.21.12-11+deb13u1 deb.debian.org [amd64])
+Inst libphonenumber8 (8.13.51+ds-4.2 deb.debian.org [amd64])
+Inst libebook-contacts-1.2-4t64 (3.56.2-0+deb13u1 deb.debian.org [amd64])
+Inst libebackend-1.2-11t64 (3.56.2-0+deb13u1 deb.debian.org [amd64])
+Inst libedata-book-1.2-27t64 (3.56.2-0+deb13u1 deb.debian.org [amd64])
+Inst libebook-1.2-21t64 (3.56.2-0+deb13u1 deb.debian.org [amd64])
+Inst bluez-obexd (5.82-1.1 deb.debian.org [amd64])
+Inst gir1.2-glib-2.0 (2.84.4-3~deb13u5 deb.debian.org [amd64])
+Inst libgirepository-1.0-1 (1.84.0-1 deb.debian.org [amd64])
+Inst gir1.2-girepository-2.0 (1.84.0-1 deb.debian.org [amd64])
+Inst python3-gi (3.50.0-4+b1 deb.debian.org [amd64])
+Inst libkf6windowsystem-data (6.13.0-2 deb.debian.org [all])
+Inst libb2-1 (0.98.1-1.1+b2 deb.debian.org [amd64])
+Inst libdouble-conversion3 (3.3.1-1 deb.debian.org [amd64])
+Inst libpcre2-16-0 (10.46-1~deb13u2 deb.debian.org [amd64])
+Inst libqt6core6t64 (6.8.2+dfsg-9+deb13u2 deb.debian.org [amd64])
+Inst libglvnd0 (1.7.0-1+b2 deb.debian.org [amd64])
+Inst libwayland-server0 (1.23.1-3 deb.debian.org [amd64])
+Inst libdrm-amdgpu1 (2.4.124-2 deb.debian.org [amd64])
+Inst libdrm-intel1 (2.4.124-2 deb.debian.org [amd64])
+Inst libedit2 (3.1-20250104-1 deb.debian.org [amd64])
+Inst libz3-4 (4.13.3-1 deb.debian.org [amd64])
+Inst libllvm19 (1:19.1.7-3+b1 deb.debian.org [amd64])
+Inst libsensors-config (1:3.6.2-2 deb.debian.org [all])
+Inst libsensors5 (1:3.6.2-2 deb.debian.org [amd64])
+Inst libx11-xcb1 (2:1.8.12-1 deb.debian.org [amd64])
+Inst libxcb-dri3-0 (1.17.0-2+b1 deb.debian.org [amd64])
+Inst libxcb-present0 (1.17.0-2+b1 deb.debian.org [amd64])
+Inst libxcb-randr0 (1.17.0-2+b1 deb.debian.org [amd64])
+Inst libxcb-sync1 (1.17.0-2+b1 deb.debian.org [amd64])
+Inst libxcb-xfixes0 (1.17.0-2+b1 deb.debian.org [amd64])
+Inst libxshmfence1 (1.3.3-1 deb.debian.org [amd64])
+Inst mesa-libgallium (25.0.7-2+deb13u1 deb.debian.org [amd64])
+Inst libgbm1 (25.0.7-2+deb13u1 deb.debian.org [amd64])
+Inst libegl-mesa0 (25.0.7-2+deb13u1 deb.debian.org [amd64])
+Inst libegl1 (1.7.0-1+b2 deb.debian.org [amd64])
+Inst libxcb-glx0 (1.17.0-2+b1 deb.debian.org [amd64])
+Inst libxxf86vm1 (1:1.1.4-1+b4 deb.debian.org [amd64])
+Inst libvulkan1 (1.4.309.0-1 deb.debian.org [amd64])
+Inst libgl1-mesa-dri (25.0.7-2+deb13u1 deb.debian.org [amd64])
+Inst libglx-mesa0 (25.0.7-2+deb13u1 deb.debian.org [amd64])
+Inst libglx0 (1.7.0-1+b2 deb.debian.org [amd64])
+Inst libice6 (2:1.1.1-1 deb.debian.org [amd64])
+Inst libevdev2 (1.13.4+dfsg-1 deb.debian.org [amd64])
+Inst libmtdev1t64 (1.1.7-1 deb.debian.org [amd64])
+Inst libgudev-1.0-0 (238-6 deb.debian.org [amd64])
+Inst libwacom-common (2.14.0-1 deb.debian.org [all])
+Inst libwacom9 (2.14.0-1 deb.debian.org [amd64])
+Inst libinput-bin (1.28.1-1+deb13u1 deb.debian.org [amd64])
+Inst libinput10 (1.28.1-1+deb13u1 deb.debian.org [amd64])
+Inst libmd4c0 (0.5.2-2+b1 deb.debian.org [amd64])
+Inst libopengl0 (1.7.0-1+b2 deb.debian.org [amd64])
+Inst libqt6dbus6 (6.8.2+dfsg-9+deb13u2 deb.debian.org [amd64])
+Inst libsm6 (2:1.2.6-1 deb.debian.org [amd64])
+Inst libts0t64 (1.22-1.1+b1 deb.debian.org [amd64])
+Inst libxcb-util1 (0.4.1-1 deb.debian.org [amd64])
+Inst libxcb-image0 (0.4.0-2+b2 deb.debian.org [amd64])
+Inst libxcb-render-util0 (0.3.10-1 deb.debian.org [amd64])
+Inst libxcb-cursor0 (0.1.5-1 deb.debian.org [amd64])
+Inst libxcb-icccm4 (0.4.2-1 deb.debian.org [amd64])
+Inst libxcb-keysyms1 (0.4.1-1 deb.debian.org [amd64])
+Inst libxcb-shape0 (1.17.0-2+b1 deb.debian.org [amd64])
+Inst libxcb-xinput0 (1.17.0-2+b1 deb.debian.org [amd64])
+Inst libxcb-xkb1 (1.17.0-2+b1 deb.debian.org [amd64])
+Inst libxkbcommon-x11-0 (1.7.0-2 deb.debian.org [amd64])
+Inst libqt6gui6 (6.8.2+dfsg-9+deb13u2 deb.debian.org [amd64])
+Inst libqt6waylandclient6 (6.8.2-4 deb.debian.org [amd64])
+Inst libxcb-res0 (1.17.0-2+b1 deb.debian.org [amd64])
+Inst libkf6windowsystem6 (6.13.0-2 deb.debian.org [amd64])
+Inst liblayershellqtinterface6 (6.3.4-1 deb.debian.org [amd64])
+Inst desktop-file-utils (0.28-1 deb.debian.org [amd64])
+Inst libqt6widgets6 (6.8.2+dfsg-9+deb13u2 deb.debian.org [amd64])
+Inst libencode-locale-perl (1.05-3 deb.debian.org [all])
+Inst libipc-system-simple-perl (1.30-2 deb.debian.org [all])
+Inst libfile-basedir-perl (0.09-2 deb.debian.org [all])
+Inst liburi-perl (5.30-1 deb.debian.org [all])
+Inst libfile-desktopentry-perl (0.22-3 deb.debian.org [all])
+Inst libfile-mimeinfo-perl (0.35-1 deb.debian.org [all])
+Inst libglib2.0-data (2.84.4-3~deb13u5 deb.debian.org [all])
+Inst libglib2.0-bin (2.84.4-3~deb13u5 deb.debian.org [amd64])
+Inst libqt6svg6 (6.8.2-3 deb.debian.org [amd64])
+Inst libqt6xdgiconloader4 (4.1.0-1+b1 deb.debian.org [amd64])
+Inst libqt6xml6 (6.8.2+dfsg-9+deb13u2 deb.debian.org [amd64])
+Inst libqt6xdg4 (4.1.0-1+b1 deb.debian.org [amd64])
+Inst libxss1 (1:1.2.3-1+b3 deb.debian.org [amd64])
+Inst liblxqt2 (2.1.0-3 deb.debian.org [amd64])
+Inst lxqt-notificationd (2.1.1-1 deb.debian.org [amd64])
+Inst libdav1d7 (1.5.1-1 deb.debian.org [amd64])
+Inst librsvg2-2 (2.60.0+dfsg-1 deb.debian.org [amd64])
+Inst librsvg2-common (2.60.0+dfsg-1 deb.debian.org [amd64])
+Inst papirus-icon-theme (20250501-1 deb.debian.org [all])
+Inst libasyncns0 (0.8-6+b5 deb.debian.org [amd64])
+Inst libogg0 (1.3.5-3+b2 deb.debian.org [amd64])
+Inst libflac14 (1.5.0+ds-2 deb.debian.org [amd64])
+Inst libmp3lame0 (3.100-6+b3 deb.debian.org [amd64])
+Inst libmpg123-0t64 (1.32.10-1+deb13u1 deb.debian.org [amd64])
+Inst libopus0 (1.5.2-2 deb.debian.org [amd64])
+Inst libvorbis0a (1.3.7-3 deb.debian.org [amd64])
+Inst libvorbisenc2 (1.3.7-3 deb.debian.org [amd64])
+Inst libsndfile1 (1.2.2-2+deb13u1 deb.debian.org [amd64])
+Inst libpulse0 (17.0+dfsg1-2+b1 deb.debian.org [amd64])
+Inst libpulse-mainloop-glib0 (17.0+dfsg1-2+b1 deb.debian.org [amd64])
+Inst gir1.2-atk-1.0 (2.56.2-1+deb13u2 deb.debian.org [amd64])
+Inst gir1.2-freedesktop (1.84.0-1 deb.debian.org [amd64])
+Inst gir1.2-gdkpixbuf-2.0 (2.42.12+dfsg-4+deb13u1 deb.debian.org [amd64])
+Inst libharfbuzz-gobject0 (10.2.0-1+deb13u1 deb.debian.org [amd64])
+Inst gir1.2-harfbuzz-0.0 (10.2.0-1+deb13u1 deb.debian.org [amd64])
+Inst libxft2 (2.3.6-1+b4 deb.debian.org [amd64])
+Inst libpangoxft-1.0-0 (1.56.3-1 deb.debian.org [amd64])
+Inst gir1.2-pango-1.0 (1.56.3-1 deb.debian.org [amd64])
+Inst gir1.2-gtk-3.0 (3.24.49-3 deb.debian.org [amd64])
+Inst python3-cairo (1.27.0-2 deb.debian.org [amd64])
+Inst python3-gi-cairo (3.50.0-4+b1 deb.debian.org [amd64])
+Inst libnm0 (1.52.1-1 deb.debian.org [amd64])
+Inst gir1.2-nm-1.0 (1.52.1-1 deb.debian.org [amd64])
+Inst sgml-base (1.31+nmu1 deb.debian.org [all])
+Inst xml-core (0.19 deb.debian.org [all])
+Inst libpolkit-gobject-1-0 (126-2 deb.debian.org [amd64])
+Inst libpolkit-agent-1-0 (126-2 deb.debian.org [amd64])
+Inst polkitd (126-2 deb.debian.org [amd64])
+Inst blueman (2.4.4-1 deb.debian.org [amd64])
+Inst gtk2-engines-pixbuf (2.24.33-7 deb.debian.org [amd64])
+Inst breeze-gtk-theme (6.3.4-1 deb.debian.org [amd64])
+Inst bubblewrap (0.12.0-1~deb13u1 deb.debian.org [amd64])
+Inst busybox (1:1.37.0-6+b9 deb.debian.org [amd64])
+Inst dmsetup (2:1.02.205-2 deb.debian.org [amd64]) []
+Inst libdevmapper1.02.1 (2:1.02.205-2 deb.debian.org [amd64])
+Inst libefivar1t64 (38-3.1+b1 deb.debian.org [amd64])
+Inst libefiboot1t64 (38-3.1+b1 deb.debian.org [amd64])
+Inst libfuse3-4 (3.17.2-3 deb.debian.org [amd64])
+Inst grub-common (2.12-9+deb13u2 deb.debian.org [amd64])
+Inst os-prober (1.83 deb.debian.org [amd64])
+Inst libkf6coreaddons-data (6.13.0-1 deb.debian.org [all])
+Inst libkf6coreaddons6 (6.13.0-1 deb.debian.org [amd64])
+Inst libkf6crash6 (6.13.0-1 deb.debian.org [amd64])
+Inst libkf6parts-data (6.13.0-1 deb.debian.org [all])
+Inst libkf6config-data (6.13.0-2 deb.debian.org [all])
+Inst libkf6configcore6 (6.13.0-2 deb.debian.org [amd64])
+Inst libkf6dbusaddons-data (6.13.0-1 deb.debian.org [all])
+Inst libkf6dbusaddons6 (6.13.0-1 deb.debian.org [amd64])
+Inst libkf6i18n-data (6.13.0-1 deb.debian.org [all])
+Inst libqt6network6 (6.8.2+dfsg-9+deb13u2 deb.debian.org [amd64])
+Inst libqt6qml6 (6.8.2+dfsg-7 deb.debian.org [amd64])
+Inst libkf6i18n6 (6.13.0-1 deb.debian.org [amd64])
+Inst libkf6service-data (6.13.0-1 deb.debian.org [all])
+Inst libkf6service6 (6.13.0-1 deb.debian.org [amd64])
+Inst libkf6service-bin (6.13.0-1 deb.debian.org [amd64])
+Inst kded6 (6.13.0-1 deb.debian.org [amd64])
+Inst libkf6wallet-data (6.13.0-1 deb.debian.org [all])
+Inst libassuan9 (3.0.2-2 deb.debian.org [amd64])
+Inst gpgconf (2.4.7-21+deb13u1+b5 deb.debian.org [amd64])
+Inst libksba8 (1.6.7-2+b1 deb.debian.org [amd64])
+Inst libnpth0t64 (1.8-3 deb.debian.org [amd64])
+Inst dirmngr (2.4.7-21+deb13u1+b5 deb.debian.org [amd64])
+Inst gnupg-l10n (2.4.7-21+deb13u1 deb.debian.org [all])
+Inst gpg (2.4.7-21+deb13u1+b5 deb.debian.org [amd64])
+Inst pinentry-curses (1.3.1-2 deb.debian.org [amd64])
+Inst gpg-agent (2.4.7-21+deb13u1+b5 deb.debian.org [amd64])
+Inst gpgsm (2.4.7-21+deb13u1+b5 deb.debian.org [amd64])
+Inst gnupg (2.4.7-21+deb13u1 deb.debian.org [all])
+Inst libgpgme11t64 (1.24.2-3 deb.debian.org [amd64])
+Inst libgpgmepp6t64 (1.24.2-3 deb.debian.org [amd64])
+Inst libkf6notifications-data (6.13.0-1 deb.debian.org [all])
+Inst libltdl7 (2.5.4-4 deb.debian.org [amd64])
+Inst libtdb1 (2:1.4.13+samba4.22.11+dfsg-0+deb13u1 deb.debian.org [amd64])
+Inst libvorbisfile3 (1.3.7-3 deb.debian.org [amd64])
+Inst sound-theme-freedesktop (0.8-6~deb13u1 deb.debian.org [all])
+Inst libcanberra0 (0.30-18 deb.debian.org [amd64])
+Inst libkf6notifications6 (6.13.0-1 deb.debian.org [amd64])
+Inst libkf6widgetsaddons-data (6.13.0-1 deb.debian.org [all])
+Inst libkf6widgetsaddons6 (6.13.0-1 deb.debian.org [amd64])
+Inst libkf6walletbackend6 (6.13.0-1 deb.debian.org [amd64])
+Inst libkf6colorscheme-data (6.13.0-1 deb.debian.org [all])
+Inst libkf6configgui6 (6.13.0-2 deb.debian.org [amd64])
+Inst libkf6guiaddons-data (6.13.0-1 deb.debian.org [all])
+Inst libkf6guiaddons6 (6.13.0-1 deb.debian.org [amd64])
+Inst libkf6colorscheme6 (6.13.0-1 deb.debian.org [amd64])
+Inst libkf6wallet6 (6.13.0-1 deb.debian.org [amd64])
+Inst libqt6core5compat6 (6.8.2-3+b1 deb.debian.org [amd64])
+Inst libqca-qt6-2 (2.3.10-1 deb.debian.org [amd64])
+Inst kwallet6 (6.13.0-1 deb.debian.org [amd64])
+Inst libkf6archive-data (6.13.0-2 deb.debian.org [all])
+Inst libkf6archive6 (6.13.0-2 deb.debian.org [amd64])
+Inst libkf6auth-data (6.13.0-1 deb.debian.org [all])
+Inst libpolkit-qt6-1-1 (0.200.0-4+b1 deb.debian.org [amd64])
+Inst libkf6authcore6 (6.13.0-1 deb.debian.org [amd64])
+Inst libxslt1.1 (1.1.35-1.2+deb13u3 deb.debian.org [amd64])
+Inst libkf6doctools6 (6.13.0-1 deb.debian.org [amd64])
+Inst libkf6kiocore6 (6.13.0-6 deb.debian.org [amd64])
+Inst libkf6solid-data (6.13.0-1 deb.debian.org [all])
+Inst libplist-2.0-4 (2.6.0-2+b1 deb.debian.org [amd64])
+Inst libimobiledevice-glue-1.0-0 (1.3.1-1 deb.debian.org [amd64])
+Inst libusbmuxd-2.0-7 (2.1.0-1+b1 deb.debian.org [amd64])
+Inst libimobiledevice-1.0-6 (1.3.0+git20250228-2 deb.debian.org [amd64])
+Inst libkf6solid6 (6.13.0-1 deb.debian.org [amd64])
+Inst libkf6kiogui6 (6.13.0-6 deb.debian.org [amd64])
+Inst kio6 (6.13.0-6 deb.debian.org [amd64])
+Inst libkf6xmlgui-data (6.13.0-1 deb.debian.org [all])
+Inst libkf6configwidgets-data (6.13.0-1 deb.debian.org [all])
+Inst libkf6codecs-data (6.13.0-1 deb.debian.org [all])
+Inst libkf6codecs6 (6.13.0-1 deb.debian.org [amd64])
+Inst libkf6configwidgets6 (6.13.0-1 deb.debian.org [amd64])
+Inst libkf6globalaccel-data (6.13.0-1 deb.debian.org [all])
+Inst libkf6globalaccel6 (6.13.0-1 deb.debian.org [amd64])
+Inst libkf6iconthemes-data (6.13.0-2 deb.debian.org [all])
+Inst libkf6breezeicons6 (6.13.0-3 deb.debian.org [amd64])
+Inst libkf6iconthemes6 (6.13.0-2 deb.debian.org [amd64])
+Inst libkf6iconwidgets6 (6.13.0-2 deb.debian.org [amd64])
+Inst libkf6itemviews-data (6.13.0-1 deb.debian.org [all])
+Inst libkf6itemviews6 (6.13.0-1 deb.debian.org [amd64])
+Inst libqt6printsupport6 (6.8.2+dfsg-9+deb13u2 deb.debian.org [amd64])
+Inst libkf6xmlgui6 (6.13.0-1 deb.debian.org [amd64])
+Inst libkf6parts6 (6.13.0-1 deb.debian.org [amd64])
+Inst libkpmcore12 (24.12.3-2 deb.debian.org [amd64])
+Inst libparted2t64 (3.6-5 deb.debian.org [amd64])
+Inst libpwquality-common (1.4.5-5 deb.debian.org [all])
+Inst libcrack2 (2.9.6-5.2+b1 deb.debian.org [amd64])
+Inst libpwquality1 (1.4.5-5 deb.debian.org [amd64])
+Inst libpython3.13 (3.13.5-2+deb13u5 deb.debian.org [amd64])
+Inst libqt6opengl6 (6.8.2+dfsg-9+deb13u2 deb.debian.org [amd64])
+Inst libqt6qmlmodels6 (6.8.2+dfsg-7 deb.debian.org [amd64])
+Inst libqt6qmlworkerscript6 (6.8.2+dfsg-7 deb.debian.org [amd64])
+Inst libqt6qmlmeta6 (6.8.2+dfsg-7 deb.debian.org [amd64])
+Inst libqt6quick6 (6.8.2+dfsg-7 deb.debian.org [amd64])
+Inst libqt6quickwidgets6 (6.8.2+dfsg-7 deb.debian.org [amd64])
+Inst libyaml-cpp0.8 (0.8.0+dfsg-7 deb.debian.org [amd64])
+Inst calamares (3.3.14-1 deb.debian.org [amd64])
+Inst libjson-c5 (0.18+ds-1 deb.debian.org [amd64])
+Inst libcryptsetup12 (2:2.7.5-2 deb.debian.org [amd64])
+Inst cryptsetup-bin (2:2.7.5-2 deb.debian.org [amd64])
+Inst cryptsetup (2:2.7.5-2 deb.debian.org [amd64])
+Inst keyutils (1.6.3-6 deb.debian.org [amd64])
+Inst pkexec (126-2 deb.debian.org [amd64])
+Inst libqt5core5t64 (5.15.15+dfsg-6+deb13u1 deb.debian.org [amd64])
+Inst libgl1 (1.7.0-1+b2 deb.debian.org [amd64])
+Inst libqt5dbus5t64 (5.15.15+dfsg-6+deb13u1 deb.debian.org [amd64])
+Inst libqt5network5t64 (5.15.15+dfsg-6+deb13u1 deb.debian.org [amd64])
+Inst libxcb-xinerama0 (1.17.0-2+b1 deb.debian.org [amd64])
+Inst libqt5gui5t64 (5.15.15+dfsg-6+deb13u1 deb.debian.org [amd64])
+Inst libqt5qml5 (5.15.15+dfsg-3 deb.debian.org [amd64])
+Inst libqt5qmlmodels5 (5.15.15+dfsg-3 deb.debian.org [amd64])
+Inst libqt5quick5 (5.15.15+dfsg-3 deb.debian.org [amd64])
+Inst qml-module-qtquick-window2 (5.15.15+dfsg-3 deb.debian.org [amd64])
+Inst libqt5qmlworkerscript5 (5.15.15+dfsg-3 deb.debian.org [amd64])
+Inst qml-module-qtquick2 (5.15.15+dfsg-3 deb.debian.org [amd64])
+Inst calamares-settings-debian (13.0.13-1 deb.debian.org [all])
+Inst libisl23 (0.27-1 deb.debian.org [amd64])
+Inst libmpfr6 (4.2.2-1 deb.debian.org [amd64])
+Inst libmpc3 (1.3.1-1+b3 deb.debian.org [amd64])
+Inst cpp-14-x86-64-linux-gnu (14.2.0-19 deb.debian.org [amd64])
+Inst cpp-14 (14.2.0-19 deb.debian.org [amd64])
+Inst cpp-x86-64-linux-gnu (4:14.2.0-1 deb.debian.org [amd64])
+Inst cpp (4:14.2.0-1 deb.debian.org [amd64])
+Inst cryptsetup-initramfs (2:2.7.5-2 deb.debian.org [all])
+Inst libcurl4t64 (8.14.1-2+deb13u5 deb.debian.org [amd64])
+Inst curl (8.14.1-2+deb13u5 deb.debian.org [amd64])
+Inst fonts-quicksand (0.2016-2.1 deb.debian.org [all])
+Inst desktop-base (13.0.4 deb.debian.org [all])
+Inst dosfstools (4.2-1.2 deb.debian.org [amd64])
+Inst efibootmgr (18-2 deb.debian.org [amd64])
+Inst exfatprogs (1.2.9-1+deb13u1 deb.debian.org [amd64])
+Inst libhunspell-1.7-0 (1.7.2+really1.7.2-10+b4 deb.debian.org [amd64])
+Inst featherpad (1.6.1-1 deb.debian.org [amd64])
+Inst libevent-2.1-7t64 (2.1.12-stable-10+b1 deb.debian.org [amd64])
+Inst libvpx9 (1.15.0-2.1+deb13u1 deb.debian.org [amd64])
+Inst firefox-esr (140.15.0esr-1~deb13u1 deb.debian.org [amd64])
+Inst firefox-esr-l10n-ar (140.15.0esr-1~deb13u1 deb.debian.org [all])
+Inst firmware-atheros (20250410-2 deb.debian.org [all])
+Inst firmware-iwlwifi (20250410-2 deb.debian.org [all])
+Inst firmware-linux-free (20241210-2 deb.debian.org [all])
+Inst firmware-realtek (20250410-2 deb.debian.org [all])
+Inst fuse3 (3.17.2-3 deb.debian.org [amd64])
+Inst xdg-dbus-proxy (0.1.6-1+deb13u2 deb.debian.org [amd64])
+Inst libstemmer0d (2.2.0-4+b2 deb.debian.org [amd64])
+Inst libxmlb2 (0.3.22-1 deb.debian.org [amd64])
+Inst libyaml-0-2 (0.2.5-2 deb.debian.org [amd64])
+Inst libappstream5 (1.0.5-1 deb.debian.org [amd64])
+Inst libarchive13t64 (3.7.4-4+deb13u1 deb.debian.org [amd64])
+Inst libmalcontent-0-0 (0.13.0-2+deb13u1 deb.debian.org [amd64])
+Inst libavahi-glib1 (0.8-16 deb.debian.org [amd64])
+Inst libostree-1-1 (2025.2-1 deb.debian.org [amd64])
+Inst flatpak (1.16.6-1~deb13u2 deb.debian.org [amd64])
+Inst fonts-cantarell (0.303.1-4 deb.debian.org [all])
+Inst fonts-hosny-amiri (1.001-1 deb.debian.org [all])
+Inst fonts-noto-ui-core (20201225-2 deb.debian.org [all])
+Inst gdisk (1.0.10-2 deb.debian.org [amd64])
+Inst grub-efi-amd64-unsigned (2.12-9+deb13u2 deb.debian.org [amd64])
+Inst grub-efi-amd64-bin (2.12-9+deb13u2 deb.debian.org [amd64])
+Inst grub-pc-bin (2.12-9+deb13u2 deb.debian.org [amd64])
+Inst grub2-common (2.12-9+deb13u2 deb.debian.org [amd64])
+Inst libcdparanoia0 (3.10.2+debian-14+b1 deb.debian.org [amd64])
+Inst libcap2-bin (1:2.75-10+deb13u1+b3 deb.debian.org [amd64])
+Inst libgstreamer1.0-0 (1.26.2-2 deb.debian.org [amd64])
+Inst liborc-0.4-0t64 (1:0.4.41-1 deb.debian.org [amd64])
+Inst iso-codes (4.18.0-1 deb.debian.org [all])
+Inst libgstreamer-plugins-base1.0-0 (1.26.2-1+deb13u1 deb.debian.org [amd64])
+Inst libtheoradec1 (1.2.0~alpha1+dfsg-6 deb.debian.org [amd64])
+Inst libtheoraenc1 (1.2.0~alpha1+dfsg-6 deb.debian.org [amd64])
+Inst libvisual-0.4-0 (0.4.2-2+b2 deb.debian.org [amd64])
+Inst gstreamer1.0-plugins-base (1.26.2-1+deb13u1 deb.debian.org [amd64])
+Inst libgpm2 (1.20.7-11+b2 deb.debian.org [amd64])
+Inst libncurses6 (6.5+20250216-2 deb.debian.org [amd64])
+Inst libslang2 (2.3.3-5+b2 deb.debian.org [amd64])
+Inst libaa1 (1.4p5-51.1+b1 deb.debian.org [amd64])
+Inst libraw1394-11 (2.1.2-2+b2 deb.debian.org [amd64])
+Inst libavc1394-0 (0.5.4-5+b2 deb.debian.org [amd64])
+Inst libcaca0 (0.99.beta20-5+deb13u1 deb.debian.org [amd64])
+Inst libdv4t64 (1.0.0-17.1+b1 deb.debian.org [amd64])
+Inst libiec61883-0 (1.2.0-7 deb.debian.org [amd64])
+Inst libopencore-amrnb0 (0.1.6-1+b2 deb.debian.org [amd64])
+Inst libopencore-amrwb0 (0.1.6-1+b2 deb.debian.org [amd64])
+Inst libspeex1 (1.2.1-3 deb.debian.org [amd64])
+Inst libtheora0 (1.2.0~alpha1+dfsg-6 deb.debian.org [amd64])
+Inst libshout3 (2.4.6-1+b3 deb.debian.org [amd64])
+Inst libtag2 (2.0.2-2 deb.debian.org [amd64])
+Inst libtwolame0 (0.4.0-2+b2 deb.debian.org [amd64])
+Inst libv4lconvert0t64 (1.30.1-1 deb.debian.org [amd64])
+Inst libv4l-0t64 (1.30.1-1 deb.debian.org [amd64])
+Inst libwavpack1 (5.8.1-1 deb.debian.org [amd64])
+Inst libxtst6 (2:1.2.5-1 deb.debian.org [amd64])
+Inst gstreamer1.0-plugins-good (1.26.2-1+deb13u2 deb.debian.org [amd64])
+Inst gvfs-common (1.57.2-2+deb13u1 deb.debian.org [all])
+Inst libgck-2-2 (4.4.0.1-3 deb.debian.org [amd64])
+Inst libgcr-4-4 (4.4.0.1-3 deb.debian.org [amd64])
+Inst gvfs-libs (1.57.2-2+deb13u1 deb.debian.org [amd64])
+Inst libudisks2-0 (2.10.1-12.1+deb13u2 deb.debian.org [amd64])
+Inst libblockdev-utils3 (3.3.0-2.1 deb.debian.org [amd64])
+Inst libvolume-key1 (0.3.12-9 deb.debian.org [amd64])
+Inst libblockdev-crypto3 (3.3.0-2.1 deb.debian.org [amd64])
+Inst libblockdev-fs3 (3.3.0-2.1 deb.debian.org [amd64])
+Inst libblockdev-loop3 (3.3.0-2.1 deb.debian.org [amd64])
+Inst libbytesize-common (2.11-2 deb.debian.org [all])
+Inst libbytesize1 (2.11-2 deb.debian.org [amd64])
+Inst libblockdev-mdraid3 (3.3.0-2.1 deb.debian.org [amd64])
+Inst libnvme1t64 (1.13-2 deb.debian.org [amd64])
+Inst libblockdev-nvme3 (3.3.0-2.1 deb.debian.org [amd64])
+Inst libblockdev-part3 (3.3.0-2.1 deb.debian.org [amd64])
+Inst libblockdev-swap3 (3.3.0-2.1 deb.debian.org [amd64])
+Inst parted (3.6-5 deb.debian.org [amd64])
+Inst libatasmart4 (0.19-5+b2 deb.debian.org [amd64])
+Inst libblockdev3 (3.3.0-2.1 deb.debian.org [amd64])
+Inst udisks2 (2.10.1-12.1+deb13u2 deb.debian.org [amd64])
+Inst libudfread0 (1.1.2-1+b2 deb.debian.org [amd64])
+Inst libbluray2 (1:1.3.4-1+b2 deb.debian.org [amd64])
+Inst gvfs-daemons (1.57.2-2+deb13u1 deb.debian.org [amd64])
+Inst gvfs (1.57.2-2+deb13u1 deb.debian.org [amd64])
+Inst psmisc (23.7-2 deb.debian.org [amd64])
+Inst libcdio19t64 (2.2.0-4.1~deb13u1 deb.debian.org [amd64])
+Inst libcdio-cdda2t64 (10.2+2.0.2-1+b1 deb.debian.org [amd64])
+Inst libcdio-paranoia2t64 (10.2+2.0.2-1+b1 deb.debian.org [amd64])
+Inst libgoa-1.0-common (3.54.5-1~deb13u1 deb.debian.org [all])
+Inst libgoa-1.0-0b (3.54.5-1~deb13u1 deb.debian.org [amd64])
+Inst libsoup2.4-common (2.74.3-10.1 deb.debian.org [all])
+Inst libsoup-2.4-1 (2.74.3-10.1 deb.debian.org [amd64])
+Inst libgdata-common (0.18.1-9 deb.debian.org [all])
+Inst libgdata22 (0.18.1-9 deb.debian.org [amd64])
+Inst libexif12 (0.6.25-1+deb13u1 deb.debian.org [amd64])
+Inst libaom3 (3.12.1-1+deb13u1 deb.debian.org [amd64])
+Inst libgav1-1 (0.19.0-3+b1 deb.debian.org [amd64])
+Inst librav1e0.7 (0.7.1-9+b2 deb.debian.org [amd64])
+Inst libsvtav1enc2 (2.3.0+dfsg-1 deb.debian.org [amd64])
+Inst libyuv0 (0.0.1904.20250204-1 deb.debian.org [amd64])
+Inst libavif16 (1.2.1-1.2 deb.debian.org [amd64])
+Inst libheif-plugin-dav1d (1.19.8-1+deb13u1 deb.debian.org [amd64]) []
+Inst libde265-0 (1.0.15-1+deb13u2 deb.debian.org [amd64]) []
+Inst libheif-plugin-libde265 (1.19.8-1+deb13u1 deb.debian.org [amd64]) []
+Inst libheif1 (1.19.8-1+deb13u1 deb.debian.org [amd64])
+Inst libimagequant0 (2.18.0-1+b2 deb.debian.org [amd64])
+Inst libxpm4 (1:3.5.17-1+deb13u1 deb.debian.org [amd64])
+Inst libgd3 (2.3.3-14~deb13u1 deb.debian.org [amd64])
+Inst libusb-1.0-0 (2:1.0.28-1 deb.debian.org [amd64])
+Inst libgphoto2-port12t64 (2.5.31-4 deb.debian.org [amd64])
+Inst libgphoto2-6t64 (2.5.31-4 deb.debian.org [amd64])
+Inst libmsgraph-1-1 (0.3.3-3 deb.debian.org [amd64])
+Inst libmtp-common (1.1.22-1 deb.debian.org [all])
+Inst libmtp9t64 (1.1.22-1 deb.debian.org [amd64])
+Inst libnfs14 (5.0.2-1+deb13u1 deb.debian.org [amd64])
+Inst libjansson4 (2.14-2+b3 deb.debian.org [amd64])
+Inst liblmdb0 (0.9.31-1+b2 deb.debian.org [amd64])
+Inst libtalloc2 (2:2.4.3+samba4.22.11+dfsg-0+deb13u1 deb.debian.org [amd64])
+Inst libtevent0t64 (2:0.16.2+samba4.22.11+dfsg-0+deb13u1 deb.debian.org [amd64])
+Inst libldb2 (2:2.11.0+samba4.22.11+dfsg-0+deb13u1 deb.debian.org [amd64])
+Inst libwbclient0 (2:4.22.11+dfsg-0+deb13u1 deb.debian.org [amd64])
+Inst samba-libs (2:4.22.11+dfsg-0+deb13u1 deb.debian.org [amd64])
+Inst libsmbclient0 (2:4.22.11+dfsg-0+deb13u1 deb.debian.org [amd64])
+Inst gvfs-backends (1.57.2-2+deb13u1 deb.debian.org [amd64])
+Inst gvfs-fuse (1.57.2-2+deb13u1 deb.debian.org [amd64])
+Inst libgraphene-1.0-0 (1.10.8-5 deb.debian.org [amd64])
+Inst liblzo2-2 (2.10-3+b1 deb.debian.org [amd64])
+Inst libcairo-script-interpreter2 (1.18.4-1+b1 deb.debian.org [amd64])
+Inst libharfbuzz-subset0 (10.2.0-1+deb13u1 deb.debian.org [amd64])
+Inst libgles2 (1.7.0-1+b2 deb.debian.org [amd64])
+Inst libgtk-4-common (4.18.6+ds-2 deb.debian.org [all])
+Inst libgtk-4-1 (4.18.6+ds-2 deb.debian.org [amd64])
+Inst libadwaita-1-0 (1.7.6-1~deb13u1 deb.debian.org [amd64])
+Inst libapt-pkg7.0 (3.0.3 deb.debian.org [amd64])
+Inst libunibreak6 (6.1-3 deb.debian.org [amd64])
+Inst libass9 (1:0.17.3-1+deb13u1 deb.debian.org [amd64])
+Inst libva2 (2.22.0-3 deb.debian.org [amd64])
+Inst libva-drm2 (2.22.0-3 deb.debian.org [amd64])
+Inst libva-x11-2 (2.22.0-3 deb.debian.org [amd64])
+Inst libvdpau1 (1.5-3+b1 deb.debian.org [amd64])
+Inst libvpl2 (1:2.14.0-1+b1 deb.debian.org [amd64])
+Inst ocl-icd-libopencl1 (2.3.3-1 deb.debian.org [amd64])
+Inst libavutil59 (7:7.1.5-0+deb13u1 deb.debian.org [amd64])
+Inst libcodec2-1.2 (1.2.0-3 deb.debian.org [amd64])
+Inst libgsm1 (1.0.22-1+b2 deb.debian.org [amd64])
+Inst libhwy1t64 (1.2.0-2+b2 deb.debian.org [amd64])
+Inst libjxl0.11 (0.11.2-0.1~deb13u2 deb.debian.org [amd64])
+Inst libopenjp2-7 (2.5.3-2.1~deb13u2 deb.debian.org [amd64])
+Inst libshine3 (3.1.1-2+b2 deb.debian.org [amd64])
+Inst libsnappy1v5 (1.2.2-1 deb.debian.org [amd64])
+Inst libsoxr0 (0.1.3-4+b2 deb.debian.org [amd64])
+Inst libswresample5 (7:7.1.5-0+deb13u1 deb.debian.org [amd64])
+Inst libwebpmux3 (1.5.0-0.1 deb.debian.org [amd64])
+Inst libx264-164 (2:0.164.3108+git31e19f9-2+b1 deb.debian.org [amd64])
+Inst libnuma1 (2.0.19-1 deb.debian.org [amd64])
+Inst libx265-215 (4.1-2 deb.debian.org [amd64])
+Inst libxvidcore4 (2:1.3.7-1+b2 deb.debian.org [amd64])
+Inst libzvbi-common (0.2.44-1 deb.debian.org [all])
+Inst libzvbi0t64 (0.2.44-1 deb.debian.org [amd64])
+Inst libavcodec61 (7:7.1.5-0+deb13u1 deb.debian.org [amd64])
+Inst libchromaprint1 (1.5.1-7 deb.debian.org [amd64])
+Inst libdvdread8t64 (6.1.3-2 deb.debian.org [amd64])
+Inst libdvdnav4 (6.1.1-3+b1 deb.debian.org [amd64])
+Inst libgme0 (0.6.3-7+b2 deb.debian.org [amd64])
+Inst libopenmpt0t64 (0.7.13-1+b1 deb.debian.org [amd64])
+Inst librabbitmq4 (0.15.0-1+deb13u2 deb.debian.org [amd64])
+Inst libcjson1 (1.7.18-3.1+deb13u1 deb.debian.org [amd64])
+Inst libmbedcrypto16 (3.6.6-0.1~deb13u1 deb.debian.org [amd64])
+Inst librist4 (0.2.11+dfsg-1 deb.debian.org [amd64])
+Inst libsrt1.5-gnutls (1.5.4-1+deb13u1 deb.debian.org [amd64])
+Inst libssh-4 (0.11.5-0+deb13u1 deb.debian.org [amd64])
+Inst libnorm1t64 (1.5.9+dfsg-3.1+b2 deb.debian.org [amd64])
+Inst libpgm-5.3-0t64 (5.3.128~dfsg-2.1+b1 deb.debian.org [amd64])
+Inst libsodium23 (1.0.18-1+deb13u1 deb.debian.org [amd64])
+Inst libzmq5 (4.3.5-1+b3 deb.debian.org [amd64])
+Inst libavformat61 (7:7.1.5-0+deb13u1 deb.debian.org [amd64])
+Inst libbs2b0 (3.1.0+dfsg-8+b1 deb.debian.org [amd64])
+Inst libflite1 (2.2-7 deb.debian.org [amd64])
+Inst libserd-0-0 (0.32.4-1 deb.debian.org [amd64])
+Inst libzix-0-0 (0.6.2-1 deb.debian.org [amd64])
+Inst libsord-0-0 (0.16.18-1 deb.debian.org [amd64])
+Inst libsratom-0-0 (0.6.18-1 deb.debian.org [amd64])
+Inst liblilv-0-0 (0.24.26-1 deb.debian.org [amd64])
+Inst libmysofa1 (1.3.3+dfsg-1 deb.debian.org [amd64])
+Inst libplacebo349 (7.349.0-3 deb.debian.org [amd64])
+Inst libblas3 (3.12.1-6 deb.debian.org [amd64])
+Inst libgfortran5 (14.2.0-19 deb.debian.org [amd64])
+Inst liblapack3 (3.12.1-6 deb.debian.org [amd64])
+Inst libsphinxbase3t64 (0.8+5prealpha+1-21+b1 deb.debian.org [amd64])
+Inst libpocketsphinx3 (0.8+5prealpha+1-15+b4 deb.debian.org [amd64])
+Inst libpostproc58 (7:7.1.5-0+deb13u1 deb.debian.org [amd64])
+Inst libfftw3-double3 (3.3.10-2+b1 deb.debian.org [amd64])
+Inst librubberband2 (3.3.0+dfsg-2+b3 deb.debian.org [amd64])
+Inst libswscale8 (7:7.1.5-0+deb13u1 deb.debian.org [amd64])
+Inst libvidstab1.1 (1.1.0-2+b2 deb.debian.org [amd64])
+Inst libzimg2 (3.0.5+ds1-1+b2 deb.debian.org [amd64])
+Inst libavfilter10 (7:7.1.5-0+deb13u1 deb.debian.org [amd64])
+Inst libdc1394-25 (2.2.6-5 deb.debian.org [amd64])
+Inst libjack-jackd2-0 (1.9.22~dfsg-4 deb.debian.org [amd64])
+Inst libopenal-data (1:1.24.2-1 deb.debian.org [all])
+Inst libopenal1 (1:1.24.2-1 deb.debian.org [amd64])
+Inst libdecor-0-0 (0.2.2-2 deb.debian.org [amd64])
+Inst libsdl2-2.0-0 (2.32.4+dfsg-1 deb.debian.org [amd64])
+Inst libxv1 (2:1.0.11-1.1+b3 deb.debian.org [amd64])
+Inst libavdevice61 (7:7.1.5-0+deb13u1 deb.debian.org [amd64])
+Inst libayatana-ido3-0.4-0 (0.10.4-1 deb.debian.org [amd64])
+Inst libayatana-indicator3-7 (0.9.4-1+b1 deb.debian.org [amd64])
+Inst libdbusmenu-glib4 (18.10.20180917~bzr492+repack1-4 deb.debian.org [amd64])
+Inst libdbusmenu-gtk3-4 (18.10.20180917~bzr492+repack1-4 deb.debian.org [amd64])
+Inst libayatana-appindicator3-1 (0.5.94-1 deb.debian.org [amd64])
+Inst libclone-perl (0.47-1+b1 deb.debian.org [amd64])
+Inst libconfig++11 (1.7.3-2 deb.debian.org [amd64])
+Inst libdbusmenu-lxqt0 (0.2.0-1 deb.debian.org [amd64])
+Inst libdisplay-info2 (0.2.0-2 deb.debian.org [amd64])
+Inst libdrm-nouveau2 (2.4.124-2 deb.debian.org [amd64])
+Inst libdrm-radeon1 (2.4.124-2 deb.debian.org [amd64])
+Inst libebur128-1 (1.2.6-1+b2 deb.debian.org [amd64])
+Inst libsigc++-2.0-0v5 (2.12.1-3 deb.debian.org [amd64])
+Inst libglibmm-2.4-1t64 (2.66.8-1 deb.debian.org [amd64])
+Inst libxml++2.6-2v5 (2.42.3-2 deb.debian.org [amd64])
+Inst libffado2 (2.4.9-2 deb.debian.org [amd64])
+Inst libtimedate-perl (2.3300-2 deb.debian.org [all])
+Inst libhttp-date-perl (6.06-1 deb.debian.org [all])
+Inst libfile-listing-perl (6.16-1 deb.debian.org [all])
+Inst libfm-extra4t64 (1.4.0-2 deb.debian.org [amd64])
+Inst lxqt-menu-data (2.1.0-1 deb.debian.org [all])
+Inst libmenu-cache-bin (1.1.1-1 deb.debian.org [amd64])
+Inst libmenu-cache3 (1.1.1-1 deb.debian.org [amd64])
+Inst libfm-qt6-15 (2.1.0-1+b1 deb.debian.org [amd64])
+Inst libfuse2t64 (2.9.9-9 deb.debian.org [amd64])
+Inst libgif7 (5.2.2-1+deb13u1 deb.debian.org [amd64])
+Inst libgs-common (10.05.1~dfsg-1+deb13u1 deb.debian.org [all])
+Inst libgs10-common (10.05.1~dfsg-1+deb13u1 deb.debian.org [all])
+Inst libidn12 (1.43-1 deb.debian.org [amd64])
+Inst libijs-0.35 (0.35-15.2 deb.debian.org [amd64])
+Inst libjbig2dec0 (0.20-1+b3 deb.debian.org [amd64])
+Inst libpaper2 (2.2.5-0.3+b2 deb.debian.org [amd64])
+Inst libxt6t64 (1:1.2.1-1.2+b2 deb.debian.org [amd64])
+Inst libgs10 (10.05.1~dfsg-1+deb13u1 deb.debian.org [amd64])
+Inst libhtml-tagset-perl (3.24-1 deb.debian.org [all])
+Inst libhtml-parser-perl (3.83-2~deb13u1 deb.debian.org [amd64])
+Inst libhtml-tree-perl (5.07-3 deb.debian.org [all])
+Inst libio-html-perl (1.004-3 deb.debian.org [all])
+Inst liblwp-mediatypes-perl (6.04-2 deb.debian.org [all])
+Inst libhttp-message-perl (7.00-2 deb.debian.org [all])
+Inst libhttp-cookies-perl (6.11-1 deb.debian.org [all])
+Inst libhttp-negotiate-perl (6.01-2 deb.debian.org [all])
+Inst libid3tag0 (0.16.3-1 deb.debian.org [amd64])
+Inst libspectre1 (0.2.12-1+b2 deb.debian.org [amd64])
+Inst libwebpdemux2 (1.5.0-0.1 deb.debian.org [amd64])
+Inst libimlib2t64 (1.12.4-2 deb.debian.org [amd64])
+Inst perl-openssl-defaults (7+b2 deb.debian.org [amd64])
+Inst libnet-ssleay-perl (1.94-3 deb.debian.org [amd64])
+Inst libio-socket-ssl-perl (2.089-1 deb.debian.org [all])
+Inst libkf6idletime6 (6.13.0-1 deb.debian.org [amd64])
+Inst libkscreen-data (4:6.3.4-1 deb.debian.org [all])
+Inst libkf6screen8 (4:6.3.4-1 deb.debian.org [amd64])
+Inst libxcb-dpms0 (1.17.0-2+b1 deb.debian.org [amd64])
+Inst libkf6screendpms8 (4:6.3.4-1 deb.debian.org [amd64])
+Inst libkscreen-bin (4:6.3.4-1 deb.debian.org [amd64])
+Inst liblua5.2-0 (5.2.4-3+b3 deb.debian.org [amd64])
+Inst liblua5.4-0 (5.4.7-1+b2 deb.debian.org [amd64])
+Inst libnet-http-perl (6.23-1 deb.debian.org [all])
+Inst libtry-tiny-perl (0.32-1 deb.debian.org [all])
+Inst libwww-robotrules-perl (6.02-1 deb.debian.org [all])
+Inst libwww-perl (6.78-1 deb.debian.org [all]) []
+Inst liblwp-protocol-https-perl (6.14-1 deb.debian.org [all])
+Inst liblxqt-globalkeys2 (2.1.0-2 deb.debian.org [amd64])
+Inst liblxqt-globalkeys-ui2 (2.1.0-2 deb.debian.org [amd64])
+Inst libmm-glib0 (1.24.0-1+deb13u1 deb.debian.org [amd64])
+Inst libmujs3 (1.3.6-1 deb.debian.org [amd64])
+Inst libmuparser2v5 (2.3.4-1+b1 deb.debian.org [amd64])
+Inst libndp0 (1.9-1+b1 deb.debian.org [amd64])
+Inst libnewt0.52 (0.52.25-1 deb.debian.org [amd64])
+Inst libnl-3-200 (3.7.0-2 deb.debian.org [amd64])
+Inst libnl-genl-3-200 (3.7.0-2 deb.debian.org [amd64])
+Inst libnl-route-3-200 (3.7.0-2 deb.debian.org [amd64])
+Inst libnma-common (1.10.6-5 deb.debian.org [all])
+Inst libnma0 (1.10.6-5 deb.debian.org [amd64])
+Inst libntfs-3g89t64 (1:2022.10.3-5+deb13u2 deb.debian.org [amd64])
+Inst libobt2v5 (3.6.1-12+b2 deb.debian.org [amd64])
+Inst libobrender32v5 (3.6.1-12+b2 deb.debian.org [amd64])
+Inst libopenfec1 (1.4.2.11+dfsg-1 deb.debian.org [amd64])
+Inst libpcsclite1 (2.3.3-1 deb.debian.org [amd64])
+Inst libwebrtc-audio-processing-1-3 (1.3-3+b1 deb.debian.org [amd64])
+Inst libspa-0.2-modules (1.4.2-1 deb.debian.org [amd64])
+Inst libpipewire-0.3-0t64 (1.4.2-1 deb.debian.org [amd64])
+Inst libspeexdsp1 (1.2.1-3 deb.debian.org [amd64])
+Inst libuv1t64 (1.50.0-2 deb.debian.org [amd64])
+Inst libroc0.4 (0.4.0+dfsg-5 deb.debian.org [amd64])
+Inst libpipewire-0.3-modules (1.4.2-1 deb.debian.org [amd64])
+Inst libplymouth5 (24.004.60-5 deb.debian.org [amd64])
+Inst libqt6svgwidgets6 (6.8.2-3 deb.debian.org [amd64])
+Inst qtermwidget-data (2.1.0-1 deb.debian.org [all])
+Inst libutf8proc3 (2.9.0-1+b2 deb.debian.org [amd64])
+Inst libqtermwidget6-2 (2.1.0-1 deb.debian.org [amd64])
+Inst librsvg2-bin (2.60.0+dfsg-1 deb.debian.org [amd64])
+Inst libsixel1 (1.10.5-1 deb.debian.org [amd64])
+Inst libsndio7.0 (1.10.0-0.1 deb.debian.org [amd64])
+Inst libstartup-notification0 (0.12-8 deb.debian.org [amd64])
+Inst libstatgrab10t64 (0.92.1-1.2 deb.debian.org [amd64])
+Inst libsysstat-qt6-1 (1.1.0-1 deb.debian.org [amd64])
+Inst libteamdctl0 (1.31-1+b2 deb.debian.org [amd64])
+Inst libuchardet0 (0.0.8-1+b2 deb.debian.org [amd64])
+Inst libunwind8 (1.8.1-0.1 deb.debian.org [amd64])
+Inst libupower-glib3 (1.90.9-1 deb.debian.org [amd64])
+Inst libva-wayland2 (2.22.0-3 deb.debian.org [amd64])
+Inst libvte-2.91-common (0.80.1-1 deb.debian.org [amd64])
+Inst libvte-2.91-0 (0.80.1-1 deb.debian.org [amd64])
+Inst libwireplumber-0.5-0 (0.5.8-2 deb.debian.org [amd64])
+Inst libxatracker2 (25.0.7-2+deb13u1 deb.debian.org [amd64])
+Inst libxmu6 (2:1.1.3-3+b4 deb.debian.org [amd64])
+Inst libxaw7 (2:1.0.16-1 deb.debian.org [amd64])
+Inst libxcb-composite0 (1.17.0-2+b1 deb.debian.org [amd64])
+Inst libxcb-damage0 (1.17.0-2+b1 deb.debian.org [amd64])
+Inst libxcb-screensaver0 (1.17.0-2+b1 deb.debian.org [amd64])
+Inst libxcvt0 (0.1.3-1 deb.debian.org [amd64])
+Inst libxfont2 (1:2.0.6-1+deb13u1 deb.debian.org [amd64])
+Inst libxkbfile1 (1:1.1.0-1+b4 deb.debian.org [amd64])
+Inst libxmuu1 (2:1.1.3-3+b4 deb.debian.org [amd64])
+Inst libxpresent1 (1.0.1-1+b2 deb.debian.org [amd64])
+Inst libxxf86dga1 (2:1.1.5-1+b3 deb.debian.org [amd64])
+Inst linux-image-amd64 (6.12.107-1 deb.debian.org [amd64])
+Inst live-boot-initramfs-tools (1:20250815~deb13u1 deb.debian.org [all])
+Inst live-boot (1:20250815~deb13u1 deb.debian.org [all])
+Inst live-config-systemd (11.0.5 deb.debian.org [all])
+Inst live-config (11.0.5 deb.debian.org [all])
+Inst live-tools (1:20240525 deb.debian.org [all])
+Inst lximage-qt (2.1.1-1 deb.debian.org [amd64])
+Inst lxqt-archiver (1.1.0-1 deb.debian.org [amd64])
+Inst lxqt-config (2.1.1-1 deb.debian.org [amd64])
+Inst x11-utils (7.7+7 deb.debian.org [amd64])
+Inst lxqt-system-theme (2.1.0-1 deb.debian.org [all])
+Inst lxqt-themes (2.1.0-1 deb.debian.org [all])
+Inst lxqt-globalkeys (2.1.0-2 deb.debian.org [amd64])
+Inst lxqt-qtplugin (2.1.0-1+b1 deb.debian.org [amd64])
+Inst x11-xkb-utils (7.7+9 deb.debian.org [amd64])
+Inst lxqt-session (2.1.1-1 deb.debian.org [amd64])
+Inst lxqt-policykit (2.1.0-1 deb.debian.org [amd64])
+Inst lxqt-panel (2.1.4-1 deb.debian.org [amd64])
+Inst lxqt-runner (2.1.2-1 deb.debian.org [amd64])
+Inst lxqt-sudo (2.1.0-1 deb.debian.org [amd64])
+Inst pcmanfm-qt (2.1.0-2 deb.debian.org [amd64])
+Inst qterminal (2.1.0-1 deb.debian.org [amd64])
+Inst qtxdg-tools (4.1.0-1 deb.debian.org [amd64])
+Inst lxqt-core (33.2 deb.debian.org [all])
+Inst upower (1.90.9-1 deb.debian.org [amd64])
+Inst lxqt-powermanagement (2.1.0-2 deb.debian.org [amd64])
+Inst mesa-utils-bin (9.0.0-2+b2 deb.debian.org [amd64])
+Inst mesa-utils (9.0.0-2+b2 deb.debian.org [amd64])
+Inst mpv (0.40.0-3+deb13u1 deb.debian.org [amd64])
+Inst network-manager (1.52.1-1 deb.debian.org [amd64])
+Inst nm-connection-editor (1.36.0-3+b1 deb.debian.org [amd64])
+Inst network-manager-applet (1.36.0-3+b1 deb.debian.org [amd64])
+Inst network-manager-gnome (1.36.0-3+b1 deb.debian.org [amd64])
+Inst ntfs-3g (1:2022.10.3-5+deb13u2 deb.debian.org [amd64])
+Inst openbox (3.6.1-12+b2 deb.debian.org [amd64])
+Inst pipewire-bin (1.4.2-1 deb.debian.org [amd64])
+Inst pipewire (1.4.2-1 deb.debian.org [amd64])
+Inst pipewire-pulse (1.4.2-1 deb.debian.org [amd64])
+Inst pavucontrol-qt (2.1.0-1 deb.debian.org [amd64])
+Inst pipewire-alsa (1.4.2-1 deb.debian.org [amd64])
+Inst plymouth (24.004.60-5 deb.debian.org [amd64])
+Inst plymouth-label (24.004.60-5 deb.debian.org [amd64])
+Inst plymouth-themes (24.004.60-5 deb.debian.org [amd64])
+Inst python3-yaml (6.0.2-1+b2 deb.debian.org [amd64])
+Inst qml6-module-qtqml-models (6.8.2+dfsg-7 deb.debian.org [amd64])
+Inst qml6-module-qtqml-workerscript (6.8.2+dfsg-7 deb.debian.org [amd64])
+Inst qml6-module-qtqml (6.8.2+dfsg-7 deb.debian.org [amd64])
+Inst qml6-module-qtquick (6.8.2+dfsg-7 deb.debian.org [amd64])
+Inst qps (2.10.0-1 deb.debian.org [amd64])
+Inst qt6-translations-l10n (6.8.2-2 deb.debian.org [all])
+Inst qttranslations5-l10n (5.15.15-2 deb.debian.org [all])
+Inst xauth (1:1.1.2-1.1 deb.debian.org [amd64])
+Inst xserver-common (2:21.1.16-1.3+deb13u3 deb.debian.org [all])
+Inst xserver-xorg-core (2:21.1.16-1.3+deb13u3 deb.debian.org [amd64])
+Inst xserver-xorg-video-amdgpu (23.0.0-1 deb.debian.org [amd64])
+Inst xserver-xorg-video-radeon (1:22.0.0-1 deb.debian.org [amd64])
+Inst xserver-xorg-video-ati (1:22.0.0-1 deb.debian.org [amd64])
+Inst xserver-xorg-video-fbdev (1:0.5.0-2 deb.debian.org [amd64])
+Inst xserver-xorg-video-nouveau (1:1.0.18-1 deb.debian.org [amd64])
+Inst xserver-xorg-video-vesa (1:2.6.0-2 deb.debian.org [amd64])
+Inst xserver-xorg-video-vmware (1:13.4.0-1 deb.debian.org [amd64])
+Inst xserver-xorg-video-all (1:7.7+24+deb13u1 deb.debian.org [amd64])
+Inst xserver-xorg-input-libinput (1.5.0-1 deb.debian.org [amd64])
+Inst xserver-xorg (1:7.7+24+deb13u1 deb.debian.org [amd64])
+Inst sddm (0.21.0+git20250502.4fe234b-2 deb.debian.org [amd64])
+Inst sddm-theme-debian-elarun (0.21.0+git20250502.4fe234b-2 deb.debian.org [all])
+Inst squashfs-tools (1:4.6.1-1 deb.debian.org [amd64])
+Inst synaptic (0.91.7 deb.debian.org [amd64])
+Inst sysstat (12.7.5-2 deb.debian.org [amd64])
+Inst unzip (6.0-29+deb13u1 deb.debian.org [amd64])
+Inst wireplumber (0.5.8-2 deb.debian.org [amd64])
+Inst wpasupplicant (2:2.10-24 deb.debian.org [amd64])
+Inst x11-xserver-utils (7.7+11 deb.debian.org [amd64])
+Inst xdg-desktop-portal (1.20.3+ds-1 deb.debian.org [amd64])
+Inst xdg-desktop-portal-gtk (1.15.3-1 deb.debian.org [amd64])
+Inst xdg-desktop-portal-lxqt (1.1.0-2+b1 deb.debian.org [amd64])
+Inst xdg-user-dirs (0.18-2 deb.debian.org [amd64])
+Inst xscreensaver-data (6.09+dfsg1-1 deb.debian.org [amd64])
+Inst xscreensaver (6.09+dfsg1-1 deb.debian.org [amd64])
+Inst zenity-common (4.1.90-1 deb.debian.org [all])
+Inst zenity (4.1.90-1 deb.debian.org [amd64])
+Inst zip (3.0-15+deb13u1 deb.debian.org [amd64])
+Conf libpam-modules (1.7.0-5 deb.debian.org [amd64])
+Conf logsave (1.47.2-3+b12 deb.debian.org [amd64])
+Conf e2fsprogs (1.47.2-3+b12 deb.debian.org [amd64])
+Conf systemd-sysv (257.13-1~deb13u1 deb.debian.org [amd64])
+Conf libdbus-1-3 (1.16.2-2 deb.debian.org [amd64])
+Conf dbus-bin (1.16.2-2 deb.debian.org [amd64])
+Conf dbus-session-bus-common (1.16.2-2 deb.debian.org [all])
+Conf dbus-daemon (1.16.2-2 deb.debian.org [amd64])
+Conf login.defs (1:4.17.4-2 deb.debian.org [all])
+Conf libbsd0 (0.12.2-2 deb.debian.org [amd64])
+Conf libsemanage-common (3.8.1-1 deb.debian.org [all])
+Conf libsepol2 (3.8.1-1 deb.debian.org [amd64])
+Conf libsemanage2 (3.8.1-1 deb.debian.org [amd64])
+Conf passwd (1:4.17.4-2 deb.debian.org [amd64])
+Conf adduser (3.152 deb.debian.org [all])
+Conf dbus-system-bus-common (1.16.2-2 deb.debian.org [all])
+Conf dbus (1.16.2-2 deb.debian.org [amd64])
+Conf liblocale-gettext-perl (1.07-7+b1 deb.debian.org [amd64])
+Conf xkb-data (2.42-1 deb.debian.org [all])
+Conf keyboard-configuration (1.242~deb13u1 deb.debian.org [all])
+Conf libkmod2 (34.2-2 deb.debian.org [amd64])
+Conf kmod (34.2-2 deb.debian.org [amd64])
+Conf cpio (2.15+dfsg-2 deb.debian.org [amd64])
+Conf dracut-install (106-6 deb.debian.org [amd64])
+Conf initramfs-tools-bin (0.148.4 deb.debian.org [amd64])
+Conf libklibc (2.0.14-1 deb.debian.org [amd64])
+Conf klibc-utils (2.0.14-1 deb.debian.org [amd64])
+Conf libudev1 (257.13-1~deb13u1 deb.debian.org [amd64])
+Conf udev (257.13-1~deb13u1 deb.debian.org [amd64])
+Conf initramfs-tools-core (0.148.4 deb.debian.org [all])
+Conf initramfs-tools (0.148.4 deb.debian.org [all])
+Conf linux-image-6.12.107+deb13-amd64 (6.12.107-1 deb.debian.org [amd64])
+Conf poppler-data (0.4.12-1 deb.debian.org [all])
+Conf media-types (13.0.0 deb.debian.org [all])
+Conf netbase (6.5 deb.debian.org [all])
+Conf tzdata (2026c-0+deb13u1 deb.debian.org [all])
+Conf libffi8 (3.4.8-2 deb.debian.org [amd64])
+Conf libtinfo6 (6.5+20250216-2 deb.debian.org [amd64])
+Conf libncursesw6 (6.5+20250216-2 deb.debian.org [amd64])
+Conf readline-common (8.2-6 deb.debian.org [all])
+Conf libreadline8t64 (8.2-6 deb.debian.org [amd64])
+Conf libsqlite3-0 (3.46.1-7+deb13u2 deb.debian.org [amd64])
+Conf libpython3.13-stdlib (3.13.5-2+deb13u5 deb.debian.org [amd64])
+Conf python3.13 (3.13.5-2+deb13u5 deb.debian.org [amd64])
+Conf libpython3-stdlib (3.13.5-1 deb.debian.org [amd64])
+Conf python3 (3.13.5-1 deb.debian.org [amd64])
+Conf libxxhash0 (0.8.3-2 deb.debian.org [amd64])
+Conf liblz4-1 (1.10.0-4 deb.debian.org [amd64])
+Conf libpopt0 (1.19+dfsg-2 deb.debian.org [amd64])
+Conf rsync (3.4.1+ds1-5+deb13u4 deb.debian.org [amd64])
+Conf libasound2-data (1.2.14-1+deb13u1 deb.debian.org [all])
+Conf libasound2t64 (1.2.14-1+deb13u1 deb.debian.org [amd64])
+Conf libdrm-common (2.4.124-2 deb.debian.org [all])
+Conf libdrm2 (2.4.124-2 deb.debian.org [amd64])
+Conf libatomic1 (14.2.0-19 deb.debian.org [amd64])
+Conf libglib2.0-0t64 (2.84.4-3~deb13u5 deb.debian.org [amd64])
+Conf libgdk-pixbuf2.0-common (2.42.12+dfsg-4+deb13u1 deb.debian.org [all])
+Conf libstdc++6 (14.2.0-19 deb.debian.org [amd64])
+Conf libxml2 (2.12.7+dfsg+really2.9.14-2.1+deb13u3 deb.debian.org [amd64])
+Conf shared-mime-info (2.4-5+b2 deb.debian.org [amd64])
+Conf libjpeg62-turbo (1:2.1.5-4 deb.debian.org [amd64])
+Conf libpng16-16t64 (1.6.48-1+deb13u5 deb.debian.org [amd64])
+Conf libdeflate0 (1.23-2 deb.debian.org [amd64])
+Conf libjbig0 (2.1-6.1+b2 deb.debian.org [amd64])
+Conf liblerc4 (4.0.0+ds-5 deb.debian.org [amd64])
+Conf libsharpyuv0 (1.5.0-0.1 deb.debian.org [amd64])
+Conf libwebp7 (1.5.0-0.1 deb.debian.org [amd64])
+Conf libtiff6 (4.7.0-3+deb13u3 deb.debian.org [amd64])
+Conf libgdk-pixbuf-2.0-0 (2.42.12+dfsg-4+deb13u1 deb.debian.org [amd64])
+Conf gtk-update-icon-cache (4.18.6+ds-2 deb.debian.org [amd64])
+Conf hicolor-icon-theme (0.18-2 deb.debian.org [all])
+Conf adwaita-icon-theme (48.1-1 deb.debian.org [all])
+Conf at-spi2-common (2.56.2-1+deb13u2 deb.debian.org [all])
+Conf libatk1.0-0t64 (2.56.2-1+deb13u2 deb.debian.org [amd64])
+Conf libxau6 (1:1.0.11-1 deb.debian.org [amd64])
+Conf libxdmcp6 (1:1.1.5-1 deb.debian.org [amd64])
+Conf libxcb1 (1.17.0-2+b1 deb.debian.org [amd64])
+Conf libx11-data (2:1.8.12-1 deb.debian.org [all])
+Conf libx11-6 (2:1.8.12-1 deb.debian.org [amd64])
+Conf libxext6 (2:1.3.4-1+b3 deb.debian.org [amd64])
+Conf libxi6 (2:1.8.2-1 deb.debian.org [amd64])
+Conf libatspi2.0-0t64 (2.56.2-1+deb13u2 deb.debian.org [amd64])
+Conf libatk-bridge2.0-0t64 (2.56.2-1+deb13u2 deb.debian.org [amd64])
+Conf libbrotli1 (1.1.0-2+b7 deb.debian.org [amd64])
+Conf libfreetype6 (2.13.3+dfsg-1+deb13u1 deb.debian.org [amd64])
+Conf fonts-dejavu-mono (2.37-8 deb.debian.org [all])
+Conf fonts-dejavu-core (2.37-8 deb.debian.org [all])
+Conf fonts-liberation (1:2.1.5-3 deb.debian.org [all])
+Conf libfontenc1 (1:1.1.8-1+b2 deb.debian.org [amd64])
+Conf lsb-base (11.6 deb.debian.org [all])
+Conf x11-common (1:7.7+24+deb13u1 deb.debian.org [all])
+Conf xfonts-encodings (1:1.0.4-2.2 deb.debian.org [all])
+Conf xfonts-utils (1:7.7+7 deb.debian.org [amd64])
+Conf fonts-urw-base35 (20200910-8 deb.debian.org [all])
+Conf fonts-noto-mono (20201225-2 deb.debian.org [all])
+Conf fonts-noto-core (20201225-2 deb.debian.org [all])
+Conf fontconfig-config (2.15.0-2.3 deb.debian.org [amd64])
+Conf libfontconfig1 (2.15.0-2.3 deb.debian.org [amd64])
+Conf libpixman-1-0 (0.44.0-3 deb.debian.org [amd64])
+Conf libxcb-render0 (1.17.0-2+b1 deb.debian.org [amd64])
+Conf libxcb-shm0 (1.17.0-2+b1 deb.debian.org [amd64])
+Conf libxrender1 (1:0.9.12-1 deb.debian.org [amd64])
+Conf libcairo2 (1.18.4-1+b1 deb.debian.org [amd64])
+Conf libcairo-gobject2 (1.18.4-1+b1 deb.debian.org [amd64])
+Conf libcloudproviders0 (0.3.6-2 deb.debian.org [amd64])
+Conf liblcms2-2 (2.16-2+deb13u2 deb.debian.org [amd64])
+Conf libcolord2 (1.4.7-3 deb.debian.org [amd64])
+Conf libavahi-common-data (0.8-16 deb.debian.org [amd64])
+Conf libavahi-common3 (0.8-16 deb.debian.org [amd64])
+Conf libavahi-client3 (0.8-16 deb.debian.org [amd64])
+Conf libnettle8t64 (3.10.1-1 deb.debian.org [amd64])
+Conf libhogweed6t64 (3.10.1-1 deb.debian.org [amd64])
+Conf libunistring5 (1.3-2 deb.debian.org [amd64])
+Conf libidn2-0 (2.3.8-2 deb.debian.org [amd64])
+Conf libp11-kit0 (0.25.5-3 deb.debian.org [amd64])
+Conf libtasn1-6 (4.20.0-2+deb13u1 deb.debian.org [amd64])
+Conf libgnutls30t64 (3.8.9-3+deb13u4 deb.debian.org [amd64])
+Conf libkrb5support0 (1.21.3-5+deb13u1 deb.debian.org [amd64])
+Conf libk5crypto3 (1.21.3-5+deb13u1 deb.debian.org [amd64])
+Conf libkeyutils1 (1.6.3-6 deb.debian.org [amd64])
+Conf libkrb5-3 (1.21.3-5+deb13u1 deb.debian.org [amd64])
+Conf libgssapi-krb5-2 (1.21.3-5+deb13u1 deb.debian.org [amd64])
+Conf libcups2t64 (2.4.10-3+deb13u2 deb.debian.org [amd64])
+Conf libepoxy0 (1.5.10-2 deb.debian.org [amd64])
+Conf libfribidi0 (1.0.16-1 deb.debian.org [amd64])
+Conf libgraphite2-3 (1.3.14-2+deb13u1 deb.debian.org [amd64])
+Conf libharfbuzz0b (10.2.0-1+deb13u1 deb.debian.org [amd64])
+Conf fontconfig (2.15.0-2.3 deb.debian.org [amd64])
+Conf libthai-data (0.1.29-2 deb.debian.org [all])
+Conf libdatrie1 (0.2.13-3+b1 deb.debian.org [amd64])
+Conf libthai0 (0.1.29-2+b1 deb.debian.org [amd64])
+Conf libpango-1.0-0 (1.56.3-1 deb.debian.org [amd64])
+Conf libpangoft2-1.0-0 (1.56.3-1 deb.debian.org [amd64])
+Conf libpangocairo-1.0-0 (1.56.3-1 deb.debian.org [amd64])
+Conf libwayland-client0 (1.23.1-3 deb.debian.org [amd64])
+Conf libwayland-cursor0 (1.23.1-3 deb.debian.org [amd64])
+Conf libwayland-egl1 (1.23.1-3 deb.debian.org [amd64])
+Conf libxcomposite1 (1:0.4.6-1 deb.debian.org [amd64])
+Conf libxfixes3 (1:6.0.0-2+b4 deb.debian.org [amd64])
+Conf libxcursor1 (1:1.2.3-1 deb.debian.org [amd64])
+Conf libxdamage1 (1:1.1.6-1+b2 deb.debian.org [amd64])
+Conf libxinerama1 (2:1.1.4-3+b4 deb.debian.org [amd64])
+Conf libxkbcommon0 (1.7.0-2 deb.debian.org [amd64])
+Conf libxrandr2 (2:1.5.4-1+b3 deb.debian.org [amd64])
+Conf libpam-runtime (1.7.0-5 deb.debian.org [all])
+Conf libpam-systemd (257.13-1~deb13u1 deb.debian.org [amd64])
+Conf dbus-user-session (1.16.2-2 deb.debian.org [amd64])
+Conf libdconf1 (0.40.0-5 deb.debian.org [amd64])
+Conf libproc2-0 (2:4.0.4-9 deb.debian.org [amd64])
+Conf procps (2:4.0.4-9 deb.debian.org [amd64])
+Conf dconf-service (0.40.0-5 deb.debian.org [amd64])
+Conf dconf-gsettings-backend (0.40.0-5 deb.debian.org [amd64])
+Conf libgtk-3-common (3.24.49-3 deb.debian.org [all])
+Conf libgtk-3-0t64 (3.24.49-3 deb.debian.org [amd64])
+Conf libpciaccess0 (0.17-3+b3 deb.debian.org [amd64])
+Conf spice-vdagent (0.22.1-4.1 deb.debian.org [amd64])
+Conf sudo (1.9.16p2-3+deb13u2 deb.debian.org [amd64])
+Conf dmidecode (3.6-2 deb.debian.org [amd64])
+Conf libfdisk1 (2.41.5-0+deb13u1 deb.debian.org [amd64])
+Conf fdisk (2.41.5-0+deb13u1 deb.debian.org [amd64])
+Conf sensible-utils (0.0.25 deb.debian.org [all])
+Conf bzip2 (1.0.8-6 deb.debian.org [amd64])
+Conf openssl (3.5.7-1~deb13u2 deb.debian.org [amd64])
+Conf ca-certificates (20250419 deb.debian.org [all])
+Conf libmagic-mgc (1:5.46-5 deb.debian.org [amd64])
+Conf libmagic1t64 (1:5.46-5 deb.debian.org [amd64])
+Conf file (1:5.46-5 deb.debian.org [amd64])
+Conf gettext-base (0.23.1-2 deb.debian.org [amd64])
+Conf libc-l10n (2.41-12+deb13u4 deb.debian.org [all])
+Conf locales (2.41-12+deb13u4 deb.debian.org [all])
+Conf liblsof0 (4.99.4+dfsg-2 deb.debian.org [amd64])
+Conf libtirpc-common (1.3.6+ds-1 deb.debian.org [all])
+Conf libtirpc3t64 (1.3.6+ds-1 deb.debian.org [amd64])
+Conf lsof (4.99.4+dfsg-2 deb.debian.org [amd64])
+Conf perl-modules-5.40 (5.40.1-6+deb13u1 deb.debian.org [all])
+Conf libgdbm6t64 (1.24-2 deb.debian.org [amd64])
+Conf libgdbm-compat4t64 (1.24-2 deb.debian.org [amd64])
+Conf libperl5.40 (5.40.1-6+deb13u1 deb.debian.org [amd64])
+Conf perl (5.40.1-6+deb13u1 deb.debian.org [amd64])
+Conf libtext-charwidth-perl (0.04-11+b4 deb.debian.org [amd64])
+Conf libtext-wrapi18n-perl (0.06-10 deb.debian.org [all])
+Conf ucf (3.0052 deb.debian.org [all])
+Conf libpsl5t64 (0.21.2-1.1+b1 deb.debian.org [amd64])
+Conf wget (1.25.0-2 deb.debian.org [amd64])
+Conf xz-utils (5.8.1-1+deb13u1 deb.debian.org [amd64])
+Conf 7zip (25.01+dfsg-1~deb13u2 deb.debian.org [amd64])
+Conf libatopology2t64 (1.2.14-1+deb13u1 deb.debian.org [amd64])
+Conf libgomp1 (14.2.0-19 deb.debian.org [amd64])
+Conf libfftw3-single3 (3.3.10-2+b1 deb.debian.org [amd64])
+Conf libsamplerate0 (0.2.2-4+b2 deb.debian.org [amd64])
+Conf alsa-utils (1.2.14-1 deb.debian.org [amd64])
+Conf libbluetooth3 (5.82-1.1 deb.debian.org [amd64])
+Conf libelf1t64 (0.192-4 deb.debian.org [amd64])
+Conf libdw1t64 (0.192-4 deb.debian.org [amd64])
+Conf bluez (5.82-1.1 deb.debian.org [amd64])
+Conf libicu76 (76.1-4 deb.debian.org [amd64])
+Conf libnspr4 (2:4.36-1 deb.debian.org [amd64])
+Conf libnss3 (2:3.110-1+deb13u4 deb.debian.org [amd64])
+Conf libcamel-1.2-64t64 (3.56.2-0+deb13u1 deb.debian.org [amd64])
+Conf libjson-glib-1.0-common (1.10.6+ds-2 deb.debian.org [all])
+Conf libjson-glib-1.0-0 (1.10.6+ds-2 deb.debian.org [amd64])
+Conf libsecret-common (0.21.7-1 deb.debian.org [all])
+Conf libgpg-error0 (1.51-4 deb.debian.org [amd64])
+Conf libgcrypt20 (1.11.0-7+deb13u1 deb.debian.org [amd64])
+Conf libsecret-1-0 (0.21.7-1 deb.debian.org [amd64])
+Conf libsasl2-modules-db (2.1.28+dfsg1-9 deb.debian.org [amd64])
+Conf libsasl2-2 (2.1.28+dfsg1-9 deb.debian.org [amd64])
+Conf libldap2 (2.6.10+dfsg-1 deb.debian.org [amd64])
+Conf libnghttp2-14 (1.64.0-1.1+deb13u1 deb.debian.org [amd64])
+Conf libnghttp3-9 (1.8.0-1 deb.debian.org [amd64])
+Conf libngtcp2-16 (1.11.0-1+deb13u1 deb.debian.org [amd64])
+Conf libngtcp2-crypto-gnutls8 (1.11.0-1+deb13u1 deb.debian.org [amd64])
+Conf librtmp1 (2.4+20151223.gitfa8646d.1-2+b5 deb.debian.org [amd64])
+Conf libssh2-1t64 (1.11.1-1+deb13u2 deb.debian.org [amd64])
+Conf libcurl3t64-gnutls (8.14.1-2+deb13u5 deb.debian.org [amd64])
+Conf libduktape207 (2.7.0-2+b2 deb.debian.org [amd64])
+Conf libproxy1v5 (0.5.9-1 deb.debian.org [amd64])
+Conf glib-networking-common (2.80.1-1 deb.debian.org [all])
+Conf glib-networking-services (2.80.1-1 deb.debian.org [amd64])
+Conf gsettings-desktop-schemas (48.0-1 deb.debian.org [all])
+Conf glib-networking (2.80.1-1 deb.debian.org [amd64])
+Conf libsoup-3.0-common (3.6.5-3 deb.debian.org [all])
+Conf libsoup-3.0-0 (3.6.5-3 deb.debian.org [amd64])
+Conf evolution-data-server-common (3.56.2-0+deb13u1 deb.debian.org [all])
+Conf libedataserver-1.2-27t64 (3.56.2-0+deb13u1 deb.debian.org [amd64])
+Conf libabsl20240722 (20240722.0-4 deb.debian.org [amd64])
+Conf libprotobuf32t64 (3.21.12-11+deb13u1 deb.debian.org [amd64])
+Conf libphonenumber8 (8.13.51+ds-4.2 deb.debian.org [amd64])
+Conf libebook-contacts-1.2-4t64 (3.56.2-0+deb13u1 deb.debian.org [amd64])
+Conf libebackend-1.2-11t64 (3.56.2-0+deb13u1 deb.debian.org [amd64])
+Conf libedata-book-1.2-27t64 (3.56.2-0+deb13u1 deb.debian.org [amd64])
+Conf libebook-1.2-21t64 (3.56.2-0+deb13u1 deb.debian.org [amd64])
+Conf bluez-obexd (5.82-1.1 deb.debian.org [amd64])
+Conf gir1.2-glib-2.0 (2.84.4-3~deb13u5 deb.debian.org [amd64])
+Conf libgirepository-1.0-1 (1.84.0-1 deb.debian.org [amd64])
+Conf gir1.2-girepository-2.0 (1.84.0-1 deb.debian.org [amd64])
+Conf python3-gi (3.50.0-4+b1 deb.debian.org [amd64])
+Conf libkf6windowsystem-data (6.13.0-2 deb.debian.org [all])
+Conf libb2-1 (0.98.1-1.1+b2 deb.debian.org [amd64])
+Conf libdouble-conversion3 (3.3.1-1 deb.debian.org [amd64])
+Conf libpcre2-16-0 (10.46-1~deb13u2 deb.debian.org [amd64])
+Conf libqt6core6t64 (6.8.2+dfsg-9+deb13u2 deb.debian.org [amd64])
+Conf libglvnd0 (1.7.0-1+b2 deb.debian.org [amd64])
+Conf libwayland-server0 (1.23.1-3 deb.debian.org [amd64])
+Conf libdrm-amdgpu1 (2.4.124-2 deb.debian.org [amd64])
+Conf libdrm-intel1 (2.4.124-2 deb.debian.org [amd64])
+Conf libedit2 (3.1-20250104-1 deb.debian.org [amd64])
+Conf libz3-4 (4.13.3-1 deb.debian.org [amd64])
+Conf libllvm19 (1:19.1.7-3+b1 deb.debian.org [amd64])
+Conf libsensors-config (1:3.6.2-2 deb.debian.org [all])
+Conf libsensors5 (1:3.6.2-2 deb.debian.org [amd64])
+Conf libx11-xcb1 (2:1.8.12-1 deb.debian.org [amd64])
+Conf libxcb-dri3-0 (1.17.0-2+b1 deb.debian.org [amd64])
+Conf libxcb-present0 (1.17.0-2+b1 deb.debian.org [amd64])
+Conf libxcb-randr0 (1.17.0-2+b1 deb.debian.org [amd64])
+Conf libxcb-sync1 (1.17.0-2+b1 deb.debian.org [amd64])
+Conf libxcb-xfixes0 (1.17.0-2+b1 deb.debian.org [amd64])
+Conf libxshmfence1 (1.3.3-1 deb.debian.org [amd64])
+Conf mesa-libgallium (25.0.7-2+deb13u1 deb.debian.org [amd64])
+Conf libgbm1 (25.0.7-2+deb13u1 deb.debian.org [amd64])
+Conf libegl-mesa0 (25.0.7-2+deb13u1 deb.debian.org [amd64])
+Conf libegl1 (1.7.0-1+b2 deb.debian.org [amd64])
+Conf libxcb-glx0 (1.17.0-2+b1 deb.debian.org [amd64])
+Conf libxxf86vm1 (1:1.1.4-1+b4 deb.debian.org [amd64])
+Conf libvulkan1 (1.4.309.0-1 deb.debian.org [amd64])
+Conf libgl1-mesa-dri (25.0.7-2+deb13u1 deb.debian.org [amd64])
+Conf libglx-mesa0 (25.0.7-2+deb13u1 deb.debian.org [amd64])
+Conf libglx0 (1.7.0-1+b2 deb.debian.org [amd64])
+Conf libice6 (2:1.1.1-1 deb.debian.org [amd64])
+Conf libevdev2 (1.13.4+dfsg-1 deb.debian.org [amd64])
+Conf libmtdev1t64 (1.1.7-1 deb.debian.org [amd64])
+Conf libgudev-1.0-0 (238-6 deb.debian.org [amd64])
+Conf libwacom-common (2.14.0-1 deb.debian.org [all])
+Conf libwacom9 (2.14.0-1 deb.debian.org [amd64])
+Conf libinput-bin (1.28.1-1+deb13u1 deb.debian.org [amd64])
+Conf libinput10 (1.28.1-1+deb13u1 deb.debian.org [amd64])
+Conf libmd4c0 (0.5.2-2+b1 deb.debian.org [amd64])
+Conf libopengl0 (1.7.0-1+b2 deb.debian.org [amd64])
+Conf libqt6dbus6 (6.8.2+dfsg-9+deb13u2 deb.debian.org [amd64])
+Conf libsm6 (2:1.2.6-1 deb.debian.org [amd64])
+Conf libts0t64 (1.22-1.1+b1 deb.debian.org [amd64])
+Conf libxcb-util1 (0.4.1-1 deb.debian.org [amd64])
+Conf libxcb-image0 (0.4.0-2+b2 deb.debian.org [amd64])
+Conf libxcb-render-util0 (0.3.10-1 deb.debian.org [amd64])
+Conf libxcb-cursor0 (0.1.5-1 deb.debian.org [amd64])
+Conf libxcb-icccm4 (0.4.2-1 deb.debian.org [amd64])
+Conf libxcb-keysyms1 (0.4.1-1 deb.debian.org [amd64])
+Conf libxcb-shape0 (1.17.0-2+b1 deb.debian.org [amd64])
+Conf libxcb-xinput0 (1.17.0-2+b1 deb.debian.org [amd64])
+Conf libxcb-xkb1 (1.17.0-2+b1 deb.debian.org [amd64])
+Conf libxkbcommon-x11-0 (1.7.0-2 deb.debian.org [amd64])
+Conf libqt6gui6 (6.8.2+dfsg-9+deb13u2 deb.debian.org [amd64])
+Conf libqt6waylandclient6 (6.8.2-4 deb.debian.org [amd64])
+Conf libxcb-res0 (1.17.0-2+b1 deb.debian.org [amd64])
+Conf libkf6windowsystem6 (6.13.0-2 deb.debian.org [amd64])
+Conf liblayershellqtinterface6 (6.3.4-1 deb.debian.org [amd64])
+Conf desktop-file-utils (0.28-1 deb.debian.org [amd64])
+Conf libqt6widgets6 (6.8.2+dfsg-9+deb13u2 deb.debian.org [amd64])
+Conf libencode-locale-perl (1.05-3 deb.debian.org [all])
+Conf libipc-system-simple-perl (1.30-2 deb.debian.org [all])
+Conf libfile-basedir-perl (0.09-2 deb.debian.org [all])
+Conf liburi-perl (5.30-1 deb.debian.org [all])
+Conf libfile-desktopentry-perl (0.22-3 deb.debian.org [all])
+Conf libfile-mimeinfo-perl (0.35-1 deb.debian.org [all])
+Conf libglib2.0-data (2.84.4-3~deb13u5 deb.debian.org [all])
+Conf libglib2.0-bin (2.84.4-3~deb13u5 deb.debian.org [amd64])
+Conf libqt6svg6 (6.8.2-3 deb.debian.org [amd64])
+Conf libqt6xdgiconloader4 (4.1.0-1+b1 deb.debian.org [amd64])
+Conf libqt6xml6 (6.8.2+dfsg-9+deb13u2 deb.debian.org [amd64])
+Conf libqt6xdg4 (4.1.0-1+b1 deb.debian.org [amd64])
+Conf libxss1 (1:1.2.3-1+b3 deb.debian.org [amd64])
+Conf liblxqt2 (2.1.0-3 deb.debian.org [amd64])
+Conf lxqt-notificationd (2.1.1-1 deb.debian.org [amd64])
+Conf libdav1d7 (1.5.1-1 deb.debian.org [amd64])
+Conf librsvg2-2 (2.60.0+dfsg-1 deb.debian.org [amd64])
+Conf librsvg2-common (2.60.0+dfsg-1 deb.debian.org [amd64])
+Conf papirus-icon-theme (20250501-1 deb.debian.org [all])
+Conf libasyncns0 (0.8-6+b5 deb.debian.org [amd64])
+Conf libogg0 (1.3.5-3+b2 deb.debian.org [amd64])
+Conf libflac14 (1.5.0+ds-2 deb.debian.org [amd64])
+Conf libmp3lame0 (3.100-6+b3 deb.debian.org [amd64])
+Conf libmpg123-0t64 (1.32.10-1+deb13u1 deb.debian.org [amd64])
+Conf libopus0 (1.5.2-2 deb.debian.org [amd64])
+Conf libvorbis0a (1.3.7-3 deb.debian.org [amd64])
+Conf libvorbisenc2 (1.3.7-3 deb.debian.org [amd64])
+Conf libsndfile1 (1.2.2-2+deb13u1 deb.debian.org [amd64])
+Conf libpulse0 (17.0+dfsg1-2+b1 deb.debian.org [amd64])
+Conf libpulse-mainloop-glib0 (17.0+dfsg1-2+b1 deb.debian.org [amd64])
+Conf gir1.2-atk-1.0 (2.56.2-1+deb13u2 deb.debian.org [amd64])
+Conf gir1.2-freedesktop (1.84.0-1 deb.debian.org [amd64])
+Conf gir1.2-gdkpixbuf-2.0 (2.42.12+dfsg-4+deb13u1 deb.debian.org [amd64])
+Conf libharfbuzz-gobject0 (10.2.0-1+deb13u1 deb.debian.org [amd64])
+Conf gir1.2-harfbuzz-0.0 (10.2.0-1+deb13u1 deb.debian.org [amd64])
+Conf libxft2 (2.3.6-1+b4 deb.debian.org [amd64])
+Conf libpangoxft-1.0-0 (1.56.3-1 deb.debian.org [amd64])
+Conf gir1.2-pango-1.0 (1.56.3-1 deb.debian.org [amd64])
+Conf gir1.2-gtk-3.0 (3.24.49-3 deb.debian.org [amd64])
+Conf python3-cairo (1.27.0-2 deb.debian.org [amd64])
+Conf python3-gi-cairo (3.50.0-4+b1 deb.debian.org [amd64])
+Conf libnm0 (1.52.1-1 deb.debian.org [amd64])
+Conf gir1.2-nm-1.0 (1.52.1-1 deb.debian.org [amd64])
+Conf sgml-base (1.31+nmu1 deb.debian.org [all])
+Conf xml-core (0.19 deb.debian.org [all])
+Conf libpolkit-gobject-1-0 (126-2 deb.debian.org [amd64])
+Conf libpolkit-agent-1-0 (126-2 deb.debian.org [amd64])
+Conf polkitd (126-2 deb.debian.org [amd64])
+Conf blueman (2.4.4-1 deb.debian.org [amd64])
+Conf gtk2-engines-pixbuf (2.24.33-7 deb.debian.org [amd64])
+Conf breeze-gtk-theme (6.3.4-1 deb.debian.org [amd64])
+Conf bubblewrap (0.12.0-1~deb13u1 deb.debian.org [amd64])
+Conf busybox (1:1.37.0-6+b9 deb.debian.org [amd64])
+Conf dmsetup (2:1.02.205-2 deb.debian.org [amd64])
+Conf libdevmapper1.02.1 (2:1.02.205-2 deb.debian.org [amd64])
+Conf libefivar1t64 (38-3.1+b1 deb.debian.org [amd64])
+Conf libefiboot1t64 (38-3.1+b1 deb.debian.org [amd64])
+Conf libfuse3-4 (3.17.2-3 deb.debian.org [amd64])
+Conf grub-common (2.12-9+deb13u2 deb.debian.org [amd64])
+Conf os-prober (1.83 deb.debian.org [amd64])
+Conf libkf6coreaddons-data (6.13.0-1 deb.debian.org [all])
+Conf libkf6coreaddons6 (6.13.0-1 deb.debian.org [amd64])
+Conf libkf6crash6 (6.13.0-1 deb.debian.org [amd64])
+Conf libkf6parts-data (6.13.0-1 deb.debian.org [all])
+Conf libkf6config-data (6.13.0-2 deb.debian.org [all])
+Conf libkf6configcore6 (6.13.0-2 deb.debian.org [amd64])
+Conf libkf6dbusaddons-data (6.13.0-1 deb.debian.org [all])
+Conf libkf6dbusaddons6 (6.13.0-1 deb.debian.org [amd64])
+Conf libkf6i18n-data (6.13.0-1 deb.debian.org [all])
+Conf libqt6network6 (6.8.2+dfsg-9+deb13u2 deb.debian.org [amd64])
+Conf libqt6qml6 (6.8.2+dfsg-7 deb.debian.org [amd64])
+Conf libkf6i18n6 (6.13.0-1 deb.debian.org [amd64])
+Conf libkf6service-data (6.13.0-1 deb.debian.org [all])
+Conf libkf6service6 (6.13.0-1 deb.debian.org [amd64])
+Conf libkf6service-bin (6.13.0-1 deb.debian.org [amd64])
+Conf kded6 (6.13.0-1 deb.debian.org [amd64])
+Conf libkf6wallet-data (6.13.0-1 deb.debian.org [all])
+Conf libassuan9 (3.0.2-2 deb.debian.org [amd64])
+Conf gpgconf (2.4.7-21+deb13u1+b5 deb.debian.org [amd64])
+Conf libksba8 (1.6.7-2+b1 deb.debian.org [amd64])
+Conf libnpth0t64 (1.8-3 deb.debian.org [amd64])
+Conf dirmngr (2.4.7-21+deb13u1+b5 deb.debian.org [amd64])
+Conf gnupg-l10n (2.4.7-21+deb13u1 deb.debian.org [all])
+Conf gpg (2.4.7-21+deb13u1+b5 deb.debian.org [amd64])
+Conf pinentry-curses (1.3.1-2 deb.debian.org [amd64])
+Conf gpg-agent (2.4.7-21+deb13u1+b5 deb.debian.org [amd64])
+Conf gpgsm (2.4.7-21+deb13u1+b5 deb.debian.org [amd64])
+Conf gnupg (2.4.7-21+deb13u1 deb.debian.org [all])
+Conf libgpgme11t64 (1.24.2-3 deb.debian.org [amd64])
+Conf libgpgmepp6t64 (1.24.2-3 deb.debian.org [amd64])
+Conf libkf6notifications-data (6.13.0-1 deb.debian.org [all])
+Conf libltdl7 (2.5.4-4 deb.debian.org [amd64])
+Conf libtdb1 (2:1.4.13+samba4.22.11+dfsg-0+deb13u1 deb.debian.org [amd64])
+Conf libvorbisfile3 (1.3.7-3 deb.debian.org [amd64])
+Conf sound-theme-freedesktop (0.8-6~deb13u1 deb.debian.org [all])
+Conf libcanberra0 (0.30-18 deb.debian.org [amd64])
+Conf libkf6notifications6 (6.13.0-1 deb.debian.org [amd64])
+Conf libkf6widgetsaddons-data (6.13.0-1 deb.debian.org [all])
+Conf libkf6widgetsaddons6 (6.13.0-1 deb.debian.org [amd64])
+Conf libkf6walletbackend6 (6.13.0-1 deb.debian.org [amd64])
+Conf libkf6colorscheme-data (6.13.0-1 deb.debian.org [all])
+Conf libkf6configgui6 (6.13.0-2 deb.debian.org [amd64])
+Conf libkf6guiaddons-data (6.13.0-1 deb.debian.org [all])
+Conf libkf6guiaddons6 (6.13.0-1 deb.debian.org [amd64])
+Conf libkf6colorscheme6 (6.13.0-1 deb.debian.org [amd64])
+Conf libkf6wallet6 (6.13.0-1 deb.debian.org [amd64])
+Conf libqt6core5compat6 (6.8.2-3+b1 deb.debian.org [amd64])
+Conf libqca-qt6-2 (2.3.10-1 deb.debian.org [amd64])
+Conf kwallet6 (6.13.0-1 deb.debian.org [amd64])
+Conf libkf6archive-data (6.13.0-2 deb.debian.org [all])
+Conf libkf6archive6 (6.13.0-2 deb.debian.org [amd64])
+Conf libkf6auth-data (6.13.0-1 deb.debian.org [all])
+Conf libpolkit-qt6-1-1 (0.200.0-4+b1 deb.debian.org [amd64])
+Conf libkf6authcore6 (6.13.0-1 deb.debian.org [amd64])
+Conf libxslt1.1 (1.1.35-1.2+deb13u3 deb.debian.org [amd64])
+Conf libkf6doctools6 (6.13.0-1 deb.debian.org [amd64])
+Conf libkf6kiocore6 (6.13.0-6 deb.debian.org [amd64])
+Conf libkf6solid-data (6.13.0-1 deb.debian.org [all])
+Conf libplist-2.0-4 (2.6.0-2+b1 deb.debian.org [amd64])
+Conf libimobiledevice-glue-1.0-0 (1.3.1-1 deb.debian.org [amd64])
+Conf libusbmuxd-2.0-7 (2.1.0-1+b1 deb.debian.org [amd64])
+Conf libimobiledevice-1.0-6 (1.3.0+git20250228-2 deb.debian.org [amd64])
+Conf libkf6solid6 (6.13.0-1 deb.debian.org [amd64])
+Conf libkf6kiogui6 (6.13.0-6 deb.debian.org [amd64])
+Conf kio6 (6.13.0-6 deb.debian.org [amd64])
+Conf libkf6xmlgui-data (6.13.0-1 deb.debian.org [all])
+Conf libkf6configwidgets-data (6.13.0-1 deb.debian.org [all])
+Conf libkf6codecs-data (6.13.0-1 deb.debian.org [all])
+Conf libkf6codecs6 (6.13.0-1 deb.debian.org [amd64])
+Conf libkf6configwidgets6 (6.13.0-1 deb.debian.org [amd64])
+Conf libkf6globalaccel-data (6.13.0-1 deb.debian.org [all])
+Conf libkf6globalaccel6 (6.13.0-1 deb.debian.org [amd64])
+Conf libkf6iconthemes-data (6.13.0-2 deb.debian.org [all])
+Conf libkf6breezeicons6 (6.13.0-3 deb.debian.org [amd64])
+Conf libkf6iconthemes6 (6.13.0-2 deb.debian.org [amd64])
+Conf libkf6iconwidgets6 (6.13.0-2 deb.debian.org [amd64])
+Conf libkf6itemviews-data (6.13.0-1 deb.debian.org [all])
+Conf libkf6itemviews6 (6.13.0-1 deb.debian.org [amd64])
+Conf libqt6printsupport6 (6.8.2+dfsg-9+deb13u2 deb.debian.org [amd64])
+Conf libkf6xmlgui6 (6.13.0-1 deb.debian.org [amd64])
+Conf libkf6parts6 (6.13.0-1 deb.debian.org [amd64])
+Conf libkpmcore12 (24.12.3-2 deb.debian.org [amd64])
+Conf libparted2t64 (3.6-5 deb.debian.org [amd64])
+Conf libpwquality-common (1.4.5-5 deb.debian.org [all])
+Conf libcrack2 (2.9.6-5.2+b1 deb.debian.org [amd64])
+Conf libpwquality1 (1.4.5-5 deb.debian.org [amd64])
+Conf libpython3.13 (3.13.5-2+deb13u5 deb.debian.org [amd64])
+Conf libqt6opengl6 (6.8.2+dfsg-9+deb13u2 deb.debian.org [amd64])
+Conf libqt6qmlmodels6 (6.8.2+dfsg-7 deb.debian.org [amd64])
+Conf libqt6qmlworkerscript6 (6.8.2+dfsg-7 deb.debian.org [amd64])
+Conf libqt6qmlmeta6 (6.8.2+dfsg-7 deb.debian.org [amd64])
+Conf libqt6quick6 (6.8.2+dfsg-7 deb.debian.org [amd64])
+Conf libqt6quickwidgets6 (6.8.2+dfsg-7 deb.debian.org [amd64])
+Conf libyaml-cpp0.8 (0.8.0+dfsg-7 deb.debian.org [amd64])
+Conf calamares (3.3.14-1 deb.debian.org [amd64])
+Conf libjson-c5 (0.18+ds-1 deb.debian.org [amd64])
+Conf libcryptsetup12 (2:2.7.5-2 deb.debian.org [amd64])
+Conf cryptsetup-bin (2:2.7.5-2 deb.debian.org [amd64])
+Conf cryptsetup (2:2.7.5-2 deb.debian.org [amd64])
+Conf keyutils (1.6.3-6 deb.debian.org [amd64])
+Conf pkexec (126-2 deb.debian.org [amd64])
+Conf libqt5core5t64 (5.15.15+dfsg-6+deb13u1 deb.debian.org [amd64])
+Conf libgl1 (1.7.0-1+b2 deb.debian.org [amd64])
+Conf libqt5dbus5t64 (5.15.15+dfsg-6+deb13u1 deb.debian.org [amd64])
+Conf libqt5network5t64 (5.15.15+dfsg-6+deb13u1 deb.debian.org [amd64])
+Conf libxcb-xinerama0 (1.17.0-2+b1 deb.debian.org [amd64])
+Conf libqt5gui5t64 (5.15.15+dfsg-6+deb13u1 deb.debian.org [amd64])
+Conf libqt5qml5 (5.15.15+dfsg-3 deb.debian.org [amd64])
+Conf libqt5qmlmodels5 (5.15.15+dfsg-3 deb.debian.org [amd64])
+Conf libqt5quick5 (5.15.15+dfsg-3 deb.debian.org [amd64])
+Conf qml-module-qtquick-window2 (5.15.15+dfsg-3 deb.debian.org [amd64])
+Conf libqt5qmlworkerscript5 (5.15.15+dfsg-3 deb.debian.org [amd64])
+Conf qml-module-qtquick2 (5.15.15+dfsg-3 deb.debian.org [amd64])
+Conf calamares-settings-debian (13.0.13-1 deb.debian.org [all])
+Conf libisl23 (0.27-1 deb.debian.org [amd64])
+Conf libmpfr6 (4.2.2-1 deb.debian.org [amd64])
+Conf libmpc3 (1.3.1-1+b3 deb.debian.org [amd64])
+Conf cpp-14-x86-64-linux-gnu (14.2.0-19 deb.debian.org [amd64])
+Conf cpp-14 (14.2.0-19 deb.debian.org [amd64])
+Conf cpp-x86-64-linux-gnu (4:14.2.0-1 deb.debian.org [amd64])
+Conf cpp (4:14.2.0-1 deb.debian.org [amd64])
+Conf cryptsetup-initramfs (2:2.7.5-2 deb.debian.org [all])
+Conf libcurl4t64 (8.14.1-2+deb13u5 deb.debian.org [amd64])
+Conf curl (8.14.1-2+deb13u5 deb.debian.org [amd64])
+Conf fonts-quicksand (0.2016-2.1 deb.debian.org [all])
+Conf desktop-base (13.0.4 deb.debian.org [all])
+Conf dosfstools (4.2-1.2 deb.debian.org [amd64])
+Conf efibootmgr (18-2 deb.debian.org [amd64])
+Conf exfatprogs (1.2.9-1+deb13u1 deb.debian.org [amd64])
+Conf libhunspell-1.7-0 (1.7.2+really1.7.2-10+b4 deb.debian.org [amd64])
+Conf featherpad (1.6.1-1 deb.debian.org [amd64])
+Conf libevent-2.1-7t64 (2.1.12-stable-10+b1 deb.debian.org [amd64])
+Conf libvpx9 (1.15.0-2.1+deb13u1 deb.debian.org [amd64])
+Conf firefox-esr (140.15.0esr-1~deb13u1 deb.debian.org [amd64])
+Conf firefox-esr-l10n-ar (140.15.0esr-1~deb13u1 deb.debian.org [all])
+Conf firmware-atheros (20250410-2 deb.debian.org [all])
+Conf firmware-iwlwifi (20250410-2 deb.debian.org [all])
+Conf firmware-linux-free (20241210-2 deb.debian.org [all])
+Conf firmware-realtek (20250410-2 deb.debian.org [all])
+Conf fuse3 (3.17.2-3 deb.debian.org [amd64])
+Conf xdg-dbus-proxy (0.1.6-1+deb13u2 deb.debian.org [amd64])
+Conf libstemmer0d (2.2.0-4+b2 deb.debian.org [amd64])
+Conf libxmlb2 (0.3.22-1 deb.debian.org [amd64])
+Conf libyaml-0-2 (0.2.5-2 deb.debian.org [amd64])
+Conf libappstream5 (1.0.5-1 deb.debian.org [amd64])
+Conf libarchive13t64 (3.7.4-4+deb13u1 deb.debian.org [amd64])
+Conf libmalcontent-0-0 (0.13.0-2+deb13u1 deb.debian.org [amd64])
+Conf libavahi-glib1 (0.8-16 deb.debian.org [amd64])
+Conf libostree-1-1 (2025.2-1 deb.debian.org [amd64])
+Conf flatpak (1.16.6-1~deb13u2 deb.debian.org [amd64])
+Conf fonts-cantarell (0.303.1-4 deb.debian.org [all])
+Conf fonts-hosny-amiri (1.001-1 deb.debian.org [all])
+Conf fonts-noto-ui-core (20201225-2 deb.debian.org [all])
+Conf gdisk (1.0.10-2 deb.debian.org [amd64])
+Conf grub-efi-amd64-unsigned (2.12-9+deb13u2 deb.debian.org [amd64])
+Conf grub-efi-amd64-bin (2.12-9+deb13u2 deb.debian.org [amd64])
+Conf grub-pc-bin (2.12-9+deb13u2 deb.debian.org [amd64])
+Conf grub2-common (2.12-9+deb13u2 deb.debian.org [amd64])
+Conf libcdparanoia0 (3.10.2+debian-14+b1 deb.debian.org [amd64])
+Conf libcap2-bin (1:2.75-10+deb13u1+b3 deb.debian.org [amd64])
+Conf libgstreamer1.0-0 (1.26.2-2 deb.debian.org [amd64])
+Conf liborc-0.4-0t64 (1:0.4.41-1 deb.debian.org [amd64])
+Conf iso-codes (4.18.0-1 deb.debian.org [all])
+Conf libgstreamer-plugins-base1.0-0 (1.26.2-1+deb13u1 deb.debian.org [amd64])
+Conf libtheoradec1 (1.2.0~alpha1+dfsg-6 deb.debian.org [amd64])
+Conf libtheoraenc1 (1.2.0~alpha1+dfsg-6 deb.debian.org [amd64])
+Conf libvisual-0.4-0 (0.4.2-2+b2 deb.debian.org [amd64])
+Conf gstreamer1.0-plugins-base (1.26.2-1+deb13u1 deb.debian.org [amd64])
+Conf libgpm2 (1.20.7-11+b2 deb.debian.org [amd64])
+Conf libncurses6 (6.5+20250216-2 deb.debian.org [amd64])
+Conf libslang2 (2.3.3-5+b2 deb.debian.org [amd64])
+Conf libaa1 (1.4p5-51.1+b1 deb.debian.org [amd64])
+Conf libraw1394-11 (2.1.2-2+b2 deb.debian.org [amd64])
+Conf libavc1394-0 (0.5.4-5+b2 deb.debian.org [amd64])
+Conf libcaca0 (0.99.beta20-5+deb13u1 deb.debian.org [amd64])
+Conf libdv4t64 (1.0.0-17.1+b1 deb.debian.org [amd64])
+Conf libiec61883-0 (1.2.0-7 deb.debian.org [amd64])
+Conf libopencore-amrnb0 (0.1.6-1+b2 deb.debian.org [amd64])
+Conf libopencore-amrwb0 (0.1.6-1+b2 deb.debian.org [amd64])
+Conf libspeex1 (1.2.1-3 deb.debian.org [amd64])
+Conf libtheora0 (1.2.0~alpha1+dfsg-6 deb.debian.org [amd64])
+Conf libshout3 (2.4.6-1+b3 deb.debian.org [amd64])
+Conf libtag2 (2.0.2-2 deb.debian.org [amd64])
+Conf libtwolame0 (0.4.0-2+b2 deb.debian.org [amd64])
+Conf libv4lconvert0t64 (1.30.1-1 deb.debian.org [amd64])
+Conf libv4l-0t64 (1.30.1-1 deb.debian.org [amd64])
+Conf libwavpack1 (5.8.1-1 deb.debian.org [amd64])
+Conf libxtst6 (2:1.2.5-1 deb.debian.org [amd64])
+Conf gstreamer1.0-plugins-good (1.26.2-1+deb13u2 deb.debian.org [amd64])
+Conf gvfs-common (1.57.2-2+deb13u1 deb.debian.org [all])
+Conf libgck-2-2 (4.4.0.1-3 deb.debian.org [amd64])
+Conf libgcr-4-4 (4.4.0.1-3 deb.debian.org [amd64])
+Conf gvfs-libs (1.57.2-2+deb13u1 deb.debian.org [amd64])
+Conf libudisks2-0 (2.10.1-12.1+deb13u2 deb.debian.org [amd64])
+Conf libblockdev-utils3 (3.3.0-2.1 deb.debian.org [amd64])
+Conf libvolume-key1 (0.3.12-9 deb.debian.org [amd64])
+Conf libblockdev-crypto3 (3.3.0-2.1 deb.debian.org [amd64])
+Conf libblockdev-fs3 (3.3.0-2.1 deb.debian.org [amd64])
+Conf libblockdev-loop3 (3.3.0-2.1 deb.debian.org [amd64])
+Conf libbytesize-common (2.11-2 deb.debian.org [all])
+Conf libbytesize1 (2.11-2 deb.debian.org [amd64])
+Conf libblockdev-mdraid3 (3.3.0-2.1 deb.debian.org [amd64])
+Conf libnvme1t64 (1.13-2 deb.debian.org [amd64])
+Conf libblockdev-nvme3 (3.3.0-2.1 deb.debian.org [amd64])
+Conf libblockdev-part3 (3.3.0-2.1 deb.debian.org [amd64])
+Conf libblockdev-swap3 (3.3.0-2.1 deb.debian.org [amd64])
+Conf parted (3.6-5 deb.debian.org [amd64])
+Conf libatasmart4 (0.19-5+b2 deb.debian.org [amd64])
+Conf libblockdev3 (3.3.0-2.1 deb.debian.org [amd64])
+Conf udisks2 (2.10.1-12.1+deb13u2 deb.debian.org [amd64])
+Conf libudfread0 (1.1.2-1+b2 deb.debian.org [amd64])
+Conf libbluray2 (1:1.3.4-1+b2 deb.debian.org [amd64])
+Conf gvfs-daemons (1.57.2-2+deb13u1 deb.debian.org [amd64])
+Conf gvfs (1.57.2-2+deb13u1 deb.debian.org [amd64])
+Conf psmisc (23.7-2 deb.debian.org [amd64])
+Conf libcdio19t64 (2.2.0-4.1~deb13u1 deb.debian.org [amd64])
+Conf libcdio-cdda2t64 (10.2+2.0.2-1+b1 deb.debian.org [amd64])
+Conf libcdio-paranoia2t64 (10.2+2.0.2-1+b1 deb.debian.org [amd64])
+Conf libgoa-1.0-common (3.54.5-1~deb13u1 deb.debian.org [all])
+Conf libgoa-1.0-0b (3.54.5-1~deb13u1 deb.debian.org [amd64])
+Conf libsoup2.4-common (2.74.3-10.1 deb.debian.org [all])
+Conf libsoup-2.4-1 (2.74.3-10.1 deb.debian.org [amd64])
+Conf libgdata-common (0.18.1-9 deb.debian.org [all])
+Conf libgdata22 (0.18.1-9 deb.debian.org [amd64])
+Conf libexif12 (0.6.25-1+deb13u1 deb.debian.org [amd64])
+Conf libaom3 (3.12.1-1+deb13u1 deb.debian.org [amd64])
+Conf libgav1-1 (0.19.0-3+b1 deb.debian.org [amd64])
+Conf librav1e0.7 (0.7.1-9+b2 deb.debian.org [amd64])
+Conf libsvtav1enc2 (2.3.0+dfsg-1 deb.debian.org [amd64])
+Conf libyuv0 (0.0.1904.20250204-1 deb.debian.org [amd64])
+Conf libavif16 (1.2.1-1.2 deb.debian.org [amd64])
+Conf libheif-plugin-dav1d (1.19.8-1+deb13u1 deb.debian.org [amd64])
+Conf libde265-0 (1.0.15-1+deb13u2 deb.debian.org [amd64])
+Conf libheif-plugin-libde265 (1.19.8-1+deb13u1 deb.debian.org [amd64])
+Conf libheif1 (1.19.8-1+deb13u1 deb.debian.org [amd64])
+Conf libimagequant0 (2.18.0-1+b2 deb.debian.org [amd64])
+Conf libxpm4 (1:3.5.17-1+deb13u1 deb.debian.org [amd64])
+Conf libgd3 (2.3.3-14~deb13u1 deb.debian.org [amd64])
+Conf libusb-1.0-0 (2:1.0.28-1 deb.debian.org [amd64])
+Conf libgphoto2-port12t64 (2.5.31-4 deb.debian.org [amd64])
+Conf libgphoto2-6t64 (2.5.31-4 deb.debian.org [amd64])
+Conf libmsgraph-1-1 (0.3.3-3 deb.debian.org [amd64])
+Conf libmtp-common (1.1.22-1 deb.debian.org [all])
+Conf libmtp9t64 (1.1.22-1 deb.debian.org [amd64])
+Conf libnfs14 (5.0.2-1+deb13u1 deb.debian.org [amd64])
+Conf libjansson4 (2.14-2+b3 deb.debian.org [amd64])
+Conf liblmdb0 (0.9.31-1+b2 deb.debian.org [amd64])
+Conf libtalloc2 (2:2.4.3+samba4.22.11+dfsg-0+deb13u1 deb.debian.org [amd64])
+Conf libtevent0t64 (2:0.16.2+samba4.22.11+dfsg-0+deb13u1 deb.debian.org [amd64])
+Conf libldb2 (2:2.11.0+samba4.22.11+dfsg-0+deb13u1 deb.debian.org [amd64])
+Conf libwbclient0 (2:4.22.11+dfsg-0+deb13u1 deb.debian.org [amd64])
+Conf samba-libs (2:4.22.11+dfsg-0+deb13u1 deb.debian.org [amd64])
+Conf libsmbclient0 (2:4.22.11+dfsg-0+deb13u1 deb.debian.org [amd64])
+Conf gvfs-backends (1.57.2-2+deb13u1 deb.debian.org [amd64])
+Conf gvfs-fuse (1.57.2-2+deb13u1 deb.debian.org [amd64])
+Conf libgraphene-1.0-0 (1.10.8-5 deb.debian.org [amd64])
+Conf liblzo2-2 (2.10-3+b1 deb.debian.org [amd64])
+Conf libcairo-script-interpreter2 (1.18.4-1+b1 deb.debian.org [amd64])
+Conf libharfbuzz-subset0 (10.2.0-1+deb13u1 deb.debian.org [amd64])
+Conf libgles2 (1.7.0-1+b2 deb.debian.org [amd64])
+Conf libgtk-4-common (4.18.6+ds-2 deb.debian.org [all])
+Conf libgtk-4-1 (4.18.6+ds-2 deb.debian.org [amd64])
+Conf libadwaita-1-0 (1.7.6-1~deb13u1 deb.debian.org [amd64])
+Conf libapt-pkg7.0 (3.0.3 deb.debian.org [amd64])
+Conf libunibreak6 (6.1-3 deb.debian.org [amd64])
+Conf libass9 (1:0.17.3-1+deb13u1 deb.debian.org [amd64])
+Conf libva2 (2.22.0-3 deb.debian.org [amd64])
+Conf libva-drm2 (2.22.0-3 deb.debian.org [amd64])
+Conf libva-x11-2 (2.22.0-3 deb.debian.org [amd64])
+Conf libvdpau1 (1.5-3+b1 deb.debian.org [amd64])
+Conf libvpl2 (1:2.14.0-1+b1 deb.debian.org [amd64])
+Conf ocl-icd-libopencl1 (2.3.3-1 deb.debian.org [amd64])
+Conf libavutil59 (7:7.1.5-0+deb13u1 deb.debian.org [amd64])
+Conf libcodec2-1.2 (1.2.0-3 deb.debian.org [amd64])
+Conf libgsm1 (1.0.22-1+b2 deb.debian.org [amd64])
+Conf libhwy1t64 (1.2.0-2+b2 deb.debian.org [amd64])
+Conf libjxl0.11 (0.11.2-0.1~deb13u2 deb.debian.org [amd64])
+Conf libopenjp2-7 (2.5.3-2.1~deb13u2 deb.debian.org [amd64])
+Conf libshine3 (3.1.1-2+b2 deb.debian.org [amd64])
+Conf libsnappy1v5 (1.2.2-1 deb.debian.org [amd64])
+Conf libsoxr0 (0.1.3-4+b2 deb.debian.org [amd64])
+Conf libswresample5 (7:7.1.5-0+deb13u1 deb.debian.org [amd64])
+Conf libwebpmux3 (1.5.0-0.1 deb.debian.org [amd64])
+Conf libx264-164 (2:0.164.3108+git31e19f9-2+b1 deb.debian.org [amd64])
+Conf libnuma1 (2.0.19-1 deb.debian.org [amd64])
+Conf libx265-215 (4.1-2 deb.debian.org [amd64])
+Conf libxvidcore4 (2:1.3.7-1+b2 deb.debian.org [amd64])
+Conf libzvbi-common (0.2.44-1 deb.debian.org [all])
+Conf libzvbi0t64 (0.2.44-1 deb.debian.org [amd64])
+Conf libavcodec61 (7:7.1.5-0+deb13u1 deb.debian.org [amd64])
+Conf libchromaprint1 (1.5.1-7 deb.debian.org [amd64])
+Conf libdvdread8t64 (6.1.3-2 deb.debian.org [amd64])
+Conf libdvdnav4 (6.1.1-3+b1 deb.debian.org [amd64])
+Conf libgme0 (0.6.3-7+b2 deb.debian.org [amd64])
+Conf libopenmpt0t64 (0.7.13-1+b1 deb.debian.org [amd64])
+Conf librabbitmq4 (0.15.0-1+deb13u2 deb.debian.org [amd64])
+Conf libcjson1 (1.7.18-3.1+deb13u1 deb.debian.org [amd64])
+Conf libmbedcrypto16 (3.6.6-0.1~deb13u1 deb.debian.org [amd64])
+Conf librist4 (0.2.11+dfsg-1 deb.debian.org [amd64])
+Conf libsrt1.5-gnutls (1.5.4-1+deb13u1 deb.debian.org [amd64])
+Conf libssh-4 (0.11.5-0+deb13u1 deb.debian.org [amd64])
+Conf libnorm1t64 (1.5.9+dfsg-3.1+b2 deb.debian.org [amd64])
+Conf libpgm-5.3-0t64 (5.3.128~dfsg-2.1+b1 deb.debian.org [amd64])
+Conf libsodium23 (1.0.18-1+deb13u1 deb.debian.org [amd64])
+Conf libzmq5 (4.3.5-1+b3 deb.debian.org [amd64])
+Conf libavformat61 (7:7.1.5-0+deb13u1 deb.debian.org [amd64])
+Conf libbs2b0 (3.1.0+dfsg-8+b1 deb.debian.org [amd64])
+Conf libflite1 (2.2-7 deb.debian.org [amd64])
+Conf libserd-0-0 (0.32.4-1 deb.debian.org [amd64])
+Conf libzix-0-0 (0.6.2-1 deb.debian.org [amd64])
+Conf libsord-0-0 (0.16.18-1 deb.debian.org [amd64])
+Conf libsratom-0-0 (0.6.18-1 deb.debian.org [amd64])
+Conf liblilv-0-0 (0.24.26-1 deb.debian.org [amd64])
+Conf libmysofa1 (1.3.3+dfsg-1 deb.debian.org [amd64])
+Conf libplacebo349 (7.349.0-3 deb.debian.org [amd64])
+Conf libblas3 (3.12.1-6 deb.debian.org [amd64])
+Conf libgfortran5 (14.2.0-19 deb.debian.org [amd64])
+Conf liblapack3 (3.12.1-6 deb.debian.org [amd64])
+Conf libsphinxbase3t64 (0.8+5prealpha+1-21+b1 deb.debian.org [amd64])
+Conf libpocketsphinx3 (0.8+5prealpha+1-15+b4 deb.debian.org [amd64])
+Conf libpostproc58 (7:7.1.5-0+deb13u1 deb.debian.org [amd64])
+Conf libfftw3-double3 (3.3.10-2+b1 deb.debian.org [amd64])
+Conf librubberband2 (3.3.0+dfsg-2+b3 deb.debian.org [amd64])
+Conf libswscale8 (7:7.1.5-0+deb13u1 deb.debian.org [amd64])
+Conf libvidstab1.1 (1.1.0-2+b2 deb.debian.org [amd64])
+Conf libzimg2 (3.0.5+ds1-1+b2 deb.debian.org [amd64])
+Conf libavfilter10 (7:7.1.5-0+deb13u1 deb.debian.org [amd64])
+Conf libdc1394-25 (2.2.6-5 deb.debian.org [amd64])
+Conf libjack-jackd2-0 (1.9.22~dfsg-4 deb.debian.org [amd64])
+Conf libopenal-data (1:1.24.2-1 deb.debian.org [all])
+Conf libopenal1 (1:1.24.2-1 deb.debian.org [amd64])
+Conf libdecor-0-0 (0.2.2-2 deb.debian.org [amd64])
+Conf libsdl2-2.0-0 (2.32.4+dfsg-1 deb.debian.org [amd64])
+Conf libxv1 (2:1.0.11-1.1+b3 deb.debian.org [amd64])
+Conf libavdevice61 (7:7.1.5-0+deb13u1 deb.debian.org [amd64])
+Conf libayatana-ido3-0.4-0 (0.10.4-1 deb.debian.org [amd64])
+Conf libayatana-indicator3-7 (0.9.4-1+b1 deb.debian.org [amd64])
+Conf libdbusmenu-glib4 (18.10.20180917~bzr492+repack1-4 deb.debian.org [amd64])
+Conf libdbusmenu-gtk3-4 (18.10.20180917~bzr492+repack1-4 deb.debian.org [amd64])
+Conf libayatana-appindicator3-1 (0.5.94-1 deb.debian.org [amd64])
+Conf libclone-perl (0.47-1+b1 deb.debian.org [amd64])
+Conf libconfig++11 (1.7.3-2 deb.debian.org [amd64])
+Conf libdbusmenu-lxqt0 (0.2.0-1 deb.debian.org [amd64])
+Conf libdisplay-info2 (0.2.0-2 deb.debian.org [amd64])
+Conf libdrm-nouveau2 (2.4.124-2 deb.debian.org [amd64])
+Conf libdrm-radeon1 (2.4.124-2 deb.debian.org [amd64])
+Conf libebur128-1 (1.2.6-1+b2 deb.debian.org [amd64])
+Conf libsigc++-2.0-0v5 (2.12.1-3 deb.debian.org [amd64])
+Conf libglibmm-2.4-1t64 (2.66.8-1 deb.debian.org [amd64])
+Conf libxml++2.6-2v5 (2.42.3-2 deb.debian.org [amd64])
+Conf libffado2 (2.4.9-2 deb.debian.org [amd64])
+Conf libtimedate-perl (2.3300-2 deb.debian.org [all])
+Conf libhttp-date-perl (6.06-1 deb.debian.org [all])
+Conf libfile-listing-perl (6.16-1 deb.debian.org [all])
+Conf libfm-extra4t64 (1.4.0-2 deb.debian.org [amd64])
+Conf lxqt-menu-data (2.1.0-1 deb.debian.org [all])
+Conf libmenu-cache-bin (1.1.1-1 deb.debian.org [amd64])
+Conf libmenu-cache3 (1.1.1-1 deb.debian.org [amd64])
+Conf libfm-qt6-15 (2.1.0-1+b1 deb.debian.org [amd64])
+Conf libfuse2t64 (2.9.9-9 deb.debian.org [amd64])
+Conf libgif7 (5.2.2-1+deb13u1 deb.debian.org [amd64])
+Conf libgs-common (10.05.1~dfsg-1+deb13u1 deb.debian.org [all])
+Conf libgs10-common (10.05.1~dfsg-1+deb13u1 deb.debian.org [all])
+Conf libidn12 (1.43-1 deb.debian.org [amd64])
+Conf libijs-0.35 (0.35-15.2 deb.debian.org [amd64])
+Conf libjbig2dec0 (0.20-1+b3 deb.debian.org [amd64])
+Conf libpaper2 (2.2.5-0.3+b2 deb.debian.org [amd64])
+Conf libxt6t64 (1:1.2.1-1.2+b2 deb.debian.org [amd64])
+Conf libgs10 (10.05.1~dfsg-1+deb13u1 deb.debian.org [amd64])
+Conf libhtml-tagset-perl (3.24-1 deb.debian.org [all])
+Conf libhtml-parser-perl (3.83-2~deb13u1 deb.debian.org [amd64])
+Conf libhtml-tree-perl (5.07-3 deb.debian.org [all])
+Conf libio-html-perl (1.004-3 deb.debian.org [all])
+Conf liblwp-mediatypes-perl (6.04-2 deb.debian.org [all])
+Conf libhttp-message-perl (7.00-2 deb.debian.org [all])
+Conf libhttp-cookies-perl (6.11-1 deb.debian.org [all])
+Conf libhttp-negotiate-perl (6.01-2 deb.debian.org [all])
+Conf libid3tag0 (0.16.3-1 deb.debian.org [amd64])
+Conf libspectre1 (0.2.12-1+b2 deb.debian.org [amd64])
+Conf libwebpdemux2 (1.5.0-0.1 deb.debian.org [amd64])
+Conf libimlib2t64 (1.12.4-2 deb.debian.org [amd64])
+Conf perl-openssl-defaults (7+b2 deb.debian.org [amd64])
+Conf libnet-ssleay-perl (1.94-3 deb.debian.org [amd64])
+Conf libio-socket-ssl-perl (2.089-1 deb.debian.org [all])
+Conf libkf6idletime6 (6.13.0-1 deb.debian.org [amd64])
+Conf libkscreen-data (4:6.3.4-1 deb.debian.org [all])
+Conf libkf6screen8 (4:6.3.4-1 deb.debian.org [amd64])
+Conf libxcb-dpms0 (1.17.0-2+b1 deb.debian.org [amd64])
+Conf libkf6screendpms8 (4:6.3.4-1 deb.debian.org [amd64])
+Conf libkscreen-bin (4:6.3.4-1 deb.debian.org [amd64])
+Conf liblua5.2-0 (5.2.4-3+b3 deb.debian.org [amd64])
+Conf liblua5.4-0 (5.4.7-1+b2 deb.debian.org [amd64])
+Conf libnet-http-perl (6.23-1 deb.debian.org [all])
+Conf libtry-tiny-perl (0.32-1 deb.debian.org [all])
+Conf libwww-robotrules-perl (6.02-1 deb.debian.org [all])
+Conf libwww-perl (6.78-1 deb.debian.org [all])
+Conf liblwp-protocol-https-perl (6.14-1 deb.debian.org [all])
+Conf liblxqt-globalkeys2 (2.1.0-2 deb.debian.org [amd64])
+Conf liblxqt-globalkeys-ui2 (2.1.0-2 deb.debian.org [amd64])
+Conf libmm-glib0 (1.24.0-1+deb13u1 deb.debian.org [amd64])
+Conf libmujs3 (1.3.6-1 deb.debian.org [amd64])
+Conf libmuparser2v5 (2.3.4-1+b1 deb.debian.org [amd64])
+Conf libndp0 (1.9-1+b1 deb.debian.org [amd64])
+Conf libnewt0.52 (0.52.25-1 deb.debian.org [amd64])
+Conf libnl-3-200 (3.7.0-2 deb.debian.org [amd64])
+Conf libnl-genl-3-200 (3.7.0-2 deb.debian.org [amd64])
+Conf libnl-route-3-200 (3.7.0-2 deb.debian.org [amd64])
+Conf libnma-common (1.10.6-5 deb.debian.org [all])
+Conf libnma0 (1.10.6-5 deb.debian.org [amd64])
+Conf libntfs-3g89t64 (1:2022.10.3-5+deb13u2 deb.debian.org [amd64])
+Conf libobt2v5 (3.6.1-12+b2 deb.debian.org [amd64])
+Conf libobrender32v5 (3.6.1-12+b2 deb.debian.org [amd64])
+Conf libopenfec1 (1.4.2.11+dfsg-1 deb.debian.org [amd64])
+Conf libpcsclite1 (2.3.3-1 deb.debian.org [amd64])
+Conf libwebrtc-audio-processing-1-3 (1.3-3+b1 deb.debian.org [amd64])
+Conf libspa-0.2-modules (1.4.2-1 deb.debian.org [amd64])
+Conf libpipewire-0.3-0t64 (1.4.2-1 deb.debian.org [amd64])
+Conf libspeexdsp1 (1.2.1-3 deb.debian.org [amd64])
+Conf libuv1t64 (1.50.0-2 deb.debian.org [amd64])
+Conf libroc0.4 (0.4.0+dfsg-5 deb.debian.org [amd64])
+Conf libpipewire-0.3-modules (1.4.2-1 deb.debian.org [amd64])
+Conf libplymouth5 (24.004.60-5 deb.debian.org [amd64])
+Conf libqt6svgwidgets6 (6.8.2-3 deb.debian.org [amd64])
+Conf qtermwidget-data (2.1.0-1 deb.debian.org [all])
+Conf libutf8proc3 (2.9.0-1+b2 deb.debian.org [amd64])
+Conf libqtermwidget6-2 (2.1.0-1 deb.debian.org [amd64])
+Conf librsvg2-bin (2.60.0+dfsg-1 deb.debian.org [amd64])
+Conf libsixel1 (1.10.5-1 deb.debian.org [amd64])
+Conf libsndio7.0 (1.10.0-0.1 deb.debian.org [amd64])
+Conf libstartup-notification0 (0.12-8 deb.debian.org [amd64])
+Conf libstatgrab10t64 (0.92.1-1.2 deb.debian.org [amd64])
+Conf libsysstat-qt6-1 (1.1.0-1 deb.debian.org [amd64])
+Conf libteamdctl0 (1.31-1+b2 deb.debian.org [amd64])
+Conf libuchardet0 (0.0.8-1+b2 deb.debian.org [amd64])
+Conf libunwind8 (1.8.1-0.1 deb.debian.org [amd64])
+Conf libupower-glib3 (1.90.9-1 deb.debian.org [amd64])
+Conf libva-wayland2 (2.22.0-3 deb.debian.org [amd64])
+Conf libvte-2.91-common (0.80.1-1 deb.debian.org [amd64])
+Conf libvte-2.91-0 (0.80.1-1 deb.debian.org [amd64])
+Conf libwireplumber-0.5-0 (0.5.8-2 deb.debian.org [amd64])
+Conf libxatracker2 (25.0.7-2+deb13u1 deb.debian.org [amd64])
+Conf libxmu6 (2:1.1.3-3+b4 deb.debian.org [amd64])
+Conf libxaw7 (2:1.0.16-1 deb.debian.org [amd64])
+Conf libxcb-composite0 (1.17.0-2+b1 deb.debian.org [amd64])
+Conf libxcb-damage0 (1.17.0-2+b1 deb.debian.org [amd64])
+Conf libxcb-screensaver0 (1.17.0-2+b1 deb.debian.org [amd64])
+Conf libxcvt0 (0.1.3-1 deb.debian.org [amd64])
+Conf libxfont2 (1:2.0.6-1+deb13u1 deb.debian.org [amd64])
+Conf libxkbfile1 (1:1.1.0-1+b4 deb.debian.org [amd64])
+Conf libxmuu1 (2:1.1.3-3+b4 deb.debian.org [amd64])
+Conf libxpresent1 (1.0.1-1+b2 deb.debian.org [amd64])
+Conf libxxf86dga1 (2:1.1.5-1+b3 deb.debian.org [amd64])
+Conf linux-image-amd64 (6.12.107-1 deb.debian.org [amd64])
+Conf live-boot-initramfs-tools (1:20250815~deb13u1 deb.debian.org [all])
+Conf live-boot (1:20250815~deb13u1 deb.debian.org [all])
+Conf live-config-systemd (11.0.5 deb.debian.org [all])
+Conf live-config (11.0.5 deb.debian.org [all])
+Conf live-tools (1:20240525 deb.debian.org [all])
+Conf lximage-qt (2.1.1-1 deb.debian.org [amd64])
+Conf lxqt-archiver (1.1.0-1 deb.debian.org [amd64])
+Conf lxqt-config (2.1.1-1 deb.debian.org [amd64])
+Conf x11-utils (7.7+7 deb.debian.org [amd64])
+Conf lxqt-system-theme (2.1.0-1 deb.debian.org [all])
+Conf lxqt-themes (2.1.0-1 deb.debian.org [all])
+Conf lxqt-globalkeys (2.1.0-2 deb.debian.org [amd64])
+Conf lxqt-qtplugin (2.1.0-1+b1 deb.debian.org [amd64])
+Conf x11-xkb-utils (7.7+9 deb.debian.org [amd64])
+Conf lxqt-session (2.1.1-1 deb.debian.org [amd64])
+Conf lxqt-policykit (2.1.0-1 deb.debian.org [amd64])
+Conf lxqt-panel (2.1.4-1 deb.debian.org [amd64])
+Conf lxqt-runner (2.1.2-1 deb.debian.org [amd64])
+Conf lxqt-sudo (2.1.0-1 deb.debian.org [amd64])
+Conf pcmanfm-qt (2.1.0-2 deb.debian.org [amd64])
+Conf qterminal (2.1.0-1 deb.debian.org [amd64])
+Conf qtxdg-tools (4.1.0-1 deb.debian.org [amd64])
+Conf lxqt-core (33.2 deb.debian.org [all])
+Conf upower (1.90.9-1 deb.debian.org [amd64])
+Conf lxqt-powermanagement (2.1.0-2 deb.debian.org [amd64])
+Conf mesa-utils-bin (9.0.0-2+b2 deb.debian.org [amd64])
+Conf mesa-utils (9.0.0-2+b2 deb.debian.org [amd64])
+Conf mpv (0.40.0-3+deb13u1 deb.debian.org [amd64])
+Conf network-manager (1.52.1-1 deb.debian.org [amd64])
+Conf nm-connection-editor (1.36.0-3+b1 deb.debian.org [amd64])
+Conf network-manager-applet (1.36.0-3+b1 deb.debian.org [amd64])
+Conf network-manager-gnome (1.36.0-3+b1 deb.debian.org [amd64])
+Conf ntfs-3g (1:2022.10.3-5+deb13u2 deb.debian.org [amd64])
+Conf openbox (3.6.1-12+b2 deb.debian.org [amd64])
+Conf pipewire-bin (1.4.2-1 deb.debian.org [amd64])
+Conf pipewire (1.4.2-1 deb.debian.org [amd64])
+Conf pipewire-pulse (1.4.2-1 deb.debian.org [amd64])
+Conf pavucontrol-qt (2.1.0-1 deb.debian.org [amd64])
+Conf pipewire-alsa (1.4.2-1 deb.debian.org [amd64])
+Conf plymouth (24.004.60-5 deb.debian.org [amd64])
+Conf plymouth-label (24.004.60-5 deb.debian.org [amd64])
+Conf plymouth-themes (24.004.60-5 deb.debian.org [amd64])
+Conf python3-yaml (6.0.2-1+b2 deb.debian.org [amd64])
+Conf qml6-module-qtqml-models (6.8.2+dfsg-7 deb.debian.org [amd64])
+Conf qml6-module-qtqml-workerscript (6.8.2+dfsg-7 deb.debian.org [amd64])
+Conf qml6-module-qtqml (6.8.2+dfsg-7 deb.debian.org [amd64])
+Conf qml6-module-qtquick (6.8.2+dfsg-7 deb.debian.org [amd64])
+Conf qps (2.10.0-1 deb.debian.org [amd64])
+Conf qt6-translations-l10n (6.8.2-2 deb.debian.org [all])
+Conf qttranslations5-l10n (5.15.15-2 deb.debian.org [all])
+Conf xauth (1:1.1.2-1.1 deb.debian.org [amd64])
+Conf xserver-common (2:21.1.16-1.3+deb13u3 deb.debian.org [all])
+Conf xserver-xorg-core (2:21.1.16-1.3+deb13u3 deb.debian.org [amd64])
+Conf xserver-xorg-video-amdgpu (23.0.0-1 deb.debian.org [amd64])
+Conf xserver-xorg-video-radeon (1:22.0.0-1 deb.debian.org [amd64])
+Conf xserver-xorg-video-ati (1:22.0.0-1 deb.debian.org [amd64])
+Conf xserver-xorg-video-fbdev (1:0.5.0-2 deb.debian.org [amd64])
+Conf xserver-xorg-video-nouveau (1:1.0.18-1 deb.debian.org [amd64])
+Conf xserver-xorg-video-vesa (1:2.6.0-2 deb.debian.org [amd64])
+Conf xserver-xorg-video-vmware (1:13.4.0-1 deb.debian.org [amd64])
+Conf xserver-xorg-video-all (1:7.7+24+deb13u1 deb.debian.org [amd64])
+Conf xserver-xorg-input-libinput (1.5.0-1 deb.debian.org [amd64])
+Conf xserver-xorg (1:7.7+24+deb13u1 deb.debian.org [amd64])
+Conf sddm (0.21.0+git20250502.4fe234b-2 deb.debian.org [amd64])
+Conf sddm-theme-debian-elarun (0.21.0+git20250502.4fe234b-2 deb.debian.org [all])
+Conf squashfs-tools (1:4.6.1-1 deb.debian.org [amd64])
+Conf synaptic (0.91.7 deb.debian.org [amd64])
+Conf sysstat (12.7.5-2 deb.debian.org [amd64])
+Conf unzip (6.0-29+deb13u1 deb.debian.org [amd64])
+Conf wireplumber (0.5.8-2 deb.debian.org [amd64])
+Conf wpasupplicant (2:2.10-24 deb.debian.org [amd64])
+Conf x11-xserver-utils (7.7+11 deb.debian.org [amd64])
+Conf xdg-desktop-portal (1.20.3+ds-1 deb.debian.org [amd64])
+Conf xdg-desktop-portal-gtk (1.15.3-1 deb.debian.org [amd64])
+Conf xdg-desktop-portal-lxqt (1.1.0-2+b1 deb.debian.org [amd64])
+Conf xdg-user-dirs (0.18-2 deb.debian.org [amd64])
+Conf xscreensaver-data (6.09+dfsg1-1 deb.debian.org [amd64])
+Conf xscreensaver (6.09+dfsg1-1 deb.debian.org [amd64])
+Conf zenity-common (4.1.90-1 deb.debian.org [all])
+Conf zenity (4.1.90-1 deb.debian.org [amd64])
+Conf zip (3.0-15+deb13u1 deb.debian.org [amd64])
+W: Unable to read /etc/apt/-/ - DirectoryExists (2: No such file or directory)

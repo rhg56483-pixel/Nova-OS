@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+[[ -d /boot && -f /etc/os-release ]] || exit 1
+# Executed inside target chroot, before the users job. Do not edit the running live system.
+rm -f /etc/sddm.conf /etc/sddm.conf.d/dolphin-live-autologin.conf
+rm -f /etc/skel/Desktop/dolphin-install.desktop /usr/share/applications/dolphin-install.desktop
+find /home -type f -name dolphin-install.desktop -delete
+# live-config can grant nopasswd access. Installed users must authenticate.
+rm -f /etc/sudoers.d/live /etc/sudoers.d/live-config
+# Live user itself is not copied by unpackfs on all revisions; remove if present.
+if getent passwd dolphin >/dev/null; then
+ uid=$(id -u dolphin)
+ # This runs before creating the installed account, so only the copied live account can exist.
+ [[ $uid -ge 1000 ]] || { echo 'Unexpected live UID'; exit 1; }
+ userdel -r dolphin
+fi
+# Only unencrypted ext4 in the first qualified profile; partition UI configuration documented.
+# Keep GRUB quiet splash; remove live-only boot options, force re-generation by following initramfs jobs.
+mkdir -p /etc/default/grub.d
+cat > /etc/default/grub.d/dolphin.cfg <<'EOF'
+GRUB_DISTRIBUTOR="Dolphin OS"
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+GRUB_CMDLINE_LINUX=""
+EOF

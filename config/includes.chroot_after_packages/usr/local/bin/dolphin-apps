@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+choice=$(zenity --list --title='تطبيقات Dolphin OS' --column='التطبيق' 'Chromium' 'Flatpak / Flathub' 'Brave (تعليمات)' 'DEB (تعليمات)' 'AppImage (تعليمات)') || exit 0
+case "$choice" in
+ Chromium) exec qterminal -e bash -c 'sudo apt-get update && sudo apt-get install chromium chromium-l10n; read -r -p "Enter للإنهاء"' ;;
+ 'Flatpak / Flathub') exec qterminal -e bash -c 'flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo; read -r -p "Enter للإنهاء"' ;;
+ *) exec featherpad /usr/share/doc/dolphin-os/APPS.txt ;;
+esac

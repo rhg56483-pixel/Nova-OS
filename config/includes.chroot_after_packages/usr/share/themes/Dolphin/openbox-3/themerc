@@ -1,0 +1,16 @@
+window.active.title.bg: flat solid
+window.active.title.bg.color: #30203f
+window.active.label.text.color: #ffffff
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color: #17121e
+window.inactive.label.text.color: #b8afc4
+window.active.button.unpressed.image.color: #ffffff
+window.inactive.button.unpressed.image.color: #b8afc4
+window.active.button.hover.bg: flat solid
+window.active.button.hover.bg.color: #7043ad
+border.width: 1
+window.active.border.color: #7043ad
+window.inactive.border.color: #282032
+padding.width: 8
+padding.height: 5
+window.label.text.justify: center

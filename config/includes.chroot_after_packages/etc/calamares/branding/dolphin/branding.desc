@@ -1,0 +1,23 @@
+componentName: dolphin
+welcomeStyleCalamares: true
+welcomeExpandingLogo: true
+windowExpanding: normal
+windowSize: 900px,560px
+windowPlacement: center
+strings:
+  productName: Dolphin OS
+  shortProductName: Dolphin
+  version: '1.0'
+  shortVersion: '1.0'
+  versionedName: Dolphin OS 1.0
+  shortVersionedName: Dolphin 1.0
+  bootloaderEntryName: Dolphin OS
+images:
+  productLogo: logo.png
+  productIcon: logo.png
+  productWelcome: logo.png
+style:
+  sidebarBackground: '#15101d'
+  sidebarText: '#ffffff'
+  sidebarTextSelect: '#ffffff'
+  sidebarTextHighlight: '#7043ad'

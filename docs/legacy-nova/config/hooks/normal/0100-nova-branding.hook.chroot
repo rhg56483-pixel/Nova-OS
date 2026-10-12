@@ -1,0 +1,34 @@
+#!/bin/bash
+# Nova OS branding: raster assets, os-release, issue
+set -e
+B=/usr/share/nova-os/branding
+W=/usr/share/wallpapers/NovaOS/contents/images
+mkdir -p "$W"
+rsvg-convert -w 1920 -h 1080 "$B/wallpaper.svg" -o "$W/1920x1080.png"
+rsvg-convert -w 3840 -h 2160 "$B/wallpaper.svg" -o "$W/3840x2160.png"
+C=/usr/share/calamares/branding/nova
+rsvg-convert -w 256 -h 256 "$B/nova-logo.svg" -o "$C/logo.png"
+rsvg-convert -w 128 -h 128 "$B/nova-logo.svg" -o "$C/icon.png"
+cp "$C/logo.png" "$C/welcome.png"
+# Plymouth/SDDM/lock use the same wallpaper
+mkdir -p /usr/share/sddm/themes/breeze
+cat > /usr/share/sddm/themes/breeze/theme.conf.user <<CONF
+[General]
+type=image
+background=$W/1920x1080.png
+CONF
+# os-release identity (real file, not symlink)
+rm -f /etc/os-release
+cat > /etc/os-release <<OSR
+PRETTY_NAME="Nova OS 1.0"
+NAME="Nova OS"
+VERSION_ID="1.0"
+VERSION="1.0 (Aurora)"
+VERSION_CODENAME=aurora
+ID=nova
+ID_LIKE=debian
+HOME_URL="https://novaos.example"
+OSR
+echo "Nova OS 1.0 \n \l" > /etc/issue
+echo "Nova OS 1.0" > /etc/issue.net
+gtk-update-icon-cache -f /usr/share/icons/hicolor 2>/dev/null || true

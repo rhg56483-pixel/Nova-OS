@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Dolphin network
+Name[ar]=الشبكة
+Exec=nm-applet
+OnlyShowIn=LXQt;
+NoDisplay=true

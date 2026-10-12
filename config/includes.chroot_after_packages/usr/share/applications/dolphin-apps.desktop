@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Dolphin apps
+Name[ar]=التطبيقات الاختيارية
+Exec=dolphin-apps
+Icon=system-software-install
+Terminal=false
+Categories=System;

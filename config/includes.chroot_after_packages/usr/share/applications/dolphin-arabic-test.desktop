@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Dolphin arabic-test
+Name[ar]=اختبار عرض العربية
+Exec=dolphin-arabic-test
+Icon=preferences-desktop-locale
+Terminal=false
+Categories=System;

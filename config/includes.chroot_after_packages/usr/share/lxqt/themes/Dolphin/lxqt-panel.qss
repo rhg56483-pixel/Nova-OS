@@ -1,0 +1,6 @@
+LXQtPanel { background-color: #15101d; color: #ffffff; border-top: 1px solid #7043ad; }
+LXQtPanel QToolButton { color: #ffffff; border: 0px; padding: 4px; border-radius: 6px; }
+LXQtPanel QToolButton:hover { background-color: #30203f; }
+LXQtPanel QToolButton:checked { background-color: #7043ad; }
+QMenu { background-color: #15101d; color: white; border: 1px solid #7043ad; }
+QMenu::item:selected { background-color: #7043ad; }

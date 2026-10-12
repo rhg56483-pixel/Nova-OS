@@ -1,0 +1,6 @@
+#!/bin/bash
+# Starts VirtualBox Guest Additions services (auto-resize, clipboard, drag&drop).
+# Only acts inside a VirtualBox VM. Guest utils are preinstalled in Nova OS.
+if systemd-detect-virt 2>/dev/null | grep -qi oracle; then
+  pgrep -x VBoxClient >/dev/null || /usr/bin/VBoxClient-all
+fi

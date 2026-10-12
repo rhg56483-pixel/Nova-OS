@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Install Nova OS
+Name[ar]=تثبيت Nova OS
+Comment=Install Nova OS to disk
+Icon=nova-os
+Exec=sudo -E calamares
+Terminal=false
+Categories=System;

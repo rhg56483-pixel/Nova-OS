@@ -1,0 +1,2 @@
+mount: /workspace/scratch/e31b1d881537/research/mount-test: permission denied.
+       dmesg(1) may have more information after failed mount system call.

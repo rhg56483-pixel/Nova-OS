@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+exec lxqt-sudo /usr/sbin/synaptic --update-at-startup

@@ -1,0 +1,64 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+trap 'echo "Dolphin system hook failed at $LINENO: $BASH_COMMAND" >&2' ERR
+B=/usr/share/dolphin-os/branding
+rsvg-convert -w 3840 -h 2160 "$B/wallpaper.svg" -o "$B/wallpaper-4k.png"
+rsvg-convert -w 1920 -h 1080 "$B/wallpaper.svg" -o "$B/wallpaper-hd.png"
+rsvg-convert -w 256 -h 256 "$B/dolphin-logo.svg" -o "$B/logo.png"
+install -Dm644 "$B/dolphin-logo.svg" /usr/share/icons/hicolor/scalable/apps/dolphin-os.svg
+cat > /etc/locale.gen <<'EOF'
+ar_SA.UTF-8 UTF-8
+en_US.UTF-8 UTF-8
+EOF
+locale-gen
+update-locale LANG=ar_SA.UTF-8 LANGUAGE=ar:en LC_TIME=ar_SA.UTF-8
+ln -sf /usr/share/zoneinfo/Asia/Riyadh /etc/localtime
+echo Asia/Riyadh > /etc/timezone
+rm -f /etc/os-release
+cat > /etc/os-release <<'EOF'
+PRETTY_NAME="Dolphin OS 1.0 (Debian 13)"
+NAME="Dolphin OS"
+VERSION_ID="1.0"
+VERSION="1.0 (Trixie)"
+VERSION_CODENAME=trixie
+ID=dolphinos
+ID_LIKE=debian
+DEBIAN_VERSION_FULL=13
+EOF
+printf 'Dolphin OS 1.0 \\n \\l\n' > /etc/issue
+printf 'Dolphin OS 1.0\n' > /etc/issue.net
+systemctl enable sddm.service NetworkManager.service
+systemctl set-default graphical.target
+# Bluetooth is hardware-dependent; no search indexer/compositor/preloader is added.
+# WirePlumber/PipeWire use the distribution's user units; do not enable root daemons.
+mkdir -p /var/lib/sddm
+cat > /var/lib/sddm/state.conf <<'EOF'
+[Last]
+Session=/usr/share/xsessions/lxqt.desktop
+EOF
+# Debian's real packaged SDDM theme, translated by SDDM; preserve upstream QML.
+cat > /usr/share/sddm/themes/debian-elarun/theme.conf.user <<EOF
+[General]
+background=$B/wallpaper-hd.png
+EOF
+# Arabic LANG available to SDDM as well as user sessions.
+mkdir -p /etc/systemd/system/sddm.service.d
+cat > /etc/systemd/system/sddm.service.d/locale.conf <<'EOF'
+[Service]
+Environment=LANG=ar_SA.UTF-8 LANGUAGE=ar:en
+EOF
+update-alternatives --set x-window-manager /usr/bin/openbox
+update-alternatives --set x-session-manager /usr/bin/startlxqt
+# Static image Plymouth theme: no compositor, no continuous desktop animation.
+plymouth-set-default-theme dolphin
+update-initramfs -u -k all
+fc-cache -f
+# Prevent duplicate icons/applets from upstream autostart defaults; our versions carry Arabic labels.
+for app in nm-applet blueman; do
+ if [[ -f /etc/xdg/autostart/$app.desktop ]]; then
+   sed -i '/^Hidden=/d; /^\[Desktop Entry\]/a Hidden=true' /etc/xdg/autostart/$app.desktop
+ fi
+done
+# Installer package ships an icon/autostart; our launcher replaces its branding.
+rm -f /etc/xdg/autostart/calamares-desktop-icon.desktop
+rm -f /usr/share/applications/calamares-install-debian.desktop
