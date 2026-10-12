@@ -30,7 +30,9 @@ apt-get update
 apt-get install -y --no-install-recommends live-build debootstrap debian-archive-keyring \
   squashfs-tools xorriso mtools dosfstools isolinux syslinux syslinux-common \
   grub-pc-bin grub-efi-amd64-bin grub-common rsync ca-certificates python3-yaml shellcheck
-  chmod +x "$ROOT"/config/hooks/normal/*.hook.chroot \
+# Browser uploads/Windows checkouts can lose executable mode bits.
+# Restore only the known executable payloads before validation and copying into the image.
+chmod +x "$ROOT"/config/hooks/normal/*.hook.chroot \
   "$ROOT"/config/includes.chroot_after_packages/usr/local/bin/* \
   "$ROOT"/config/includes.chroot_after_packages/usr/local/sbin/* \
   "$ROOT"/config/includes.chroot_after_packages/etc/skel/Desktop/*.desktop
