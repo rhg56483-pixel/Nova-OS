@@ -1,0 +1,75 @@
+name: Build Dolphin OS ISO
+
+on:
+  workflow_dispatch:
+    inputs:
+      draft_release:
+        description: "Save ISO parts to a draft Release"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: dolphin-iso-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build in Debian 13
+        run: bash docker-build.sh
+
+      - name: Split verified ISO
+        run: bash scripts/prepare-downloads.sh
+
+      - name: Upload ISO parts
+        id: iso_upload
+        continue-on-error: true
+        uses: actions/upload-artifact@v4
+        with:
+          name: DolphinOS-x86_64-${{ github.run_number }}
+          path: out/download/*
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 7
+
+      - name: Alternative draft Release
+        if: ${{ success() && inputs.draft_release }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          tag="build-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          gh release create "$tag" out/download/* \
+            --draft \
+            --target "$GITHUB_SHA" \
+            --title "Dolphin OS build ${GITHUB_RUN_NUMBER}" \
+            --notes "ISO structural checks passed. Boot and installation tests are still required."
+
+      - name: Require a download route
+        if: ${{ success() && steps.iso_upload.outcome == 'failure' && !inputs.draft_release }}
+        run: |
+          echo "::error::Artifact upload failed. Run again with draft_release enabled."
+          exit 1
+
+      - name: Upload build logs
+        if: ${{ always() }}
+        continue-on-error: true
+        uses: actions/upload-artifact@v4
+        with:
+          name: DolphinOS-logs-${{ github.run_number }}
+          path: |
+            out/*.log
+            out/*.txt
+            out/*.json
+          if-no-files-found: warn
+          retention-days: 7
