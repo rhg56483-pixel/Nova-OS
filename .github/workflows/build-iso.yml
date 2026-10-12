@@ -29,8 +29,7 @@ jobs:
         run: bash docker-build.sh
 
       - name: Split verified ISO
-        run: bash scripts/prepare-downloads.sh
-
+        run: sudo bash scripts/prepare-downloads.sh
       - name: Upload ISO parts
         id: iso_upload
         continue-on-error: true
